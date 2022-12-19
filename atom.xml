@@ -62,9 +62,9 @@
     <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
     
     
-    <category term="Gitlab" scheme="https://rickhw.github.io/tags/Gitlab/"/>
-    
     <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
+    
+    <category term="Gitlab" scheme="https://rickhw.github.io/tags/Gitlab/"/>
     
     <category term="Continuous Integration" scheme="https://rickhw.github.io/tags/Continuous-Integration/"/>
     
@@ -431,11 +431,11 @@
     <category term="Coding" scheme="https://rickhw.github.io/categories/Coding/"/>
     
     
+    <category term="DI" scheme="https://rickhw.github.io/tags/DI/"/>
+    
     <category term="Application Interface Spec" scheme="https://rickhw.github.io/tags/Application-Interface-Spec/"/>
     
     <category term="Configuration" scheme="https://rickhw.github.io/tags/Configuration/"/>
-    
-    <category term="DI" scheme="https://rickhw.github.io/tags/DI/"/>
     
     <category term="Dependency Injection" scheme="https://rickhw.github.io/tags/Dependency-Injection/"/>
     
@@ -531,13 +531,13 @@
     
     <category term="Linux" scheme="https://rickhw.github.io/tags/Linux/"/>
     
-    <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
-    
-    <category term="VMWare" scheme="https://rickhw.github.io/tags/VMWare/"/>
+    <category term="EKS" scheme="https://rickhw.github.io/tags/EKS/"/>
     
     <category term="Docker" scheme="https://rickhw.github.io/tags/Docker/"/>
     
-    <category term="EKS" scheme="https://rickhw.github.io/tags/EKS/"/>
+    <category term="VMWare" scheme="https://rickhw.github.io/tags/VMWare/"/>
+    
+    <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
     
     <category term="IRSA" scheme="https://rickhw.github.io/tags/IRSA/"/>
     
