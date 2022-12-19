@@ -62,9 +62,9 @@
     <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
     
     
-    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
-    
     <category term="Gitlab" scheme="https://rickhw.github.io/tags/Gitlab/"/>
+    
+    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
     
     <category term="Continuous Integration" scheme="https://rickhw.github.io/tags/Continuous-Integration/"/>
     
@@ -364,11 +364,11 @@
   </entry>
   
   <entry>
-    <title>SRE Conference 2022</title>
+    <title>SRE Conference 2022 - 91APP 在 AWS 上的 SRE 實踐之路</title>
     <link href="https://rickhw.github.io/2022/05/10/About/2022-SREConf2022/"/>
     <id>https://rickhw.github.io/2022/05/10/About/2022-SREConf2022/</id>
     <published>2022-05-10T13:42:30.000Z</published>
-    <updated>2022-12-19T11:47:28.850Z</updated>
+    <updated>2022-12-19T14:07:23.780Z</updated>
     
     <content type="html"><![CDATA[<p>感謝 AWS 與 <a href="https://sre.ithome.com.tw/news-page/155">主辦單位 (iTHome)</a> 的邀請，讓我在 04&#x2F;29 有機會在第一次的 SRE Conf 分享這幾年的一些心得與想法。</p><span id="more"></span><h2 id="Slide-與錄影"><a href="#Slide-與錄影" class="headerlink" title="Slide 與錄影"></a>Slide 與錄影</h2><p>沒有來現場的朋友，可以透過以下的 Slide 與錄影回看內容：</p><iframe src="//www.slideshare.net/slideshow/embed_code/key/urWYYrWa2yTXAp" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rickhwang/91app-aws-sre" title="SRE Conf 2022 - 91APP 在 AWS 上的 SRE 實踐之路" target="_blank">SRE Conf 2022 - 91APP 在 AWS 上的 SRE 實踐之路</a> </strong> from <strong><a href="//www.slideshare.net/rickhwang" target="_blank">Rick Hwang</a></strong> </div><iframe width="560" height="315" src="https://www.youtube.com/embed/f-__anVimq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h2 id="重點摘要"><a href="#重點摘要" class="headerlink" title="重點摘要"></a>重點摘要</h2><ol><li>讓 <code>規範</code> 變 <code>規格 (Spec, RFC)</code>，用 <code>軟體工程</code> 解決 <code>維運問題</code></li><li>以 EO&#x2F;AP 模型規劃 SRE 平台藍圖與架構</li></ol><p><img src="/images/About/2022-SREConf/Platform-Blueprint.png"><br><img src="/images/About/2022-SREConf/DevOps-Governance.png"></p><p><img src="/images/About/2022-SREConf/Principle-Practice.png"></p><p><img src="/images/About/2022-SREConf/SRE-Platform.png"></p><h2 id="照片-by-主辦單位-iTHome"><a href="#照片-by-主辦單位-iTHome" class="headerlink" title="照片 by 主辦單位 (iTHome)"></a>照片 by 主辦單位 (iTHome)</h2><p>以下是主辦單位 - iTHome 提供的照片，感謝一起參與的朋友們～</p><p><img src="/images/About/2022-SREConf/Live1.jpg"><br><img src="/images/About/2022-SREConf/Live2.jpg"><br><img src="/images/About/2022-SREConf/Live3.jpg"></p><h2 id="感謝"><a href="#感謝" class="headerlink" title="感謝"></a>感謝</h2><p>感謝來現場來聽的朋友，還有回饋給我的朋友，感謝大家的建議，很感動～</p><p><img src="/images/About/2022-SREConf/Feedback.png"></p><p>然後也遇到幾位許有沒碰面的朋友 ( 蔡宗城, Sammy Lin, Weithenn Wang )、新朋友 Google 的 Shawn Ho<br>大家在後台喇賽合影留念 XD</p><p><img src="/images/About/2022-SREConf/backstage.jpeg"></p><p>還有神 (ㄌㄚˇ) 交 (ㄙㄞˋ) 好幾年的 Scott Liao ，終於碰面 XDD</p><p>還有 AWS 的老朋友們 Kim Kao, 梁綺軒, Hung-Che Lo<br>沒碰到面的 Chris Huang,  郭杰穎 ~~</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><ul><li><a href="https://www.slideshare.net/rickhwang/2020-aws-summit-aws">2020&#x2F;07&#x2F;10: 2020 AWS 雲端高峰會 - 演講：在矩陣型組織裡，如何有效管理 AWS 的成本結構與系統架構</a></li><li><a href="https://www.slideshare.net/rickhwang/aws-using-aws-for-disaster-recovery/">2020&#x2F;01&#x2F;08: AWS reInvent reCAP 2019 - 災難演練 @ AWS 實戰分享 </a></li><li><a href="/2019/03/28/DevOps/DevOpsTaiwan-Meetup-Beginning-in-Artifacts-Management/">2019&#x2F;03&#x2F;28: DevOps Taiwan Meetup #22 - 聊聊軟體交付的濫觴 談產出物管理</a></li><li><a href="/2018/09/12/DevOps/DevOpsDaysTaipei2018-Emergency-And-Incident-Management/">2018&#x2F;09&#x2F;12: 演講：從緊急事件 談 SRE 應變能力的培養</a></li><li><a href="/2018/05/26/About/201805-Monitoring-Tools-CloudWatch/">2018&#x2F;05&#x2F;26: 演講：Monitoring Tools 大亂鬥 - AWS CloudWatch</a></li><li><a href="/2018/07/18/About/20180718-API-Gateway/">2018&#x2F;06&#x2F;28: AWS Summit Taipei - API Gateway 導入之旅, AWS</a></li><li><a href="/2018/03/29/About/2018-Serverless-All-Star/">2018&#x2F;03&#x2F;29: 演講：Serverless All-Star - Ops as Code using Serverless</a></li></ul>]]></content>
     
