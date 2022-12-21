@@ -46,6 +46,31 @@
   </entry>
   
   <entry>
+    <title>AWS Career Exploration Day</title>
+    <link href="https://rickhw.github.io/2022/12/21/About/2022-AWS-Career-Exploration-Day/"/>
+    <id>https://rickhw.github.io/2022/12/21/About/2022-AWS-Career-Exploration-Day/</id>
+    <published>2022-12-21T13:42:30.000Z</published>
+    <updated>2022-12-21T12:55:57.461Z</updated>
+    
+    <content type="html"><![CDATA[<p>這是一場很特別的活動：<a href="https://pages.awscloud.com/20221121-tw-career-day.html">職涯探索日</a>，第一時間 AWS 的邀請我就毫不猶豫的答應了 XDD</p><span id="more"></span><h2 id="Slide-與錄影"><a href="#Slide-與錄影" class="headerlink" title="Slide 與錄影"></a>Slide 與錄影</h2><p>沒有來現場的朋友，可以透過以下的 Slide 與錄影回看內容：</p><iframe src="//www.slideshare.net/slideshow/embed_code/key/3Aqb5R8P5ZJTTN" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rickhwang/aws-career-exploration-day" title="AWS Career Exploration Day" target="_blank">AWS Career Exploration Day</a> </strong> from <strong><a href="//www.slideshare.net/rickhwang" target="_blank">Rick Hwang</a></strong> </div><iframe width="560" height="315" src="https://www.youtube.com/embed/q-58KOHbGSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h2 id="重點摘要"><a href="#重點摘要" class="headerlink" title="重點摘要"></a>重點摘要</h2><ol><li>從問題中出發，解決問題、探索需要的技能</li><li>為自己的技能抓一個目標：考證照</li></ol><p><img src="/images/About/2022-AWSCareerExplorationDay/Slide1.png"><br><img src="/images/About/2022-AWSCareerExplorationDay/Slide2.png"><br><img src="/images/About/2022-AWSCareerExplorationDay/Slide3.png"><br><img src="/images/About/2022-AWSCareerExplorationDay/Slide4.png"></p><h2 id="照片-by-主辦單位-AWS"><a href="#照片-by-主辦單位-AWS" class="headerlink" title="照片 by 主辦單位 (AWS)"></a>照片 by 主辦單位 (AWS)</h2><p>這次活動 AWS 籌辦很久，其中最辛苦的莫過於負責活動的 Pamela，過程中很有耐心跟我討論內容，很慎重的 rehearsal 活動 rundown 流程 (這些過程我真的都滿熟的 XD) ～</p><p>感謝推坑的老朋友 Cliff、認識的新朋友 - 另一位 Scott (Data)、Carol，很久沒碰面的 Roy、來攤位詢問職涯的朋友、SRE 社群的朋友、前同事 Viola … (認親大會嗎 XDD)</p><p><img src="/images/About/2022-AWSCareerExplorationDay/IMG_6549.JPG"></p><p><img src="/images/About/2022-AWSCareerExplorationDay/IMG_6553.JPG"></p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="相關文章"><a href="#相關文章" class="headerlink" title="相關文章"></a>相關文章</h2><ul><li><a href="/2016/10/01/AWS-Study-Roadmap/">AWS Study Roadmap</a></li><li><a href="/2016/08/20/AWS/AWS-Certified-Developer/">AWS Certified Developer - Associate 準備心得</a></li><li><a href="/2016/07/29/AWS/AWS-Certified-SysOps-Administrator/">AWS Certified SysOps Administrator - Associate 準備心得</a></li><li><a href="/2016/04/22/AWS/AWS-Certified-Solutions-Architect_Associate/">AWS Certified Solutions Architect - Associate 準備心得</a></li><li><a href="/2016/10/10/AWS/Migrate-to-AWS-NAT-Gateway/">Migrate to AWS NAT Gateway</a></li><li><a href="/2019/08/14/About/About-Certificate/">證照有無用論？</a></li><li><a href="/2017/09/20/About/Learning-Approaches/">學習法則</a></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;這是一場很特別的活動：&lt;a href=&quot;https://pages.awscloud.com/20221121-tw-career-day.html&quot;&gt;職涯探索日&lt;/a&gt;，第一時間 AWS 的邀請我就毫不猶豫的答應了 XDD&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
+    
+    
+    <category term="AWS" scheme="https://rickhw.github.io/tags/AWS/"/>
+    
+    <category term="Career" scheme="https://rickhw.github.io/tags/Career/"/>
+    
+    <category term="Certiciation" scheme="https://rickhw.github.io/tags/Certiciation/"/>
+    
+  </entry>
+  
+  <entry>
     <title>和艦長一起 30 天玩轉 GitLab【第二版】- 推薦序完整版</title>
     <link href="https://rickhw.github.io/2022/11/19/About/Gitlab-Recommand/"/>
     <id>https://rickhw.github.io/2022/11/19/About/Gitlab-Recommand/</id>
@@ -335,11 +360,11 @@
     <category term="Distributed Systems" scheme="https://rickhw.github.io/categories/Distributed-Systems/"/>
     
     
+    <category term="Pub/Sub" scheme="https://rickhw.github.io/tags/Pub-Sub/"/>
+    
     <category term="Operating System" scheme="https://rickhw.github.io/tags/Operating-System/"/>
     
     <category term="Java" scheme="https://rickhw.github.io/tags/Java/"/>
-    
-    <category term="Pub/Sub" scheme="https://rickhw.github.io/tags/Pub-Sub/"/>
     
     <category term="Eclipse" scheme="https://rickhw.github.io/tags/Eclipse/"/>
     
@@ -368,9 +393,9 @@
     <link href="https://rickhw.github.io/2022/05/10/About/2022-SREConf2022/"/>
     <id>https://rickhw.github.io/2022/05/10/About/2022-SREConf2022/</id>
     <published>2022-05-10T13:42:30.000Z</published>
-    <updated>2022-12-19T14:07:23.780Z</updated>
+    <updated>2022-12-20T11:50:21.579Z</updated>
     
-    <content type="html"><![CDATA[<p>感謝 AWS 與 <a href="https://sre.ithome.com.tw/news-page/155">主辦單位 (iTHome)</a> 的邀請，讓我在 04&#x2F;29 有機會在第一次的 SRE Conf 分享這幾年的一些心得與想法。</p><span id="more"></span><h2 id="Slide-與錄影"><a href="#Slide-與錄影" class="headerlink" title="Slide 與錄影"></a>Slide 與錄影</h2><p>沒有來現場的朋友，可以透過以下的 Slide 與錄影回看內容：</p><iframe src="//www.slideshare.net/slideshow/embed_code/key/urWYYrWa2yTXAp" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rickhwang/91app-aws-sre" title="SRE Conf 2022 - 91APP 在 AWS 上的 SRE 實踐之路" target="_blank">SRE Conf 2022 - 91APP 在 AWS 上的 SRE 實踐之路</a> </strong> from <strong><a href="//www.slideshare.net/rickhwang" target="_blank">Rick Hwang</a></strong> </div><iframe width="560" height="315" src="https://www.youtube.com/embed/f-__anVimq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h2 id="重點摘要"><a href="#重點摘要" class="headerlink" title="重點摘要"></a>重點摘要</h2><ol><li>讓 <code>規範</code> 變 <code>規格 (Spec, RFC)</code>，用 <code>軟體工程</code> 解決 <code>維運問題</code></li><li>以 EO&#x2F;AP 模型規劃 SRE 平台藍圖與架構</li></ol><p><img src="/images/About/2022-SREConf/Platform-Blueprint.png"><br><img src="/images/About/2022-SREConf/DevOps-Governance.png"></p><p><img src="/images/About/2022-SREConf/Principle-Practice.png"></p><p><img src="/images/About/2022-SREConf/SRE-Platform.png"></p><h2 id="照片-by-主辦單位-iTHome"><a href="#照片-by-主辦單位-iTHome" class="headerlink" title="照片 by 主辦單位 (iTHome)"></a>照片 by 主辦單位 (iTHome)</h2><p>以下是主辦單位 - iTHome 提供的照片，感謝一起參與的朋友們～</p><p><img src="/images/About/2022-SREConf/Live1.jpg"><br><img src="/images/About/2022-SREConf/Live2.jpg"><br><img src="/images/About/2022-SREConf/Live3.jpg"></p><h2 id="感謝"><a href="#感謝" class="headerlink" title="感謝"></a>感謝</h2><p>感謝來現場來聽的朋友，還有回饋給我的朋友，感謝大家的建議，很感動～</p><p><img src="/images/About/2022-SREConf/Feedback.png"></p><p>然後也遇到幾位許有沒碰面的朋友 ( 蔡宗城, Sammy Lin, Weithenn Wang )、新朋友 Google 的 Shawn Ho<br>大家在後台喇賽合影留念 XD</p><p><img src="/images/About/2022-SREConf/backstage.jpeg"></p><p>還有神 (ㄌㄚˇ) 交 (ㄙㄞˋ) 好幾年的 Scott Liao ，終於碰面 XDD</p><p>還有 AWS 的老朋友們 Kim Kao, 梁綺軒, Hung-Che Lo<br>沒碰到面的 Chris Huang,  郭杰穎 ~~</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><ul><li><a href="https://www.slideshare.net/rickhwang/2020-aws-summit-aws">2020&#x2F;07&#x2F;10: 2020 AWS 雲端高峰會 - 演講：在矩陣型組織裡，如何有效管理 AWS 的成本結構與系統架構</a></li><li><a href="https://www.slideshare.net/rickhwang/aws-using-aws-for-disaster-recovery/">2020&#x2F;01&#x2F;08: AWS reInvent reCAP 2019 - 災難演練 @ AWS 實戰分享 </a></li><li><a href="/2019/03/28/DevOps/DevOpsTaiwan-Meetup-Beginning-in-Artifacts-Management/">2019&#x2F;03&#x2F;28: DevOps Taiwan Meetup #22 - 聊聊軟體交付的濫觴 談產出物管理</a></li><li><a href="/2018/09/12/DevOps/DevOpsDaysTaipei2018-Emergency-And-Incident-Management/">2018&#x2F;09&#x2F;12: 演講：從緊急事件 談 SRE 應變能力的培養</a></li><li><a href="/2018/05/26/About/201805-Monitoring-Tools-CloudWatch/">2018&#x2F;05&#x2F;26: 演講：Monitoring Tools 大亂鬥 - AWS CloudWatch</a></li><li><a href="/2018/07/18/About/20180718-API-Gateway/">2018&#x2F;06&#x2F;28: AWS Summit Taipei - API Gateway 導入之旅, AWS</a></li><li><a href="/2018/03/29/About/2018-Serverless-All-Star/">2018&#x2F;03&#x2F;29: 演講：Serverless All-Star - Ops as Code using Serverless</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>感謝 AWS 與 <a href="https://sre.ithome.com.tw/news-page/155">主辦單位 (iTHome)</a> 的邀請，讓我在 04&#x2F;29 有機會在第一次的 SRE Conf 分享這幾年的一些心得與想法。</p><span id="more"></span><h2 id="Slide-與錄影"><a href="#Slide-與錄影" class="headerlink" title="Slide 與錄影"></a>Slide 與錄影</h2><p>沒有來現場的朋友，可以透過以下的 Slide 與錄影回看內容：</p><iframe src="//www.slideshare.net/slideshow/embed_code/key/urWYYrWa2yTXAp" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rickhwang/91app-aws-sre" title="SRE Conf 2022 - 91APP 在 AWS 上的 SRE 實踐之路" target="_blank">SRE Conf 2022 - 91APP 在 AWS 上的 SRE 實踐之路</a> </strong> from <strong><a href="//www.slideshare.net/rickhwang" target="_blank">Rick Hwang</a></strong> </div><iframe width="560" height="315" src="https://www.youtube.com/embed/f-__anVimq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h2 id="重點摘要"><a href="#重點摘要" class="headerlink" title="重點摘要"></a>重點摘要</h2><ol><li>讓 <code>規範</code> 變 <code>規格 (Spec, RFC)</code>，用 <code>軟體工程</code> 解決 <code>維運問題</code></li><li>以 EO&#x2F;AP 模型規劃 SRE 平台藍圖與架構</li></ol><p><img src="/images/About/2022-SREConf/Platform-Blueprint.png"></p><p><img src="/images/About/2022-SREConf/DevOps-Governance.png"></p><p><img src="/images/About/2022-SREConf/Principle-Practice.png"></p><p><img src="/images/About/2022-SREConf/SRE-Platform.png"></p><h2 id="照片-by-主辦單位-iTHome"><a href="#照片-by-主辦單位-iTHome" class="headerlink" title="照片 by 主辦單位 (iTHome)"></a>照片 by 主辦單位 (iTHome)</h2><p>以下是主辦單位 - iTHome 提供的照片，感謝一起參與的朋友們～</p><p><img src="/images/About/2022-SREConf/Live1.jpg"></p><p><img src="/images/About/2022-SREConf/Live2.jpg"></p><p><img src="/images/About/2022-SREConf/Live3.jpg"></p><h2 id="感謝"><a href="#感謝" class="headerlink" title="感謝"></a>感謝</h2><p>感謝來現場來聽的朋友，還有回饋給我的朋友，感謝大家的建議，很感動～</p><p><img src="/images/About/2022-SREConf/Feedback.png"></p><p>然後也遇到幾位許有沒碰面的朋友 ( 蔡宗城, Sammy Lin, Weithenn Wang )、新朋友 Google 的 Shawn Ho<br>大家在後台喇賽合影留念 XD</p><p><img src="/images/About/2022-SREConf/backstage.jpeg"></p><p>還有神 (ㄌㄚˇ) 交 (ㄙㄞˋ) 好幾年的 Scott Liao ，終於碰面 XDD</p><p>還有 AWS 的老朋友們 Kim Kao, 梁綺軒, Hung-Che Lo<br>沒碰到面的 Chris Huang, Mouse ~~</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><ul><li><a href="https://www.slideshare.net/rickhwang/2020-aws-summit-aws">2020&#x2F;07&#x2F;10: 2020 AWS 雲端高峰會 - 演講：在矩陣型組織裡，如何有效管理 AWS 的成本結構與系統架構</a></li><li><a href="https://www.slideshare.net/rickhwang/aws-using-aws-for-disaster-recovery/">2020&#x2F;01&#x2F;08: AWS reInvent reCAP 2019 - 災難演練 @ AWS 實戰分享 </a></li><li><a href="/2019/03/28/DevOps/DevOpsTaiwan-Meetup-Beginning-in-Artifacts-Management/">2019&#x2F;03&#x2F;28: DevOps Taiwan Meetup #22 - 聊聊軟體交付的濫觴 談產出物管理</a></li><li><a href="/2018/09/12/DevOps/DevOpsDaysTaipei2018-Emergency-And-Incident-Management/">2018&#x2F;09&#x2F;12: 演講：從緊急事件 談 SRE 應變能力的培養</a></li><li><a href="/2018/05/26/About/201805-Monitoring-Tools-CloudWatch/">2018&#x2F;05&#x2F;26: 演講：Monitoring Tools 大亂鬥 - AWS CloudWatch</a></li><li><a href="/2018/07/18/About/20180718-API-Gateway/">2018&#x2F;06&#x2F;28: AWS Summit Taipei - API Gateway 導入之旅, AWS</a></li><li><a href="/2018/03/29/About/2018-Serverless-All-Star/">2018&#x2F;03&#x2F;29: 演講：Serverless All-Star - Ops as Code using Serverless</a></li></ul>]]></content>
     
     
     <summary type="html">&lt;p&gt;感謝 AWS 與 &lt;a href=&quot;https://sre.ithome.com.tw/news-page/155&quot;&gt;主辦單位 (iTHome)&lt;/a&gt; 的邀請，讓我在 04&amp;#x2F;29 有機會在第一次的 SRE Conf 分享這幾年的一些心得與想法。&lt;/p&gt;</summary>
@@ -529,8 +554,6 @@
     <category term="AWS" scheme="https://rickhw.github.io/categories/AWS/"/>
     
     
-    <category term="Linux" scheme="https://rickhw.github.io/tags/Linux/"/>
-    
     <category term="EKS" scheme="https://rickhw.github.io/tags/EKS/"/>
     
     <category term="Docker" scheme="https://rickhw.github.io/tags/Docker/"/>
@@ -538,6 +561,8 @@
     <category term="VMWare" scheme="https://rickhw.github.io/tags/VMWare/"/>
     
     <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
+    
+    <category term="Linux" scheme="https://rickhw.github.io/tags/Linux/"/>
     
     <category term="IRSA" scheme="https://rickhw.github.io/tags/IRSA/"/>
     
@@ -566,36 +591,6 @@
     
     
     <category term="Bus Memo" scheme="https://rickhw.github.io/tags/Bus-Memo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AWS Community Hero 2021</title>
-    <link href="https://rickhw.github.io/2021/08/27/About/AWS-Community-Hero-2021/"/>
-    <id>https://rickhw.github.io/2021/08/27/About/AWS-Community-Hero-2021/</id>
-    <published>2021-08-27T04:39:00.000Z</published>
-    <updated>2022-12-19T11:47:28.850Z</updated>
-    
-    <content type="html"><![CDATA[<p>很高興有機會被推薦成為 2021 年的 <a href="https://aws.amazon.com/developer/community/heroes/rick-hwang/">AWS Community Hero</a>。</p><p>感謝 AWS Leslie 的推薦，過程中 Kim 得協助，讓我有機會可以有這份榮耀。</p><p>底下是 AWS 官方公告，截圖作紀念：</p><p><a href="https://aws.amazon.com/blogs/aws/announcing-the-latest-aws-heroes-august-2021/">Announcing the latest AWS Heroes – August 2021</a></p><p><img src="/images/About/AWS-Hero/aws-news-blog.png"></p><p><img src="/images/About/AWS-Hero/AWS-Hero-2021.png"></p><p>過去幾年，沈浸在 AWS 的技術領域，我自己很享受學習 AWS 的過程，很多想法都在研究過程中激盪出來，最終把想法實際落地。</p><p>今年 (2021) 我開始有機會專注在新一代基礎架構設計，過去累積的經驗與想法、從學習 AWS 中累積的能量，有機會動手一一實踐。</p><span id="more"></span><hr><h1 id="相關資訊"><a href="#相關資訊" class="headerlink" title="相關資訊"></a>相關資訊</h1><ul><li><a href="https://aws.amazon.com/developer/community/heroes/rick-hwang/">AWS Community Hero 2021 - Rick Hwang</a></li><li><a href="https://aws.amazon.com/blogs/aws/announcing-the-latest-aws-heroes-august-2021/">Announcing the latest AWS Heroes – August 2021</a></li><li><a href="/2016/10/01/AWS-Study-Roadmap/">AWS Study Roadmap</a></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;很高興有機會被推薦成為 2021 年的 &lt;a href=&quot;https://aws.amazon.com/developer/community/heroes/rick-hwang/&quot;&gt;AWS Community Hero&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;感謝 AWS Leslie 的推薦，過程中 Kim 得協助，讓我有機會可以有這份榮耀。&lt;/p&gt;
-&lt;p&gt;底下是 AWS 官方公告，截圖作紀念：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/aws/announcing-the-latest-aws-heroes-august-2021/&quot;&gt;Announcing the latest AWS Heroes – August 2021&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/About/AWS-Hero/aws-news-blog.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/About/AWS-Hero/AWS-Hero-2021.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;過去幾年，沈浸在 AWS 的技術領域，我自己很享受學習 AWS 的過程，很多想法都在研究過程中激盪出來，最終把想法實際落地。&lt;/p&gt;
-&lt;p&gt;今年 (2021) 我開始有機會專注在新一代基礎架構設計，過去累積的經驗與想法、從學習 AWS 中累積的能量，有機會動手一一實踐。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
-    
-    
-    <category term="AWS Hero" scheme="https://rickhw.github.io/tags/AWS-Hero/"/>
-    
-    <category term="AWS" scheme="https://rickhw.github.io/tags/AWS/"/>
     
   </entry>
   
