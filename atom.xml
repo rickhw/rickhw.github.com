@@ -46,11 +46,11 @@
   </entry>
   
   <entry>
-    <title>AWS Career Exploration Day</title>
+    <title>AWS Career Exploration Day 2022</title>
     <link href="https://rickhw.github.io/2022/12/21/About/2022-AWS-Career-Exploration-Day/"/>
     <id>https://rickhw.github.io/2022/12/21/About/2022-AWS-Career-Exploration-Day/</id>
     <published>2022-12-21T13:42:30.000Z</published>
-    <updated>2022-12-21T13:36:08.373Z</updated>
+    <updated>2022-12-21T13:58:44.388Z</updated>
     
     <content type="html"><![CDATA[<p>這是一場很特別的活動：<a href="https://pages.awscloud.com/20221121-tw-career-day.html">雲端職涯探索日</a>，第一時間 AWS 的邀請我就毫不猶豫的答應了 XDD</p><span id="more"></span><h2 id="Slide-與錄影"><a href="#Slide-與錄影" class="headerlink" title="Slide 與錄影"></a>Slide 與錄影</h2><p>沒有來現場的朋友，可以透過以下的 Slide 與錄影回看內容：</p><iframe src="//www.slideshare.net/slideshow/embed_code/key/3Aqb5R8P5ZJTTN" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rickhwang/aws-career-exploration-day" title="AWS Career Exploration Day" target="_blank">AWS Career Exploration Day</a> </strong> from <strong><a href="//www.slideshare.net/rickhwang" target="_blank">Rick Hwang</a></strong> </div><p>錄影 (iPad 直接錄影，收音)</p><iframe width="560" height="315" src="https://www.youtube.com/embed/q-58KOHbGSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h2 id="重點摘要"><a href="#重點摘要" class="headerlink" title="重點摘要"></a>重點摘要</h2><ol><li>從問題中出發，解決問題、探索需要的技能</li><li>為自己的技能抓一個目標：考證照</li></ol><p><img src="/images/About/2022-AWSCareerExplorationDay/Slide1.png"><br><img src="/images/About/2022-AWSCareerExplorationDay/Slide2.png"><br><img src="/images/About/2022-AWSCareerExplorationDay/Slide3.png"><br><img src="/images/About/2022-AWSCareerExplorationDay/Slide4.png"></p><h2 id="照片-by-主辦單位-AWS"><a href="#照片-by-主辦單位-AWS" class="headerlink" title="照片 by 主辦單位 (AWS)"></a>照片 by 主辦單位 (AWS)</h2><p>這次活動 AWS 籌辦很久，其中最辛苦的莫過於負責活動的 Pamela，過程中很有耐心跟我討論內容，很慎重的 rehearsal 活動 rundown 流程 (這些過程我真的都滿熟的 XD) ～</p><p>感謝推坑的老朋友 Cliff、認識的新朋友 - 另一位 Scott (Data)、Carol，很久沒碰面的 Roy、來攤位詢問職涯的朋友、SRE 社群的朋友、前同事 Viola … (認親大會嗎 XDD)</p><p><img src="/images/About/2022-AWSCareerExplorationDay/IMG_6549.JPG"></p><p><img src="/images/About/2022-AWSCareerExplorationDay/IMG_6553.JPG"></p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="相關文章"><a href="#相關文章" class="headerlink" title="相關文章"></a>相關文章</h2><ul><li><a href="/2016/10/01/AWS-Study-Roadmap/">AWS Study Roadmap</a></li><li><a href="/2016/08/20/AWS/AWS-Certified-Developer/">AWS Certified Developer - Associate 準備心得</a></li><li><a href="/2016/07/29/AWS/AWS-Certified-SysOps-Administrator/">AWS Certified SysOps Administrator - Associate 準備心得</a></li><li><a href="/2016/04/22/AWS/AWS-Certified-Solutions-Architect_Associate/">AWS Certified Solutions Architect - Associate 準備心得</a></li><li><a href="/2016/10/10/AWS/Migrate-to-AWS-NAT-Gateway/">Migrate to AWS NAT Gateway</a></li><li><a href="/2019/08/14/About/About-Certificate/">證照有無用論？</a></li><li><a href="/2017/09/20/About/Learning-Approaches/">學習法則</a></li></ul>]]></content>
     
@@ -360,11 +360,11 @@
     <category term="Distributed Systems" scheme="https://rickhw.github.io/categories/Distributed-Systems/"/>
     
     
-    <category term="Pub/Sub" scheme="https://rickhw.github.io/tags/Pub-Sub/"/>
-    
     <category term="Operating System" scheme="https://rickhw.github.io/tags/Operating-System/"/>
     
     <category term="Java" scheme="https://rickhw.github.io/tags/Java/"/>
+    
+    <category term="Pub/Sub" scheme="https://rickhw.github.io/tags/Pub-Sub/"/>
     
     <category term="Eclipse" scheme="https://rickhw.github.io/tags/Eclipse/"/>
     
@@ -554,6 +554,8 @@
     <category term="AWS" scheme="https://rickhw.github.io/categories/AWS/"/>
     
     
+    <category term="Linux" scheme="https://rickhw.github.io/tags/Linux/"/>
+    
     <category term="EKS" scheme="https://rickhw.github.io/tags/EKS/"/>
     
     <category term="Docker" scheme="https://rickhw.github.io/tags/Docker/"/>
@@ -561,8 +563,6 @@
     <category term="VMWare" scheme="https://rickhw.github.io/tags/VMWare/"/>
     
     <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
-    
-    <category term="Linux" scheme="https://rickhw.github.io/tags/Linux/"/>
     
     <category term="IRSA" scheme="https://rickhw.github.io/tags/IRSA/"/>
     
