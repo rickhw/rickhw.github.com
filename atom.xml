@@ -178,11 +178,11 @@
     
     <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
     
+    <category term="Continuous Integration" scheme="https://rickhw.github.io/tags/Continuous-Integration/"/>
+    
     <category term="Published-SRE1" scheme="https://rickhw.github.io/tags/Published-SRE1/"/>
     
     <category term="Gitlab" scheme="https://rickhw.github.io/tags/Gitlab/"/>
-    
-    <category term="Continuous Integration" scheme="https://rickhw.github.io/tags/Continuous-Integration/"/>
     
   </entry>
   
@@ -405,11 +405,11 @@
     
     <category term="Software Test" scheme="https://rickhw.github.io/tags/Software-Test/"/>
     
-    <category term="SDLC" scheme="https://rickhw.github.io/tags/SDLC/"/>
-    
     <category term="SQA" scheme="https://rickhw.github.io/tags/SQA/"/>
     
     <category term="SVT" scheme="https://rickhw.github.io/tags/SVT/"/>
+    
+    <category term="SDLC" scheme="https://rickhw.github.io/tags/SDLC/"/>
     
   </entry>
   
