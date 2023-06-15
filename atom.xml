@@ -50,9 +50,9 @@
     <link href="https://rickhw.github.io/2023/06/14/Management/Failed-Meeting/"/>
     <id>https://rickhw.github.io/2023/06/14/Management/Failed-Meeting/</id>
     <published>2023-06-14T10:21:00.000Z</published>
-    <updated>2023-06-14T13:25:07.118Z</updated>
+    <updated>2023-06-15T09:40:29.728Z</updated>
     
-    <content type="html"><![CDATA[<p>原文是 <a href="https://www.facebook.com/rick.kyhwang/posts/pfbid02wkn7qeuR29WFShcVFkBUmr9AfEbD96fwgjdvyZbigNjxVmy8xqti4AvFdqJebmiEl">2021&#x2F;06&#x2F;14</a> 寫下的 memo，摘錄一場失敗的會議有哪些現象，與另一篇 <a href="/2020/10/11/Management/Effective-Meetings/">一場有效的會議</a> 成對比。</p><span id="more"></span><h2 id="1-會議發起者、與會議控制的問題"><a href="#1-會議發起者、與會議控制的問題" class="headerlink" title="1. 會議發起者、與會議控制的問題"></a>1. 會議發起者、與會議控制的問題</h2><h3 id="1-1-太多人參加"><a href="#1-1-太多人參加" class="headerlink" title="1.1 太多人參加"></a>1.1 太多人參加</h3><p>各種層級、角色都有，上至 CxO、VP、Director、Manager，到 Engineering Team 都有。人類的溝通，不同層級之間討論事情，大部分 (80%) 是需要翻譯的，換言之，如果沒有從基層幹起，一路網上的人，或者具備一定的人格特質，要跨那麼大維度溝通本身就是個不容易的事情。</p><p>這種現象在各種社會事件，媒體公關事件最明顯，那種抗議場合的溝通。</p><p>理想會議人數同 scrum team &lt;&#x3D; 8 人</p><p>很多人參加，有兩個意思：很多層級、或者同一個層級的人很多。</p><p>類似的案例：</p><ol><li>宣誓大會</li><li>All-Hands Meetings、年會</li><li>部門會議</li></ol><h3 id="1-2-會議目的不清楚-這場會議目的到底是？"><a href="#1-2-會議目的不清楚-這場會議目的到底是？" class="headerlink" title="1.2 會議目的不清楚: 這場會議目的到底是？"></a>1.2 會議目的不清楚: 這場會議目的到底是？</h3><p>會議的目的通常有以下類型：</p><ol><li><code>討論</code>：因為資訊不足，希望透過討論，尋求建議，相互請教的過程。<ul><li>這種目的不要在太多人的場合討論，特別是一次跨太多部門的人一起頭論，基本上是沒意義的。因為狀況會同 1.1 的結果。</li><li>實際有效做法是主要負責的人，跟關係部門 (1:N)，每次一對一 (1:1) 的過，過程負責人發現 X &#x2F; Y 有衝突，在私下找 X &#x2F; Y 負責人做決議，最後由負責的人做總結與決策。</li><li>理想的是 <code>星狀溝通</code>，必要時才是 <code>網狀溝通</code>。</li></ul></li><li><code>找共識</code>：希望提供彙整的資訊 &#x2F; 報告，進而找到共識、做決策？</li><li><code>公告布達，產生行動</code>：已經有共識、已經做好決策，要開始執行了，主要目的是分工，資源協調</li></ol><h3 id="1-3-會議角色混亂，沒有控制"><a href="#1-3-會議角色混亂，沒有控制" class="headerlink" title="1.3 會議角色混亂，沒有控制"></a>1.3 會議角色混亂，沒有控制</h3><p>會議進行過程，沒有分工，詳細解法參閱 [一場有效的會議][1]</p><h3 id="1-4-會議主軸資訊量過大"><a href="#1-4-會議主軸資訊量過大" class="headerlink" title="1.4 會議主軸資訊量過大"></a>1.4 會議主軸資訊量過大</h3><p>這是最常發生的現象，成年人在一個小時裡能夠專注的時間只有 30%，能夠理解全部資訊量的人通常是更少。</p><p>主講者把自己深思幾個月的結論，一次放出來，但沒有做適度的抽象畫整理，造成與會者瞬間看到太多資訊，無法理解，進而產生有效的討論，或者造成不同層次的討論，最常看到的是現象是：</p><blockquote><p>TCP 跟 HTTP 放在一起討論，層次根本就搞錯了。<br>討論 狗 和 熱狗 的差異</p></blockquote><p>背後的問題： #如何有效表達 ，也就是說故事、或者是具象化表達的技巧，參閱溝通原理 [3]</p><h3 id="1-5-準備不全"><a href="#1-5-準備不全" class="headerlink" title="1.5 準備不全"></a>1.5 準備不全</h3><p>為了時程，硬上。</p><h3 id="1-6-沒有結論"><a href="#1-6-沒有結論" class="headerlink" title="1.6 沒有結論"></a>1.6 沒有結論</h3><p>花了時間，卻沒有任何產出。</p><p>也不知道接下來要做什麼？後續應該怎麼跟進？</p><hr><h2 id="2-與會者的問題"><a href="#2-與會者的問題" class="headerlink" title="2. 與會者的問題"></a>2. 與會者的問題</h2><h3 id="2-1-沒有搞清楚會議主題就進來"><a href="#2-1-沒有搞清楚會議主題就進來" class="headerlink" title="2.1 沒有搞清楚會議主題就進來"></a>2.1 沒有搞清楚會議主題就進來</h3><p>被邀請，不管哪一場都參加。這種很容易出現在社會新鮮人。</p><p>通常一場會議參與者超過 10 個以上，其實都可以考慮不要出席。除非裡面有需要獲取的情報。</p><h3 id="2-2-不恰當的提問"><a href="#2-2-不恰當的提問" class="headerlink" title="2.2 不恰當的提問"></a>2.2 不恰當的提問</h3><ul><li>用封閉問題 (現場 &#x2F; 細節) 打 開放問題 (概念 &#x2F; 抽象)</li><li>或者反過來，用開放問題，對封閉問題</li><li>開放問題：這東西的定義是什麼？</li><li>封閉問題：這東西是不是什麼什麼？</li><li>問跟會議主軸無關的問題</li></ul><h3 id="2-3-沒有參與討論"><a href="#2-3-沒有參與討論" class="headerlink" title="2.3 沒有參與討論"></a>2.3 沒有參與討論</h3><p>Steve Jobs 在自傳中提到，會議的目的就是要參與討論，在會議中沒有參與討論、沒有發言，Steve Jobs 會請他出去。反之，當收到會議邀請時，如果這場會議主題跟自己沒關係，是不用免強參與的。</p><blockquote><p>沒有參與討論，另外一個潛在問題是：「企業有沒有營造一個讓員工願意發言的環境」，更深層的意涵是：「管理團對有沒有營造一個安全的發言空間？」</p></blockquote><h3 id="2-4-會前沒有先閱讀資料"><a href="#2-4-會前沒有先閱讀資料" class="headerlink" title="2.4 會前沒有先閱讀資料"></a>2.4 會前沒有先閱讀資料</h3><p>有些資訊，在會前就會送出來，節省大家開會的時間。所以當參與者沒有在會前先閱讀的時候，到會議詢問已經提供的資訊，就會變成很浪費時間。</p><h3 id="2-5-提過去問過，有結論的問題"><a href="#2-5-提過去問過，有結論的問題" class="headerlink" title="2.5 提過去問過，有結論的問題"></a>2.5 提過去問過，有結論的問題</h3><p>提出這問題的人，只要是高層，很有機會就會翻盤整個計畫。</p><p>有時候是高層的問題，要適度提醒；但有時候也是與會者自己的問題。</p><h3 id="2-6-中斷：沒有聽完就想講自己的想法"><a href="#2-6-中斷：沒有聽完就想講自己的想法" class="headerlink" title="2.6 中斷：沒有聽完就想講自己的想法"></a>2.6 中斷：沒有聽完就想講自己的想法</h3><p>很容易發生上對下的情境，上面的人 (通常是直屬主管) 很有想法 &#x2F; 經驗，但負責執行的人準備很久，還沒說完就被上面的人中斷，然後作結論。這種狀況，不見得都是主管的錯，但有的時候這樣的方式，會讓底下的人很受傷，甚至會對於跟主管溝通起了反感。這種上位者（管理、主管）都是造成團隊運作效率低效、團隊成員最後不敢做決策的主因。</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="會議系列文"><a href="#會議系列文" class="headerlink" title="會議系列文"></a>會議系列文</h2><ol><li><a href="/2020/10/11/Management/Effective-Meetings/">一場有效的會議</a></li><li><a href="/2014/11/26/Management/%E9%96%8B%E6%9C%83%E5%8E%9F%E5%89%87/">開會原則</a></li><li><a href="/2019/08/25/Management/Problems-of-Meeting/">會議的普遍現象</a></li><li><a href="/2020/10/11/Management/Effective-Meetings/">一場有效的會議</a></li><li><a href="/2020/08/01/Management/Expression-and-Communication/">表達與溝通的差異</a></li><li><a href="/2020/03/24/Management/Principles-of-Communication/">溝通的原理</a></li></ol><h2 id="溝通"><a href="#溝通" class="headerlink" title="溝通"></a>溝通</h2><ul><li><a href="/2020/03/24/Management/Principles-of-Communication/">溝通的原理</a></li><li><a href="/2020/08/01/Management/Expression-and-Communication/">表達與溝通的差異</a></li><li><a href="/2014/12/10/Management/%E6%BA%9D%E9%80%9A-%E6%88%90%E6%9C%AC/">溝通 &#x3D; 成本</a></li><li><a href="/2018/03/18/SQA/How-To-Report-A-Defect-or-Bug/">如何有效的回報問題</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>原文是 <a href="https://www.facebook.com/rick.kyhwang/posts/pfbid02wkn7qeuR29WFShcVFkBUmr9AfEbD96fwgjdvyZbigNjxVmy8xqti4AvFdqJebmiEl">2021&#x2F;06&#x2F;14</a> 寫下的 memo，摘錄一場失敗的會議有哪些現象，與另一篇 <a href="/2020/10/11/Management/Effective-Meetings/">一場有效的會議</a> 成對比。</p><span id="more"></span><h2 id="1-會議發起者、與會議控制的問題"><a href="#1-會議發起者、與會議控制的問題" class="headerlink" title="1. 會議發起者、與會議控制的問題"></a>1. 會議發起者、與會議控制的問題</h2><h3 id="1-1-太多人參加"><a href="#1-1-太多人參加" class="headerlink" title="1.1 太多人參加"></a>1.1 太多人參加</h3><p>很多人參加，有兩個意思：很多層級、或者同一個層級的人很多。</p><p>各種層級、角色都有，上至 CxO、VP、Director、Manager，到 Engineering Team 都有。人類的溝通，不同層級之間討論事情，大部分 (80%) 是需要翻譯的，換言之，如果沒有從基層幹起，一路往上的人，或者具備一定的人格特質，要跨那麼大維度溝通本身就是個不容易的事情，因為很常會出現這種現象：</p><blockquote><p>TCP 跟 HTTP 放在一起討論<br>討論 狗 和 熱狗 的差異</p></blockquote><p>這種現象很常出現在各種社會事件，媒體公關事件最明顯，那種抗議場合的溝通。</p><p>理想會議人數同 scrum team &lt;&#x3D; 8 人，這樣的溝通常會比較有效率，所有人對於事物的理解，才會一致。</p><p>類似的案例：</p><ol><li>宣誓大會</li><li>All-Hands Meetings、年會</li><li>部門會議</li></ol><h3 id="1-2-會議目的不清楚-這場會議目的到底是？"><a href="#1-2-會議目的不清楚-這場會議目的到底是？" class="headerlink" title="1.2 會議目的不清楚: 這場會議目的到底是？"></a>1.2 會議目的不清楚: 這場會議目的到底是？</h3><p>會議的目的通常有以下類型：</p><ol><li><code>討論</code>：因為資訊不足，希望透過討論，尋求建議，相互請教的過程。<ul><li>這種目的不要在太多人的場合討論，特別是一次跨太多部門的人一起頭論，基本上是沒意義的。因為狀況會同 1.1 的結果。</li><li>實際有效做法是主要負責的人，跟關係部門 (1:N)，每次一對一 (1:1) 的過，過程負責人發現 X &#x2F; Y 有衝突，在私下找 X &#x2F; Y 負責人做決議，最後由負責的人做總結與決策。</li><li>理想的是 <code>星狀溝通</code>，必要時才是 <code>網狀溝通</code>。</li></ul></li><li><code>找共識</code>：希望提供彙整的資訊 &#x2F; 報告，進而找到共識、做決策？</li><li><code>公告布達，產生行動</code>：已經有共識、已經做好決策，要開始執行了，主要目的是分工，資源協調</li></ol><h3 id="1-3-會議角色混亂，沒有控制"><a href="#1-3-會議角色混亂，沒有控制" class="headerlink" title="1.3 會議角色混亂，沒有控制"></a>1.3 會議角色混亂，沒有控制</h3><p>會議進行過程，沒有分工，詳細解法參閱 <a href="/2020/10/11/Management/Effective-Meetings/">一場有效的會議</a></p><h3 id="1-4-會議主軸資訊量過大"><a href="#1-4-會議主軸資訊量過大" class="headerlink" title="1.4 會議主軸資訊量過大"></a>1.4 會議主軸資訊量過大</h3><p>這是最常發生的現象，成年人在一個小時裡能夠專注的時間只有 30%，能夠理解全部資訊量的人通常是更少。</p><p>主講者把自己深思幾個月的結論，一次放出來，但沒有做適度的抽象畫整理，造成與會者瞬間看到太多資訊，無法理解，進而產生有效的討論，或者造成不同層次的討論，最常看到的是現象是：</p><blockquote><p>TCP 跟 HTTP 放在一起討論，層次根本就搞錯了。<br>討論 狗 和 熱狗 的差異</p></blockquote><p>背後的問題： <code>如何有效表達</code> ，也就是說故事、或者是具象化表達的技巧，參閱 <a href="/2020/03/24/Management/Principles-of-Communication/">溝通原理</a></p><h3 id="1-5-準備不全"><a href="#1-5-準備不全" class="headerlink" title="1.5 準備不全"></a>1.5 準備不全</h3><p>為了時程，硬上。</p><h3 id="1-6-沒有結論"><a href="#1-6-沒有結論" class="headerlink" title="1.6 沒有結論"></a>1.6 沒有結論</h3><p>花了時間，卻沒有任何產出。</p><p>也不知道接下來要做什麼？後續應該怎麼跟進？</p><hr><h2 id="2-與會者的問題"><a href="#2-與會者的問題" class="headerlink" title="2. 與會者的問題"></a>2. 與會者的問題</h2><h3 id="2-1-沒有搞清楚會議主題就進來"><a href="#2-1-沒有搞清楚會議主題就進來" class="headerlink" title="2.1 沒有搞清楚會議主題就進來"></a>2.1 沒有搞清楚會議主題就進來</h3><p>被邀請，不管哪一場都參加。這種很容易出現在社會新鮮人。</p><p>通常一場會議參與者超過 10 個以上，其實都可以考慮不要出席。除非裡面有需要獲取的情報。</p><h3 id="2-2-不恰當的提問"><a href="#2-2-不恰當的提問" class="headerlink" title="2.2 不恰當的提問"></a>2.2 不恰當的提問</h3><ul><li>用封閉問題 (現場 &#x2F; 細節) 打 開放問題 (概念 &#x2F; 抽象)</li><li>或者反過來，用開放問題，對封閉問題</li><li>開放問題：這東西的定義是什麼？</li><li>封閉問題：這東西是不是什麼什麼？</li><li>問跟會議主軸無關的問題</li></ul><h3 id="2-3-沒有參與討論"><a href="#2-3-沒有參與討論" class="headerlink" title="2.3 沒有參與討論"></a>2.3 沒有參與討論</h3><p>Steve Jobs 在自傳中提到，會議的目的就是要參與討論，在會議中沒有參與討論、沒有發言，Steve Jobs 會請他出去。反之，當收到會議邀請時，如果這場會議主題跟自己沒關係，是不用免強參與的。</p><blockquote><p>沒有參與討論，另外一個潛在問題是：「企業有沒有營造一個讓員工願意發言的環境」，更深層的意涵是：「管理團對有沒有營造一個安全的發言空間？」</p></blockquote><h3 id="2-4-會前沒有先閱讀資料"><a href="#2-4-會前沒有先閱讀資料" class="headerlink" title="2.4 會前沒有先閱讀資料"></a>2.4 會前沒有先閱讀資料</h3><p>有些資訊，在會前就會送出來，節省大家開會的時間。所以當參與者沒有在會前先閱讀的時候，到會議詢問已經提供的資訊，就會變成很浪費時間。</p><h3 id="2-5-提過去問過，有結論的問題"><a href="#2-5-提過去問過，有結論的問題" class="headerlink" title="2.5 提過去問過，有結論的問題"></a>2.5 提過去問過，有結論的問題</h3><p>提出這問題的人，只要是高層，很有機會就會翻盤整個計畫。</p><p>有時候是高層的問題，要適度提醒；但有時候也是與會者自己的問題。</p><h3 id="2-6-中斷：沒有聽完就想講自己的想法"><a href="#2-6-中斷：沒有聽完就想講自己的想法" class="headerlink" title="2.6 中斷：沒有聽完就想講自己的想法"></a>2.6 中斷：沒有聽完就想講自己的想法</h3><p>很容易發生上對下的情境，上面的人 (通常是直屬主管) 很有想法 &#x2F; 經驗，但負責執行的人準備很久，還沒說完就被上面的人中斷，然後作結論。這種狀況，不見得都是主管的錯，但有的時候這樣的方式，會讓底下的人很受傷，甚至會對於跟主管溝通起了反感。這種上位者（管理、主管）都是造成團隊運作效率低效、團隊成員最後不敢做決策的主因。</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="會議系列文"><a href="#會議系列文" class="headerlink" title="會議系列文"></a>會議系列文</h2><ol><li><a href="/2020/10/11/Management/Effective-Meetings/">一場有效的會議</a></li><li><a href="/2014/11/26/Management/%E9%96%8B%E6%9C%83%E5%8E%9F%E5%89%87/">開會原則</a></li><li><a href="/2019/08/25/Management/Problems-of-Meeting/">會議的普遍現象</a></li><li><a href="/2020/10/11/Management/Effective-Meetings/">一場有效的會議</a></li><li><a href="/2020/08/01/Management/Expression-and-Communication/">表達與溝通的差異</a></li><li><a href="/2020/03/24/Management/Principles-of-Communication/">溝通的原理</a></li></ol><h2 id="溝通"><a href="#溝通" class="headerlink" title="溝通"></a>溝通</h2><ul><li><a href="/2020/03/24/Management/Principles-of-Communication/">溝通的原理</a></li><li><a href="/2020/08/01/Management/Expression-and-Communication/">表達與溝通的差異</a></li><li><a href="/2014/12/10/Management/%E6%BA%9D%E9%80%9A-%E6%88%90%E6%9C%AC/">溝通 &#x3D; 成本</a></li><li><a href="/2018/03/18/SQA/How-To-Report-A-Defect-or-Bug/">如何有效的回報問題</a></li></ul>]]></content>
     
     
     <summary type="html">&lt;p&gt;原文是 &lt;a href=&quot;https://www.facebook.com/rick.kyhwang/posts/pfbid02wkn7qeuR29WFShcVFkBUmr9AfEbD96fwgjdvyZbigNjxVmy8xqti4AvFdqJebmiEl&quot;&gt;2021&amp;#x2F;06&amp;#x2F;14&lt;/a&gt; 寫下的 memo，摘錄一場失敗的會議有哪些現象，與另一篇 &lt;a href=&quot;/2020/10/11/Management/Effective-Meetings/&quot;&gt;一場有效的會議&lt;/a&gt; 成對比。&lt;/p&gt;</summary>
@@ -118,11 +118,11 @@
     <category term="Container" scheme="https://rickhw.github.io/categories/Container/"/>
     
     
-    <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
+    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
     
     <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
     
-    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
+    <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
     
     <category term="Macbook Pro M1" scheme="https://rickhw.github.io/tags/Macbook-Pro-M1/"/>
     
@@ -176,13 +176,13 @@
     <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
     
     
-    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
-    
-    <category term="Continuous Integration" scheme="https://rickhw.github.io/tags/Continuous-Integration/"/>
-    
     <category term="Published-SRE1" scheme="https://rickhw.github.io/tags/Published-SRE1/"/>
     
     <category term="Gitlab" scheme="https://rickhw.github.io/tags/Gitlab/"/>
+    
+    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
+    
+    <category term="Continuous Integration" scheme="https://rickhw.github.io/tags/Continuous-Integration/"/>
     
   </entry>
   
@@ -405,11 +405,11 @@
     
     <category term="Software Test" scheme="https://rickhw.github.io/tags/Software-Test/"/>
     
+    <category term="SDLC" scheme="https://rickhw.github.io/tags/SDLC/"/>
+    
     <category term="SQA" scheme="https://rickhw.github.io/tags/SQA/"/>
     
     <category term="SVT" scheme="https://rickhw.github.io/tags/SVT/"/>
-    
-    <category term="SDLC" scheme="https://rickhw.github.io/tags/SDLC/"/>
     
   </entry>
   
@@ -462,11 +462,11 @@
     <category term="Distributed Systems" scheme="https://rickhw.github.io/categories/Distributed-Systems/"/>
     
     
-    <category term="Pub/Sub" scheme="https://rickhw.github.io/tags/Pub-Sub/"/>
-    
     <category term="Operating System" scheme="https://rickhw.github.io/tags/Operating-System/"/>
     
     <category term="Java" scheme="https://rickhw.github.io/tags/Java/"/>
+    
+    <category term="Pub/Sub" scheme="https://rickhw.github.io/tags/Pub-Sub/"/>
     
     <category term="Eclipse" scheme="https://rickhw.github.io/tags/Eclipse/"/>
     
