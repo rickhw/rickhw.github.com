@@ -46,6 +46,36 @@
   </entry>
   
   <entry>
+    <title>分散式系統設計 - 摘要 API 通訊模式與協議</title>
+    <link href="https://rickhw.github.io/2023/06/30/DistributedSystems/API-Communication-Protocol/"/>
+    <id>https://rickhw.github.io/2023/06/30/DistributedSystems/API-Communication-Protocol/</id>
+    <published>2023-06-30T05:30:00.000Z</published>
+    <updated>2023-06-23T03:05:11.410Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>API First</code> 在今天跨企業的系統交互越來越頻繁的今天，提供有效的擴展業務的快速方法。過往什麼功能都要自行開發，但卻因為內部資源不足，亦或者錯估新業務規模的深度與需求層次，造成投入沒有成效、或者必須不斷的加碼投入。</p><p>API First 的概念，背後其實就是雙方在技術上彼此溝通的通訊協議，透過這層協議，雙方可以更快速的仰賴彼此的擅長的領域，拓展業務。最常見的就是電商與支付系統的串接，電商與廣告服務商的整合、電商與電信系統的整合、與 ChatBot &#x2F; AI 整合 … 等。</p><p>開放 API 是個策略性決策，背後代表著要與合作夥伴達成策略聯盟，本質上是 B2B 的商業行為；同時開放 API 也意味著內部系統需要有高度整合，提供對外統一介面與標準，讓合作夥伴在開發過程，可以有一致性的使用介面與理解。</p><p>基於這樣的前提，只要是 API 對外開放，大概都要面對本文要提到的問題：<code>API 通訊模式與協議</code></p><span id="more"></span><h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><h2 id="通訊模式"><a href="#通訊模式" class="headerlink" title="通訊模式"></a>通訊模式</h2><p><code>通訊模式</code> 代表 API 對內、對外彼此交互的方式，整理如下圖：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/API-Comm-Mode_v20230623.png"></p><p>圖中定義的系統包含如下：</p><ol><li><code>API Platform</code>: 主要處理的是外部通訊請求，   <ul><li>架構角色包含 API Gateway, API Manaement, API Operation 等部分<ul><li>API Gateway: 職責包含 AAA, Traffic Control, Protection, Rate Limit, </li><li>Management: API 的 Publisher &#x2F; Scription, Token &amp; Key Management &#x2F; Lifecycle &#x2F; Documentation … 等。背後本質是 API Governance.</li><li>API Operation: 包含 Obervability &amp; Monitoring, APM, Tracing, Logging, Cache … 等.</li></ul></li><li>整合 API Platform 對外處理合作夥伴的 API 請求, 同時轉發請求給對應的內部服務.</li></ul></li><li><code>Service X</code>: 企業內部各種 Domain Services 的泛稱，像是訂單 &#x2F; 商品 &#x2F; 庫存 … 等.<ul><li>這些服務都是內部系統，不直接對外</li><li>這些服務跟服務之間的溝通，必須遵循 <code>內部通訊協議 (Internal Commucation Protocol, ICP)</code></li></ul></li><li><code>External Services</code>: 使用 API 的合作夥伴，這裡的案例是 B2B</li><li><code>Client</code>: 提供給 End User 使用的 GUI 介面形式，包含 Mobile, Desktop, Web … 等.</li></ol><p>這四個角色之間，彼此之間的溝通用不同顏色以及標示 (C2, B3, C4, C3, D4 … )，搭配 <code>情境矩陣</code> 收斂實際的範圍。</p><h2 id="情境矩陣"><a href="#情境矩陣" class="headerlink" title="情境矩陣"></a>情境矩陣</h2><p>這四個角色之間的通訊，有 16 種排列組合，整理出以下的情境矩陣：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/API-Comm-Scenario_v20230623.png"></p><p>這十六種排列組合，彼此之間都有可能會相互通訊，情境矩陣則展開了所有的可能，經過分析後，刪除不合理、不需要、不必要的排列組合 (A1, B2, C1 …)，確立我們需要關注的組合，最核心情境有以下：</p><ol><li><code>Session Base</code>: 排列組合中的 A2</li><li><code>External API</code>: 排列組合中的 B3, C4</li><li><code>Internal Commucation</code>: 排列組合中的 C3, D3, D4</li><li><code>External Invcation</code>: 排列組合中的 C2, D2</li></ol><p>有了這樣的定義與理解之後，針對每個通訊模式，就可以定義適當的 Context ，讓彼此有一致的標準溝通，包含 (但不限於) 以下：</p><ol><li>認證授權</li><li>服務治理</li><li>展開適當的架構設計</li><li>追蹤管理</li><li>API 設計方法</li><li>API 生態系的管理與治理</li><li>API 維運 </li><li>… etc.</li></ol><h2 id="小結"><a href="#小結" class="headerlink" title="小結"></a>小結</h2><p>下圖是網路上很有名的故事，個人覺得核心是「經營之道」：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/Biz.png"></p><p>故事摘要如下：</p><blockquote><p>第一個猶太人來到小鎮上開了個加油站，生意很旺。第二個猶太人來了，發現加油站生意很不錯，想到加油站的客戶需要吃飯，所以投資開了個餐館。第三個猶太人來了，想到來小鎮的人多了需要住宿，於是開了個飯店。第四個猶太人又發現住店的人需要生活用品，於是開了超市。第五個，第六個……來的人越來越多，吃飯住宿旅遊經商的人又需要加油，於是加油站、餐館、飯店、超市的生意相繼更旺了，逐步小鎮就成了一個經濟繁榮的小鎮，很多猶太人都富裕了。</p><p>第一個中國人來到小鎮上開了個加油站，生意很旺。第二個中國人來了，發現第一個人投資的加油站生意真令人羨慕，趕緊開了第二個加油站。第三個中國人又來了，看見前面2個同胞的加油站生意很好妒嫉得眼紅，火速開了第三個加油站。第四，第五個同胞過來都是一樣，開加油站還打折促銷……最後惡性競爭，然後紛紛倒閉，小鎮又回到原點……</p></blockquote><p>先不論故事中的反諷，但是猶太人的重點就在於經營的過程，透過整合的方式，而不是硬碰硬，透過共榮、相互依存的概念，集結成一個生態系。API 本身就是生態系中的一環，企業透過開放 API，與其他異業結合，相互協助、相互依存，形成一個生態系。</p><p>有了這個核心的模式與情境，接下來就可以討論實際上架構設計時的選擇與設計思路，以及市面上的解決方案。</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="站內文章"><a href="#站內文章" class="headerlink" title="站內文章"></a>站內文章</h2><ul><li><a href="/2021/05/14/DistributedSystems/Service-Governance/">聊聊分散式架構的服務治理</a></li><li><a href="/2022/07/04/DistributedSystems/Inspired-Design-From-Eclipse/">摘要 Eclipse 設計的啟發：當代 SaaS 分散式架構的關鍵設計</a></li><li><a href="/2018/01/24/DistributedSystems/Overview-API-Gateway/">Overview API Gateway</a></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;code&gt;API First&lt;/code&gt; 在今天跨企業的系統交互越來越頻繁的今天，提供有效的擴展業務的快速方法。過往什麼功能都要自行開發，但卻因為內部資源不足，亦或者錯估新業務規模的深度與需求層次，造成投入沒有成效、或者必須不斷的加碼投入。&lt;/p&gt;
+&lt;p&gt;API First 的概念，背後其實就是雙方在技術上彼此溝通的通訊協議，透過這層協議，雙方可以更快速的仰賴彼此的擅長的領域，拓展業務。最常見的就是電商與支付系統的串接，電商與廣告服務商的整合、電商與電信系統的整合、與 ChatBot &amp;#x2F; AI 整合 … 等。&lt;/p&gt;
+&lt;p&gt;開放 API 是個策略性決策，背後代表著要與合作夥伴達成策略聯盟，本質上是 B2B 的商業行為；同時開放 API 也意味著內部系統需要有高度整合，提供對外統一介面與標準，讓合作夥伴在開發過程，可以有一致性的使用介面與理解。&lt;/p&gt;
+&lt;p&gt;基於這樣的前提，只要是 API 對外開放，大概都要面對本文要提到的問題：&lt;code&gt;API 通訊模式與協議&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Distributed Systems" scheme="https://rickhw.github.io/categories/Distributed-Systems/"/>
+    
+    
+    <category term="Distributed Communication" scheme="https://rickhw.github.io/tags/Distributed-Communication/"/>
+    
+    <category term="API Platform" scheme="https://rickhw.github.io/tags/API-Platform/"/>
+    
+    <category term="API First" scheme="https://rickhw.github.io/tags/API-First/"/>
+    
+    <category term="Contract First" scheme="https://rickhw.github.io/tags/Contract-First/"/>
+    
+  </entry>
+  
+  <entry>
     <title>一場失敗會議</title>
     <link href="https://rickhw.github.io/2023/06/14/Management/Failed-Meeting/"/>
     <id>https://rickhw.github.io/2023/06/14/Management/Failed-Meeting/</id>
@@ -118,11 +148,11 @@
     <category term="Container" scheme="https://rickhw.github.io/categories/Container/"/>
     
     
-    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
-    
     <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
     
     <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
+    
+    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
     
     <category term="Macbook Pro M1" scheme="https://rickhw.github.io/tags/Macbook-Pro-M1/"/>
     
@@ -176,11 +206,11 @@
     <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
     
     
+    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
+    
     <category term="Published-SRE1" scheme="https://rickhw.github.io/tags/Published-SRE1/"/>
     
     <category term="Gitlab" scheme="https://rickhw.github.io/tags/Gitlab/"/>
-    
-    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
     
     <category term="Continuous Integration" scheme="https://rickhw.github.io/tags/Continuous-Integration/"/>
     
@@ -204,11 +234,11 @@
     <category term="經營管理" scheme="https://rickhw.github.io/categories/%E7%B6%93%E7%87%9F%E7%AE%A1%E7%90%86/"/>
     
     
-    <category term="Design" scheme="https://rickhw.github.io/tags/Design/"/>
-    
     <category term="QBQ" scheme="https://rickhw.github.io/tags/QBQ/"/>
     
     <category term="PBQ" scheme="https://rickhw.github.io/tags/PBQ/"/>
+    
+    <category term="Design" scheme="https://rickhw.github.io/tags/Design/"/>
     
     <category term="Thinking" scheme="https://rickhw.github.io/tags/Thinking/"/>
     
@@ -462,11 +492,9 @@
     <category term="Distributed Systems" scheme="https://rickhw.github.io/categories/Distributed-Systems/"/>
     
     
-    <category term="Operating System" scheme="https://rickhw.github.io/tags/Operating-System/"/>
+    <category term="Pub/Sub" scheme="https://rickhw.github.io/tags/Pub-Sub/"/>
     
     <category term="Java" scheme="https://rickhw.github.io/tags/Java/"/>
-    
-    <category term="Pub/Sub" scheme="https://rickhw.github.io/tags/Pub-Sub/"/>
     
     <category term="Eclipse" scheme="https://rickhw.github.io/tags/Eclipse/"/>
     
@@ -479,6 +507,8 @@
     <category term="Extension" scheme="https://rickhw.github.io/tags/Extension/"/>
     
     <category term="Design Thinking" scheme="https://rickhw.github.io/tags/Design-Thinking/"/>
+    
+    <category term="Operating System" scheme="https://rickhw.github.io/tags/Operating-System/"/>
     
     <category term="Multi-Tenancy" scheme="https://rickhw.github.io/tags/Multi-Tenancy/"/>
     
@@ -558,53 +588,15 @@
     <category term="Coding" scheme="https://rickhw.github.io/categories/Coding/"/>
     
     
-    <category term="Application Interface Spec" scheme="https://rickhw.github.io/tags/Application-Interface-Spec/"/>
-    
     <category term="Configuration" scheme="https://rickhw.github.io/tags/Configuration/"/>
     
     <category term="DI" scheme="https://rickhw.github.io/tags/DI/"/>
     
+    <category term="Application Interface Spec" scheme="https://rickhw.github.io/tags/Application-Interface-Spec/"/>
+    
     <category term="Dependency Injection" scheme="https://rickhw.github.io/tags/Dependency-Injection/"/>
     
     <category term="Dependency Inversion" scheme="https://rickhw.github.io/tags/Dependency-Inversion/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Version Control 與 Artifact Management</title>
-    <link href="https://rickhw.github.io/2022/04/06/SoftwareEngineering/Artifact-Management-and-Version-Control/"/>
-    <id>https://rickhw.github.io/2022/04/06/SoftwareEngineering/Artifact-Management-and-Version-Control/</id>
-    <published>2022-04-06T01:50:30.000Z</published>
-    <updated>2022-12-19T11:47:28.870Z</updated>
-    
-    <content type="html"><![CDATA[<p>幾年前的分享 <a href="/2019/03/28/DevOps/DevOpsTaiwan-Meetup-Beginning-in-Artifacts-Management/">聊聊軟體交付的濫觴 - 談產出物管理</a>，簡報最後面留幾個問題讓大家思考。</p><p><img src="/images/SoftwareEngineering/Artifact-And-VersionControl.png"></p><p>最近有朋友私下敲我，問了最後一個問題：</p><blockquote><p><code>分支策略</code> 跟 <code>Artifact Management</code> 的關係？</p></blockquote><p>問題背後是他在新創團隊裡，遇到在處理分支策略的同時，也遇到如何打包 Artifact ，兩者的衝突與矛盾。</p><p>底下是我針對這個問題整理的摘要。</p><blockquote><p>本文重新整理我在 <a href="https://www.facebook.com/rick.kyhwang/posts/10216798025462365">FB</a> 寫的草稿，之後嘗試錄了一段口述，提供給大家參考。</p></blockquote><iframe width="560" height="315" src="https://www.youtube.com/embed/dkF_sGuwjjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><span id="more"></span><hr><h2 id="要解決怎樣的問題？"><a href="#要解決怎樣的問題？" class="headerlink" title="要解決怎樣的問題？"></a>要解決怎樣的問題？</h2><p>這兩個東西各有要解決的問題。</p><blockquote><p>分支策略 要解決的核心問題：<code>團隊協作的問題</code></p></blockquote><ul><li>一堆人開發，比較流暢的方式。</li><li>開發流程的分工與切割？</li><li>顆粒度大小？</li><li>libraries or web service ? console ? …</li></ul><p>分支策略，應該要減少影響發布流程，也就是常說的 CI &#x2F; CD Pipeline 過程，太複雜的分支策略，會製造出很複雜的 Pipeline。</p><p>各種分支策略的比較，參閱 <code>持續交付2 第八章</code>，這不是 0 or 1 的是非題，而是看組織 &#x2F; 架構 發展到哪個階段 (#康威定律)，還有 Tech Lead 能掌握的狀況。</p><blockquote><p>Artifact Management 要解決的則是 <code>軟體交付標準化</code> 的問題。</p></blockquote><ul><li>給 docker image or zip?</li><li>這東西我能用嗎？你可以不要一直改嗎？</li><li>我是 QA，正在測一個 long running 情境，我要哪哪一個版本測？</li><li>我明天就要開工，你可以先給我一個沒有實作的 lib 嗎？</li><li>我要部署到美西，給北美市場，請問我要部署哪一個版本</li><li>我要部署到火星，給木星市場，請問我要部署哪一個版本</li></ul><h2 id="Artifact-交付的原則-Version-Control"><a href="#Artifact-交付的原則-Version-Control" class="headerlink" title="Artifact 交付的原則 - Version Control"></a>Artifact 交付的原則 - Version Control</h2><p>簡單定義 Artfact 交付的一些基本概念：</p><blockquote><p>我把 <code>交付</code> 定義成 Artifact 主要目的，也就是 <code>版本控管 (Version Control)</code></p></blockquote><p>核心規則如下：</p><p>Artifact Image 會分兩種 Types:</p><ul><li><code>dev</code>: development version<ul><li><code>假設功能尚未被驗證，以驗證功能為主，只能在團隊內部使用。</code></li><li>具備 debug 功能, 特殊後門, 特殊 config flag, 選擇性編譯 (build flag) … etc.<ul><li>binary 沒有最佳化, 放特殊 trace flag …</li><li>如果是 open source 專案，找找官網的 nightly build or daily build，就是這一類。</li></ul></li></ul></li><li><code>rel</code>: release version<ul><li><code>功能已經完成驗證，經過認證程序，可以給客戶使用。</code></li><li>debug 功能關閉，或者需要其他特殊方法才能開啟<ul><li>特殊方法：<a href="https://www.techbang.com/posts/86376-klomi-classic-secret-35th-anniversary-mv-up-down-left-and">上上下下左右左右BABA</a></li></ul></li><li>binary 有最佳化，像是混淆、簽章</li><li>一個版本，最後只會有一個，也就是在外面流通的。</li></ul></li></ul><p>底下舉例，這段例子在 <a href="/2015/02/11/SoftwareEngineering/Version-Control/">Version Control</a> 一文也有描述 ：</p><ul><li>開發中: v1.0.0<ul><li>今天 (04&#x2F;06) 建制的版本：RickLds-v1.0.0-dev-b20220406-1200.zip</li><li>明天 (04&#x2F;07) 建制的版本：RickLds-v1.0.0-dev-b20220407-1200.zip</li><li>大後天建制的版本：RickLds-v1.0.0-dev-b20220408-1200.zip</li><li>類推，就是個 Time Series 的概念。</li><li>注意：版本 (v1.0.0) 都還沒跳號，不管過程中發現多少 defects</li><li>直到完成 v1.0.0 的 release procedure 後</li><li>下一個開發循環開始的時候，跳 v1.1.0 ，回到 (a.)</li></ul></li><li>Release: v1.0.0<ul><li>完成 v1.0.0 release procedure，</li><li>最後產出 release image: <code>RickLds-v1.0.0-rel.zip</code> or <code>RickLds:v1.0.0-rel</code><ul><li>只有一個，透過 sign 的方式確認檔案的唯一性 (md5&#x2F;sha256&#x2F;sha512)</li></ul></li><li>artifact 與 config 是 1 對多的關係。</li><li>config 的數量 &#x3D; env 數量。</li></ul></li></ul><h3 id="平常看得到的案例"><a href="#平常看得到的案例" class="headerlink" title="平常看得到的案例"></a>平常看得到的案例</h3><ul><li>微軟 Windows<ul><li>試用版或者內部人員流出來的開發版，就是上述的 dev version，可能會有多個。</li><li>正式 release 的就是上述的 release version，通常一個版本只會有一個。<ul><li>有些會有 RC (release candidate) 或者 beta version. (名稱差異代表開發流程的定義)</li></ul></li></ul></li><li>dapr: <a href="https://github.com/dapr/dapr/releases">https://github.com/dapr/dapr/releases</a><ul><li>release &#x2F; rc: 鄉民可以拿來玩的東西</li><li>dev: 看不到，自己下載 source 自己 build ㄅ</li></ul></li><li><a href="https://go.dev/blog/publishing-go-modules">Go 的 Module 發布</a>: 官方文件建議用 <a href="https://go.dev/ref/mod#pseudo-versions">pseudo-versions</a> 表示發布之前的版本，其實就是我前述的 <code>開發版</code>。官方設計的 pseudo-version 包含以下三個資訊：<ul><li><code>A base version prefix (vX.0.0 or vX.Y.Z-0)</code>, which is either derived from a semantic version tag that precedes the revision or vX.0.0 if there is no such tag.</li><li><code>A timestamp (yyyymmddhhmmss)</code>, which is the UTC time the revision was created. In Git, this is the commit time, not the author time.</li><li><code>A revision identifier (abcdefabcdef)</code>, which is a 12-character prefix of the commit hash, or in Subversion, a zero-padded revision number.</li></ul></li></ul><h3 id="Artifact-Images-的規則是必要的？"><a href="#Artifact-Images-的規則是必要的？" class="headerlink" title="Artifact Images 的規則是必要的？"></a>Artifact Images 的規則是必要的？</h3><p>Q: 我的團隊從來都沒有你說的東西 dev &#x2F; rel，一樣能跑。所以真的需要這樣分？什麼時候需分 <code>開發版</code> 與 <code>釋出版</code> 的 Artifact Images？</p><blockquote><p>沒有 dev &#x2F; rel 團隊依然可以運作，大部分是因為遇到依賴管理問題，所以就不會有這樣的需求，也沒意會到這樣的問題。依賴管理指的是團隊彼依賴的功能是透過 Artficat 發布的方式運作，像是彼此是透過 NuGET &#x2F; Docker &#x2F; mvn &#x2F; npm … 等。當團隊規模到一定程度之後，拆分模組獨立發布與管理，這是必然的需求。</p><p>會覺得沒有這樣的問題，常常是因為參照的方式是透過 <code>檔案相對路徑</code> 參考，而不是透過 artifact 參考。像是 .NET 專案 (.csproj) 裡面的 dependency 是相對路徑，而不是 reference。</p><p>最常見的是開發共用的 libraries 給大家用，開發過程必然會有開發中的版本 (dev version)，給自己團隊內部測試、驗證使用，以及釋出給別人 (其他團隊、客戶) 使用的 rel version。</p></blockquote><h3 id="最常見的錯誤觀念"><a href="#最常見的錯誤觀念" class="headerlink" title="最常見的錯誤觀念"></a>最常見的錯誤觀念</h3><ul><li>開發中的版本, ex v1.1.0, 還沒 release 就要 進版號, 不管是 x, y, or z.</li><li>沒有區分 dev &#x2F; rel ，不管怎樣的環境都用同一種</li><li>把 config 包進去 artifact</li><li>以為只能用在 semanitc versioning, chrome 單一版號也適用。</li><li>以為這樣不能跑敏捷開發 (ex: scrum): 這好像沒關係。</li><li>以為用了這個就不敏捷 …. 我下班了。</li></ul><h2 id="Semantic-Versioning"><a href="#Semantic-Versioning" class="headerlink" title="Semantic Versioning"></a>Semantic Versioning</h2><p><a href="/2015/02/11/SoftwareEngineering/Version-Control/">Version Control</a> 通常會搭配 版本號碼的規則，而 <a href="https://semver.org/">Semantic Versioning</a> (x.y.z) 則是最常見、最普遍的通則。</p><h3 id="初始專案實踐-Semantic-Versioning-的方式"><a href="#初始專案實踐-Semantic-Versioning-的方式" class="headerlink" title="初始專案實踐 Semantic Versioning 的方式"></a>初始專案實踐 Semantic Versioning 的方式</h3><p>初始專案指的是新專案，從 0 -&gt; 1 的階段，在這段時間 <a href="https://semver.org/">Semantic Versioning</a> 跳號方式：</p><p>建議從 v0.1 開始跳，每個 sprint 跳一個 v0.2-dev, v0.3-dev …<br>直到可以 release 給第一個客戶，直接跳 v1.0-rel</p><p>進入專案的 1 -&gt; 10 的階段，就進入正常的跳號流程，<br>每個 release 都跳 第二碼，也就是 v1.1.0 -&gt; v1.2.0 -&gt; v1.3.0 …</p><h3 id="Deliver-Hello-World-in-First-Day"><a href="#Deliver-Hello-World-in-First-Day" class="headerlink" title="Deliver Hello World in First Day"></a>Deliver Hello World in First Day</h3><p>專案之初，通常是從 0 -&gt; 1 的階段<br>就要把上述流程建好，<br>不管是開發 Web Service &#x2F; Frontend &#x2F; Libraries &#x2F; Desktop App &#x2F; Console …<br>都是一樣的原則。</p><p>換言之<br>專案開跑的時候，<br>就可以 build 可以交付的 artifact<br>我把這概念稱為 <code>Deliver Hello World in First Day</code><br>第一天就要可以交付。<br>這種交付不是透過 IDE 那種 export 功能完成的<br>而是透過 ci server 建制出來的。</p><p>第一天就要完成 <a href="/2019/04/04/DevOps/Four-Pillars-of-Software-Delivery/">軟體交付的四大支柱</a> 定義的東西。</p><p>這個概念，跟 Unit Test 的概念是一樣的，只是對象不一樣而已。錄影中我嘗試闡述這段 <code>Deliver Hello World in First Day</code> 的想法：</p><iframe width="560" height="315" src="https://www.youtube.com/embed/dkF_sGuwjjo?start=835" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>所以 Artifact Management 跟分支策略的關係是？我具體的回答如下：</p><blockquote><p>沒關係，因為要解決的問題不一樣。在 <a href="/2017/09/14/SoftwareEngineering/Software-Development-Lifecycle/">軟體開發生命週期 (SDLC)</a> 過程，都應該要有 <code>開發版</code> 與 <code>釋出版</code>，不管哪個分支策略，技術上都做得到，也應該做得到。</p><p>至於本文前述中我定義的名詞 (dev &#x2F; rel)，可能和一些生態系用語會有些差異。像微軟預設就有 Release &#x2F; Debug 的定義，而我把 debug 定義成 另一個 flag 的概念。因為不管 dev or rel 都具備 debug 功能，也可以關掉。不然你以為 <a href="https://www.techbang.com/posts/86376-klomi-classic-secret-35th-anniversary-mv-up-down-left-and">上上下下左右左右BABA</a> 是怎麼來的？XDD</p><p>所以兩者要解決的問題不一樣，關係不太。100 團隊有 1000 種分支策略跑法。但 Artifact Management 的原則都一樣，但實作可能也有 1000 種。像是版號: 三碼 (x.y.z)、還是一碼 (chrome 99)？支援多少種 artifact type (docker &#x2F; raw &#x2F; nuget &#x2F; npm … etc)，artifact image 命名規則大家都不一樣，<a href="/2015/02/11/SoftwareEngineering/Version-Control/">Version Control</a> 整理一些以前的例子，<a href="/2018/07/08/DevOps/Artifacts-Management/">Artifacts Management</a> 最後面的截圖舉了兩種例子。</p></blockquote><h3 id="版本管理與軟體開發"><a href="#版本管理與軟體開發" class="headerlink" title="版本管理與軟體開發"></a>版本管理與軟體開發</h3><p>By the way，我口語的 <code>版本管理</code> 跟大部分寫 Code 的 Engineer 是不一樣的意思，大部分 Engineer 談的都是 <code>VSC (Version Control System)</code>，像是 git &#x2F; svn &#x2F; p4 … 這種 <code>工具</code>，談的是分支策略, 或者是 git 怎麼操作 (man git)。</p><p>而我講的 <code>版本管理</code> 是 <a href="/2017/09/14/SoftwareEngineering/Software-Development-Lifecycle/">軟體開發週期 (SDLC)</a>，如何定義好版本 以及開發過程中，如何交付給別人使用，從使用者角度。</p><p>而這篇文章描述是我用來判斷是否了解 <a href="/2017/09/14/SoftwareEngineering/Software-Development-Lifecycle/">軟體開發週期 (SDLC)</a> 的依據之一，特別是擔任軟體 TPM &#x2F; PM &#x2F; PO 是必須清楚掌握的，因為無法掌握整個 SDLC，就是掌握不住團隊運作的 <code>節奏</code>，一首歌拍子不對，音符彈的再炫砲、技術再厲害，曲就是不成歌。</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="站內文章"><a href="#站內文章" class="headerlink" title="站內文章"></a>站內文章</h2><ul><li><a href="/2019/03/28/DevOps/DevOpsTaiwan-Meetup-Beginning-in-Artifacts-Management/">聊聊軟體交付的濫觴 談產出物管理 (Artifacts Management)</a></li><li><a href="/2015/02/11/SoftwareEngineering/Version-Control/">Version Control</a></li><li><a href="/2018/07/08/DevOps/Artifacts-Management/">Artifacts Management</a></li><li><a href="/2017/09/14/SoftwareEngineering/Software-Development-Lifecycle/">Software Development Lifecycle</a></li><li><a href="/2019/04/04/DevOps/Four-Pillars-of-Software-Delivery/">軟體交付的四大支柱 (Four Pillars of Software Delivery)</a></li></ul><h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><ul><li><a href="https://semver.org/">Semantic Versioning</a></li><li><a href="https://blog.philipphauer.de/version-numbers-continuous-delivery-maven-docker/">Version Numbers for Continuous Delivery with Maven and Docker</a></li></ul><!--// Step 1main(void) {    return 0;}@unitestmain_test() {    assert(main() == 0, true);}=> librick-v0.1.0-dev-2022120323.so// Step 2main(int x, int y) {    if (x < 0 || y < 0) {        return -1;    }    return x+y;}@unitestmain_test1() {    assert(main(1,3) == 4, true);}main_test2() {    assert(main(-1,-1) == -1, true);}=> librick-v0.1.0-dev-20221203334.so-->]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;幾年前的分享 &lt;a href=&quot;/2019/03/28/DevOps/DevOpsTaiwan-Meetup-Beginning-in-Artifacts-Management/&quot;&gt;聊聊軟體交付的濫觴 - 談產出物管理&lt;/a&gt;，簡報最後面留幾個問題讓大家思考。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/SoftwareEngineering/Artifact-And-VersionControl.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;最近有朋友私下敲我，問了最後一個問題：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;分支策略&lt;/code&gt; 跟 &lt;code&gt;Artifact Management&lt;/code&gt; 的關係？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;問題背後是他在新創團隊裡，遇到在處理分支策略的同時，也遇到如何打包 Artifact ，兩者的衝突與矛盾。&lt;/p&gt;
-&lt;p&gt;底下是我針對這個問題整理的摘要。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;本文重新整理我在 &lt;a href=&quot;https://www.facebook.com/rick.kyhwang/posts/10216798025462365&quot;&gt;FB&lt;/a&gt; 寫的草稿，之後嘗試錄了一段口述，提供給大家參考。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dkF_sGuwjjo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</summary>
-    
-    
-    
-    <category term="Software Engineering" scheme="https://rickhw.github.io/categories/Software-Engineering/"/>
-    
-    
-    <category term="Artifact Management" scheme="https://rickhw.github.io/tags/Artifact-Management/"/>
-    
-    <category term="Version Control" scheme="https://rickhw.github.io/tags/Version-Control/"/>
-    
-    <category term="Semantic Versioning" scheme="https://rickhw.github.io/tags/Semantic-Versioning/"/>
-    
-    <category term="Branch Strategies" scheme="https://rickhw.github.io/tags/Branch-Strategies/"/>
     
   </entry>
   
