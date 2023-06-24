@@ -47,16 +47,16 @@
   
   <entry>
     <title>分散式系統設計 - 摘要 API 通訊模式與協議</title>
-    <link href="https://rickhw.github.io/2023/06/30/DistributedSystems/API-Communication-Protocol/"/>
-    <id>https://rickhw.github.io/2023/06/30/DistributedSystems/API-Communication-Protocol/</id>
-    <published>2023-06-30T05:30:00.000Z</published>
-    <updated>2023-06-23T03:05:11.410Z</updated>
+    <link href="https://rickhw.github.io/2023/06/24/DistributedSystems/API-Communication-Protocol/"/>
+    <id>https://rickhw.github.io/2023/06/24/DistributedSystems/API-Communication-Protocol/</id>
+    <published>2023-06-24T05:30:00.000Z</published>
+    <updated>2023-06-24T04:25:59.930Z</updated>
     
-    <content type="html"><![CDATA[<p><code>API First</code> 在今天跨企業的系統交互越來越頻繁的今天，提供有效的擴展業務的快速方法。過往什麼功能都要自行開發，但卻因為內部資源不足，亦或者錯估新業務規模的深度與需求層次，造成投入沒有成效、或者必須不斷的加碼投入。</p><p>API First 的概念，背後其實就是雙方在技術上彼此溝通的通訊協議，透過這層協議，雙方可以更快速的仰賴彼此的擅長的領域，拓展業務。最常見的就是電商與支付系統的串接，電商與廣告服務商的整合、電商與電信系統的整合、與 ChatBot &#x2F; AI 整合 … 等。</p><p>開放 API 是個策略性決策，背後代表著要與合作夥伴達成策略聯盟，本質上是 B2B 的商業行為；同時開放 API 也意味著內部系統需要有高度整合，提供對外統一介面與標準，讓合作夥伴在開發過程，可以有一致性的使用介面與理解。</p><p>基於這樣的前提，只要是 API 對外開放，大概都要面對本文要提到的問題：<code>API 通訊模式與協議</code></p><span id="more"></span><h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><h2 id="通訊模式"><a href="#通訊模式" class="headerlink" title="通訊模式"></a>通訊模式</h2><p><code>通訊模式</code> 代表 API 對內、對外彼此交互的方式，整理如下圖：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/API-Comm-Mode_v20230623.png"></p><p>圖中定義的系統包含如下：</p><ol><li><code>API Platform</code>: 主要處理的是外部通訊請求，   <ul><li>架構角色包含 API Gateway, API Manaement, API Operation 等部分<ul><li>API Gateway: 職責包含 AAA, Traffic Control, Protection, Rate Limit, </li><li>Management: API 的 Publisher &#x2F; Scription, Token &amp; Key Management &#x2F; Lifecycle &#x2F; Documentation … 等。背後本質是 API Governance.</li><li>API Operation: 包含 Obervability &amp; Monitoring, APM, Tracing, Logging, Cache … 等.</li></ul></li><li>整合 API Platform 對外處理合作夥伴的 API 請求, 同時轉發請求給對應的內部服務.</li></ul></li><li><code>Service X</code>: 企業內部各種 Domain Services 的泛稱，像是訂單 &#x2F; 商品 &#x2F; 庫存 … 等.<ul><li>這些服務都是內部系統，不直接對外</li><li>這些服務跟服務之間的溝通，必須遵循 <code>內部通訊協議 (Internal Commucation Protocol, ICP)</code></li></ul></li><li><code>External Services</code>: 使用 API 的合作夥伴，這裡的案例是 B2B</li><li><code>Client</code>: 提供給 End User 使用的 GUI 介面形式，包含 Mobile, Desktop, Web … 等.</li></ol><p>這四個角色之間，彼此之間的溝通用不同顏色以及標示 (C2, B3, C4, C3, D4 … )，搭配 <code>情境矩陣</code> 收斂實際的範圍。</p><h2 id="情境矩陣"><a href="#情境矩陣" class="headerlink" title="情境矩陣"></a>情境矩陣</h2><p>這四個角色之間的通訊，有 16 種排列組合，整理出以下的情境矩陣：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/API-Comm-Scenario_v20230623.png"></p><p>這十六種排列組合，彼此之間都有可能會相互通訊，情境矩陣則展開了所有的可能，經過分析後，刪除不合理、不需要、不必要的排列組合 (A1, B2, C1 …)，確立我們需要關注的組合，最核心情境有以下：</p><ol><li><code>Session Base</code>: 排列組合中的 A2</li><li><code>External API</code>: 排列組合中的 B3, C4</li><li><code>Internal Commucation</code>: 排列組合中的 C3, D3, D4</li><li><code>External Invcation</code>: 排列組合中的 C2, D2</li></ol><p>有了這樣的定義與理解之後，針對每個通訊模式，就可以定義適當的 Context ，讓彼此有一致的標準溝通，包含 (但不限於) 以下：</p><ol><li>認證授權</li><li>服務治理</li><li>展開適當的架構設計</li><li>追蹤管理</li><li>API 設計方法</li><li>API 生態系的管理與治理</li><li>API 維運 </li><li>… etc.</li></ol><h2 id="小結"><a href="#小結" class="headerlink" title="小結"></a>小結</h2><p>下圖是網路上很有名的故事，個人覺得核心是「經營之道」：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/Biz.png"></p><p>故事摘要如下：</p><blockquote><p>第一個猶太人來到小鎮上開了個加油站，生意很旺。第二個猶太人來了，發現加油站生意很不錯，想到加油站的客戶需要吃飯，所以投資開了個餐館。第三個猶太人來了，想到來小鎮的人多了需要住宿，於是開了個飯店。第四個猶太人又發現住店的人需要生活用品，於是開了超市。第五個，第六個……來的人越來越多，吃飯住宿旅遊經商的人又需要加油，於是加油站、餐館、飯店、超市的生意相繼更旺了，逐步小鎮就成了一個經濟繁榮的小鎮，很多猶太人都富裕了。</p><p>第一個中國人來到小鎮上開了個加油站，生意很旺。第二個中國人來了，發現第一個人投資的加油站生意真令人羨慕，趕緊開了第二個加油站。第三個中國人又來了，看見前面2個同胞的加油站生意很好妒嫉得眼紅，火速開了第三個加油站。第四，第五個同胞過來都是一樣，開加油站還打折促銷……最後惡性競爭，然後紛紛倒閉，小鎮又回到原點……</p></blockquote><p>先不論故事中的反諷，但是猶太人的重點就在於經營的過程，透過整合的方式，而不是硬碰硬，透過共榮、相互依存的概念，集結成一個生態系。API 本身就是生態系中的一環，企業透過開放 API，與其他異業結合，相互協助、相互依存，形成一個生態系。</p><p>有了這個核心的模式與情境，接下來就可以討論實際上架構設計時的選擇與設計思路，以及市面上的解決方案。</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="站內文章"><a href="#站內文章" class="headerlink" title="站內文章"></a>站內文章</h2><ul><li><a href="/2021/05/14/DistributedSystems/Service-Governance/">聊聊分散式架構的服務治理</a></li><li><a href="/2022/07/04/DistributedSystems/Inspired-Design-From-Eclipse/">摘要 Eclipse 設計的啟發：當代 SaaS 分散式架構的關鍵設計</a></li><li><a href="/2018/01/24/DistributedSystems/Overview-API-Gateway/">Overview API Gateway</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p><code>API First</code> 在跨企業的系統交互越來越頻繁的今天，提供有效的擴展業務的方法。過往什麼功能都要自行開發，但卻因為內部資源不足；亦或錯估新業務規模的深度與需求層次，造成投入沒有成效、或者必須不斷的加碼投入，最後才意會到，這是個獨立領域，需要獨立的專業團隊，像是 MarTech、支付、通訊 …</p><p>API First 的概念，背後是雙方在技術上彼此溝通的通訊協議，透過這層協議，雙方可以更快速的仰賴彼此的擅長的領域，進而拓展業務。最常見的就是電商與支付系統、廣告服務、電信系統、物流業、與 ChatBot &#x2F; AI … 等整合。</p><p>開放 API 是個策略性決策，背後代表著要與合作夥伴達成策略聯盟，本質上是 B2B 的商業行為；同時開放 API 也意味著內部系統需要有高度整合，提供對外統一介面與標準，讓合作夥伴在開發過程，可以有一致性的使用介面與理解。</p><p>基於這樣的前提，只要是 API 對外開放，大概都要面對本文要提到的問題：<code>API 通訊模式與協議</code></p><span id="more"></span><h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文摘要基於 B2B 的業務模式，開放 API 時必須要規劃的對內、對外通訊模式，以及分析實務上的情境組合。</p><h2 id="通訊模式"><a href="#通訊模式" class="headerlink" title="通訊模式"></a>通訊模式</h2><p><code>通訊模式</code> 代表 API 對內、對外彼此交互的方式，整理如下圖：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/API-Comm-Mode_v20230623.png"></p><p>圖中定義的系統包含如下：</p><ol><li><code>API Platform</code>: 主要處理的是外部通訊請求，   <ul><li>架構角色包含 API Gateway, API Manaement, API Operation 等部分<ul><li>API Gateway: 職責包含 AAA, Traffic Control, Protection, Rate Limit, </li><li>Management: API 的 Publisher &#x2F; Scription, Token &amp; Key Management &#x2F; Lifecycle &#x2F; Documentation … 等。背後本質是 API Governance.</li><li>API Operation: 包含 Obervability &amp; Monitoring, APM, Tracing, Logging, Cache … 等.</li></ul></li><li>整合 API Platform 對外處理合作夥伴的 API 請求, 同時轉發請求給對應的內部服務.</li></ul></li><li><code>Service X</code>: 企業內部各種 Domain Services 的泛稱，像是訂單 &#x2F; 商品 &#x2F; 庫存 … 等.<ul><li>這些服務都是內部系統，不直接對外</li><li>這些服務跟服務之間的溝通，必須遵循 <code>內部通訊協議 (Internal Commucation Protocol, ICP)</code></li></ul></li><li><code>External Services</code>: 使用 API 的合作夥伴，這裡的案例是 B2B</li><li><code>Client</code>: 提供給 End User 使用的 GUI 介面形式，包含 Mobile, Desktop, Web … 等.</li></ol><p>這四個角色之間，彼此之間的溝通用不同顏色以及標示 (C2, B3, C4, C3, D4 … )，搭配 <code>情境矩陣</code> 收斂實際的範圍。</p><h2 id="情境矩陣"><a href="#情境矩陣" class="headerlink" title="情境矩陣"></a>情境矩陣</h2><p>這四個角色之間的通訊，有 16 種排列組合，整理出以下的情境矩陣：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/API-Comm-Scenario_v20230623.png"></p><p>這十六種排列組合，彼此之間都有可能會相互通訊，情境矩陣則展開了所有的可能，經過分析後，刪除不合理、不需要、不必要的排列組合 (A1, B2, C1 …)，確立我們需要關注的組合，最核心情境有以下：</p><ol><li><code>Session Base</code>: 排列組合中的 A2</li><li><code>External API</code>: 排列組合中的 B3, C4</li><li><code>Internal Commucation</code>: 排列組合中的 C3, D3, D4</li><li><code>External Invcation</code>: 排列組合中的 C2, D2</li></ol><p>有了這樣的定義與理解之後，針對每個通訊模式，就可以定義適當的 Context ，讓彼此有一致的標準溝通，包含 (但不限於) 以下：</p><ol><li>認證授權</li><li>服務治理</li><li>展開適當的架構設計</li><li>追蹤管理</li><li>API 設計方法</li><li>API 生態系的管理與治理</li><li>API 維運 </li><li>… etc.</li></ol><h2 id="小結"><a href="#小結" class="headerlink" title="小結"></a>小結</h2><p>下圖是網路上很有名的故事，個人覺得核心是「經營之道」：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/Biz.png"></p><p>故事摘要如下：</p><blockquote><p>第一個猶太人來到小鎮上開了個加油站，生意很旺。第二個猶太人來了，發現加油站生意很不錯，想到加油站的客戶需要吃飯，所以投資開了個餐館。第三個猶太人來了，想到來小鎮的人多了需要住宿，於是開了個飯店。第四個猶太人又發現住店的人需要生活用品，於是開了超市。第五個，第六個……來的人越來越多，吃飯住宿旅遊經商的人又需要加油，於是加油站、餐館、飯店、超市的生意相繼更旺了，逐步小鎮就成了一個經濟繁榮的小鎮，很多猶太人都富裕了。</p><p>第一個中國人來到小鎮上開了個加油站，生意很旺。第二個中國人來了，發現第一個人投資的加油站生意真令人羨慕，趕緊開了第二個加油站。第三個中國人又來了，看見前面2個同胞的加油站生意很好妒嫉得眼紅，火速開了第三個加油站。第四，第五個同胞過來都是一樣，開加油站還打折促銷……最後惡性競爭，然後紛紛倒閉，小鎮又回到原點……</p></blockquote><p>先不論故事中的反諷，但是猶太人的重點就在於經營的過程，透過整合的方式，而不是硬碰硬，透過共榮、相互依存的概念，集結成一個生態系。API 本身就是生態系中的一環，企業透過開放 API，與其他異業結合，相互協助、相互依存，形成一個生態系。</p><p>有了這個核心的模式與情境，接下來就可以討論實際上架構設計時的選擇與設計思路，以及市面上的解決方案。</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="站內文章"><a href="#站內文章" class="headerlink" title="站內文章"></a>站內文章</h2><ul><li><a href="/2021/05/14/DistributedSystems/Service-Governance/">聊聊分散式架構的服務治理</a></li><li><a href="/2022/07/04/DistributedSystems/Inspired-Design-From-Eclipse/">摘要 Eclipse 設計的啟發：當代 SaaS 分散式架構的關鍵設計</a></li><li><a href="/2018/01/24/DistributedSystems/Overview-API-Gateway/">Overview API Gateway</a></li></ul>]]></content>
     
     
-    <summary type="html">&lt;p&gt;&lt;code&gt;API First&lt;/code&gt; 在今天跨企業的系統交互越來越頻繁的今天，提供有效的擴展業務的快速方法。過往什麼功能都要自行開發，但卻因為內部資源不足，亦或者錯估新業務規模的深度與需求層次，造成投入沒有成效、或者必須不斷的加碼投入。&lt;/p&gt;
-&lt;p&gt;API First 的概念，背後其實就是雙方在技術上彼此溝通的通訊協議，透過這層協議，雙方可以更快速的仰賴彼此的擅長的領域，拓展業務。最常見的就是電商與支付系統的串接，電商與廣告服務商的整合、電商與電信系統的整合、與 ChatBot &amp;#x2F; AI 整合 … 等。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;code&gt;API First&lt;/code&gt; 在跨企業的系統交互越來越頻繁的今天，提供有效的擴展業務的方法。過往什麼功能都要自行開發，但卻因為內部資源不足；亦或錯估新業務規模的深度與需求層次，造成投入沒有成效、或者必須不斷的加碼投入，最後才意會到，這是個獨立領域，需要獨立的專業團隊，像是 MarTech、支付、通訊 …&lt;/p&gt;
+&lt;p&gt;API First 的概念，背後是雙方在技術上彼此溝通的通訊協議，透過這層協議，雙方可以更快速的仰賴彼此的擅長的領域，進而拓展業務。最常見的就是電商與支付系統、廣告服務、電信系統、物流業、與 ChatBot &amp;#x2F; AI … 等整合。&lt;/p&gt;
 &lt;p&gt;開放 API 是個策略性決策，背後代表著要與合作夥伴達成策略聯盟，本質上是 B2B 的商業行為；同時開放 API 也意味著內部系統需要有高度整合，提供對外統一介面與標準，讓合作夥伴在開發過程，可以有一致性的使用介面與理解。&lt;/p&gt;
 &lt;p&gt;基於這樣的前提，只要是 API 對外開放，大概都要面對本文要提到的問題：&lt;code&gt;API 通訊模式與協議&lt;/code&gt;&lt;/p&gt;</summary>
     
@@ -148,11 +148,11 @@
     <category term="Container" scheme="https://rickhw.github.io/categories/Container/"/>
     
     
+    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
+    
     <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
     
     <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
-    
-    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
     
     <category term="Macbook Pro M1" scheme="https://rickhw.github.io/tags/Macbook-Pro-M1/"/>
     
@@ -206,11 +206,11 @@
     <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
     
     
-    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
-    
     <category term="Published-SRE1" scheme="https://rickhw.github.io/tags/Published-SRE1/"/>
     
     <category term="Gitlab" scheme="https://rickhw.github.io/tags/Gitlab/"/>
+    
+    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
     
     <category term="Continuous Integration" scheme="https://rickhw.github.io/tags/Continuous-Integration/"/>
     
@@ -234,11 +234,11 @@
     <category term="經營管理" scheme="https://rickhw.github.io/categories/%E7%B6%93%E7%87%9F%E7%AE%A1%E7%90%86/"/>
     
     
+    <category term="Design" scheme="https://rickhw.github.io/tags/Design/"/>
+    
     <category term="QBQ" scheme="https://rickhw.github.io/tags/QBQ/"/>
     
     <category term="PBQ" scheme="https://rickhw.github.io/tags/PBQ/"/>
-    
-    <category term="Design" scheme="https://rickhw.github.io/tags/Design/"/>
     
     <category term="Thinking" scheme="https://rickhw.github.io/tags/Thinking/"/>
     
@@ -492,9 +492,11 @@
     <category term="Distributed Systems" scheme="https://rickhw.github.io/categories/Distributed-Systems/"/>
     
     
-    <category term="Pub/Sub" scheme="https://rickhw.github.io/tags/Pub-Sub/"/>
+    <category term="Operating System" scheme="https://rickhw.github.io/tags/Operating-System/"/>
     
     <category term="Java" scheme="https://rickhw.github.io/tags/Java/"/>
+    
+    <category term="Pub/Sub" scheme="https://rickhw.github.io/tags/Pub-Sub/"/>
     
     <category term="Eclipse" scheme="https://rickhw.github.io/tags/Eclipse/"/>
     
@@ -507,8 +509,6 @@
     <category term="Extension" scheme="https://rickhw.github.io/tags/Extension/"/>
     
     <category term="Design Thinking" scheme="https://rickhw.github.io/tags/Design-Thinking/"/>
-    
-    <category term="Operating System" scheme="https://rickhw.github.io/tags/Operating-System/"/>
     
     <category term="Multi-Tenancy" scheme="https://rickhw.github.io/tags/Multi-Tenancy/"/>
     
@@ -588,11 +588,11 @@
     <category term="Coding" scheme="https://rickhw.github.io/categories/Coding/"/>
     
     
-    <category term="Configuration" scheme="https://rickhw.github.io/tags/Configuration/"/>
-    
     <category term="DI" scheme="https://rickhw.github.io/tags/DI/"/>
     
     <category term="Application Interface Spec" scheme="https://rickhw.github.io/tags/Application-Interface-Spec/"/>
+    
+    <category term="Configuration" scheme="https://rickhw.github.io/tags/Configuration/"/>
     
     <category term="Dependency Injection" scheme="https://rickhw.github.io/tags/Dependency-Injection/"/>
     
