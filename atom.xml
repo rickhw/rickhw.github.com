@@ -6,7 +6,7 @@
   <link href="https://rickhw.github.io/atom.xml" rel="self"/>
   
   <link href="https://rickhw.github.io/"/>
-  <updated>2023-07-01T23:37:15.674Z</updated>
+  <updated>2023-07-01T23:37:15.675Z</updated>
   <id>https://rickhw.github.io/</id>
   
   <author>
@@ -15,36 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>置頂 - 全站索引</title>
-    <link href="https://rickhw.github.io/2035/01/21/Index/"/>
-    <id>https://rickhw.github.io/2035/01/21/Index/</id>
-    <published>2035-01-21T02:30:00.000Z</published>
-    <updated>2023-07-01T23:37:15.674Z</updated>
-    
-    <content type="html"><![CDATA[<p>這篇是整個 Blog 的全站索引，如果您是第一次來這裡，可以先看看這篇索引，大概知道 Blog 的全貌：</p><ul><li>[理念] <a href="/2017/11/26/Thinking-in-Essence/">思考本質、實踐、抽象、想像力、教育</a></li><li>[目錄] <a href="/2017/07/01/Index-Management/">經營管理</a>: 整理管理經驗談、管理哲學、經營、領導、用人之道、學習方法、專案管理</li><li>[目錄] <a href="/2017/07/01/Index-Software-Engineering-In-Practice/">軟體工程實踐</a>: 包含軟體架構、開發、測試、維運等 … 實踐的心得。</li><li>[目錄] <a href="/categories/Distributed-Systems">分散式系統</a>，包含分散式系統理論、Cloud Native - <a href="/tags/Kubernetes/">Kubernetes</a>、<a href="/2016/10/01/AWS-Study-Roadmap/">AWS</a>。</li><li>[參考] <a href="/2017/07/01/Reference/Books/">參考書</a>、<a href="/2017/07/01/Reference/Tech-Terms/">資訊技術與工程專有名詞</a>、<a href="/2017/07/01/Reference/SC-Terms/">計算機科學專有名詞</a>、<a href="/2017/07/01/Reference/Mgmt-Terms/">經營管理專有名詞</a></li><li>[系列文] <a href="/tags/Bus-Memo/">公車隨筆</a>、<a href="/tags/Learning-Approaches/">寫作與閱讀系列文</a>、<a href="/tags/%E6%BA%9D%E9%80%9A/">溝通</a>、<a href="/tags/Meetings/">會議效率</a></li><li>[關於] <a href="/2017/12/29/About/About-This-Blog/">這個部落格</a>、<a href="/2017/12/29/About/About-Author/">關於作者</a>、<a href="/2017/09/20/About/Learning-Approaches/">學習法則</a>、<a href="/2014/12/27/Management/%E7%B6%93%E7%87%9F%E4%B9%8B%E9%81%93/">經營之道</a>、<a href="/2017/12/02/About/Epiphany/">一些領悟</a>、<a href="/2014/10/26/Management/Classified-Philosophy/">分類哲學</a></li><li>[站內記事]: <a href="/2035/01/21/Updated/">文章更新紀錄</a>, <a href="/2013/11/26/Stats/">點閱率統計</a></li></ul><blockquote><p>不管是程式、文章、資料、還是房間，我都會定期重新整理 &#x2F; 重構，核心概念來自於 <a href="/2014/10/26/Management/Classified-Philosophy/">分類的哲學</a></p></blockquote><span id="more"></span>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;這篇是整個 Blog 的全站索引，如果您是第一次來這裡，可以先看看這篇索引，大概知道 Blog 的全貌：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[理念] &lt;a href=&quot;/2017/11/26/Thinking-in-Essence/&quot;&gt;思考本質、實踐、抽象、想像力、教育&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[目錄] &lt;a href=&quot;/2017/07/01/Index-Management/&quot;&gt;經營管理&lt;/a&gt;: 整理管理經驗談、管理哲學、經營、領導、用人之道、學習方法、專案管理&lt;/li&gt;
-&lt;li&gt;[目錄] &lt;a href=&quot;/2017/07/01/Index-Software-Engineering-In-Practice/&quot;&gt;軟體工程實踐&lt;/a&gt;: 包含軟體架構、開發、測試、維運等 … 實踐的心得。&lt;/li&gt;
-&lt;li&gt;[目錄] &lt;a href=&quot;/categories/Distributed-Systems&quot;&gt;分散式系統&lt;/a&gt;，包含分散式系統理論、Cloud Native - &lt;a href=&quot;/tags/Kubernetes/&quot;&gt;Kubernetes&lt;/a&gt;、&lt;a href=&quot;/2016/10/01/AWS-Study-Roadmap/&quot;&gt;AWS&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;[參考] &lt;a href=&quot;/2017/07/01/Reference/Books/&quot;&gt;參考書&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/Tech-Terms/&quot;&gt;資訊技術與工程專有名詞&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/SC-Terms/&quot;&gt;計算機科學專有名詞&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/Mgmt-Terms/&quot;&gt;經營管理專有名詞&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[系列文] &lt;a href=&quot;/tags/Bus-Memo/&quot;&gt;公車隨筆&lt;/a&gt;、&lt;a href=&quot;/tags/Learning-Approaches/&quot;&gt;寫作與閱讀系列文&lt;/a&gt;、&lt;a href=&quot;/tags/%E6%BA%9D%E9%80%9A/&quot;&gt;溝通&lt;/a&gt;、&lt;a href=&quot;/tags/Meetings/&quot;&gt;會議效率&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[關於] &lt;a href=&quot;/2017/12/29/About/About-This-Blog/&quot;&gt;這個部落格&lt;/a&gt;、&lt;a href=&quot;/2017/12/29/About/About-Author/&quot;&gt;關於作者&lt;/a&gt;、&lt;a href=&quot;/2017/09/20/About/Learning-Approaches/&quot;&gt;學習法則&lt;/a&gt;、&lt;a href=&quot;/2014/12/27/Management/%E7%B6%93%E7%87%9F%E4%B9%8B%E9%81%93/&quot;&gt;經營之道&lt;/a&gt;、&lt;a href=&quot;/2017/12/02/About/Epiphany/&quot;&gt;一些領悟&lt;/a&gt;、&lt;a href=&quot;/2014/10/26/Management/Classified-Philosophy/&quot;&gt;分類哲學&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[站內記事]: &lt;a href=&quot;/2035/01/21/Updated/&quot;&gt;文章更新紀錄&lt;/a&gt;, &lt;a href=&quot;/2013/11/26/Stats/&quot;&gt;點閱率統計&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不管是程式、文章、資料、還是房間，我都會定期重新整理 &amp;#x2F; 重構，核心概念來自於 &lt;a href=&quot;/2014/10/26/Management/Classified-Philosophy/&quot;&gt;分類的哲學&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>置頂 - 更新文章</title>
@@ -96,6 +66,67 @@
   </entry>
   
   <entry>
+    <title>置頂 - 全站索引</title>
+    <link href="https://rickhw.github.io/2035/01/21/Index/"/>
+    <id>https://rickhw.github.io/2035/01/21/Index/</id>
+    <published>2035-01-21T02:30:00.000Z</published>
+    <updated>2023-07-01T23:37:15.674Z</updated>
+    
+    <content type="html"><![CDATA[<p>這篇是整個 Blog 的全站索引，如果您是第一次來這裡，可以先看看這篇索引，大概知道 Blog 的全貌：</p><ul><li>[理念] <a href="/2017/11/26/Thinking-in-Essence/">思考本質、實踐、抽象、想像力、教育</a></li><li>[目錄] <a href="/2017/07/01/Index-Management/">經營管理</a>: 整理管理經驗談、管理哲學、經營、領導、用人之道、學習方法、專案管理</li><li>[目錄] <a href="/2017/07/01/Index-Software-Engineering-In-Practice/">軟體工程實踐</a>: 包含軟體架構、開發、測試、維運等 … 實踐的心得。</li><li>[目錄] <a href="/categories/Distributed-Systems">分散式系統</a>，包含分散式系統理論、Cloud Native - <a href="/tags/Kubernetes/">Kubernetes</a>、<a href="/2016/10/01/AWS-Study-Roadmap/">AWS</a>。</li><li>[參考] <a href="/2017/07/01/Reference/Books/">參考書</a>、<a href="/2017/07/01/Reference/Tech-Terms/">資訊技術與工程專有名詞</a>、<a href="/2017/07/01/Reference/SC-Terms/">計算機科學專有名詞</a>、<a href="/2017/07/01/Reference/Mgmt-Terms/">經營管理專有名詞</a></li><li>[系列文] <a href="/tags/Bus-Memo/">公車隨筆</a>、<a href="/tags/Learning-Approaches/">寫作與閱讀系列文</a>、<a href="/tags/%E6%BA%9D%E9%80%9A/">溝通</a>、<a href="/tags/Meetings/">會議效率</a></li><li>[關於] <a href="/2017/12/29/About/About-This-Blog/">這個部落格</a>、<a href="/2017/12/29/About/About-Author/">關於作者</a>、<a href="/2017/09/20/About/Learning-Approaches/">學習法則</a>、<a href="/2014/12/27/Management/%E7%B6%93%E7%87%9F%E4%B9%8B%E9%81%93/">經營之道</a>、<a href="/2017/12/02/About/Epiphany/">一些領悟</a>、<a href="/2014/10/26/Management/Classified-Philosophy/">分類哲學</a></li><li>[站內記事]: <a href="/2035/01/21/Updated/">文章更新紀錄</a>, <a href="/2013/11/26/Stats/">點閱率統計</a></li></ul><blockquote><p>不管是程式、文章、資料、還是房間，我都會定期重新整理 &#x2F; 重構，核心概念來自於 <a href="/2014/10/26/Management/Classified-Philosophy/">分類的哲學</a></p></blockquote><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;這篇是整個 Blog 的全站索引，如果您是第一次來這裡，可以先看看這篇索引，大概知道 Blog 的全貌：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[理念] &lt;a href=&quot;/2017/11/26/Thinking-in-Essence/&quot;&gt;思考本質、實踐、抽象、想像力、教育&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[目錄] &lt;a href=&quot;/2017/07/01/Index-Management/&quot;&gt;經營管理&lt;/a&gt;: 整理管理經驗談、管理哲學、經營、領導、用人之道、學習方法、專案管理&lt;/li&gt;
+&lt;li&gt;[目錄] &lt;a href=&quot;/2017/07/01/Index-Software-Engineering-In-Practice/&quot;&gt;軟體工程實踐&lt;/a&gt;: 包含軟體架構、開發、測試、維運等 … 實踐的心得。&lt;/li&gt;
+&lt;li&gt;[目錄] &lt;a href=&quot;/categories/Distributed-Systems&quot;&gt;分散式系統&lt;/a&gt;，包含分散式系統理論、Cloud Native - &lt;a href=&quot;/tags/Kubernetes/&quot;&gt;Kubernetes&lt;/a&gt;、&lt;a href=&quot;/2016/10/01/AWS-Study-Roadmap/&quot;&gt;AWS&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;[參考] &lt;a href=&quot;/2017/07/01/Reference/Books/&quot;&gt;參考書&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/Tech-Terms/&quot;&gt;資訊技術與工程專有名詞&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/SC-Terms/&quot;&gt;計算機科學專有名詞&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/Mgmt-Terms/&quot;&gt;經營管理專有名詞&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[系列文] &lt;a href=&quot;/tags/Bus-Memo/&quot;&gt;公車隨筆&lt;/a&gt;、&lt;a href=&quot;/tags/Learning-Approaches/&quot;&gt;寫作與閱讀系列文&lt;/a&gt;、&lt;a href=&quot;/tags/%E6%BA%9D%E9%80%9A/&quot;&gt;溝通&lt;/a&gt;、&lt;a href=&quot;/tags/Meetings/&quot;&gt;會議效率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[關於] &lt;a href=&quot;/2017/12/29/About/About-This-Blog/&quot;&gt;這個部落格&lt;/a&gt;、&lt;a href=&quot;/2017/12/29/About/About-Author/&quot;&gt;關於作者&lt;/a&gt;、&lt;a href=&quot;/2017/09/20/About/Learning-Approaches/&quot;&gt;學習法則&lt;/a&gt;、&lt;a href=&quot;/2014/12/27/Management/%E7%B6%93%E7%87%9F%E4%B9%8B%E9%81%93/&quot;&gt;經營之道&lt;/a&gt;、&lt;a href=&quot;/2017/12/02/About/Epiphany/&quot;&gt;一些領悟&lt;/a&gt;、&lt;a href=&quot;/2014/10/26/Management/Classified-Philosophy/&quot;&gt;分類哲學&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[站內記事]: &lt;a href=&quot;/2035/01/21/Updated/&quot;&gt;文章更新紀錄&lt;/a&gt;, &lt;a href=&quot;/2013/11/26/Stats/&quot;&gt;點閱率統計&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不管是程式、文章、資料、還是房間，我都會定期重新整理 &amp;#x2F; 重構，核心概念來自於 &lt;a href=&quot;/2014/10/26/Management/Classified-Philosophy/&quot;&gt;分類的哲學&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SRE 常見問題 - 訪談紀錄</title>
+    <link href="https://rickhw.github.io/2023/07/06/DevOps/SRE-FAQ/"/>
+    <id>https://rickhw.github.io/2023/07/06/DevOps/SRE-FAQ/</id>
+    <published>2023-07-06T04:43:00.000Z</published>
+    <updated>2023-07-06T11:41:28.119Z</updated>
+    
+    <content type="html"><![CDATA[<p>整理一段關於 SRE 問題的訪談紀錄，歡迎大家提供不一樣的經驗與想法。</p><span id="more"></span><h2 id="Q1-企業內部的-SRE-與-DevOps-工作內容與分工？"><a href="#Q1-企業內部的-SRE-與-DevOps-工作內容與分工？" class="headerlink" title="Q1. 企業內部的 SRE 與 DevOps 工作內容與分工？"></a>Q1. 企業內部的 SRE 與 DevOps 工作內容與分工？</h2><p>這要看企業規模，而且大部分企業對於 DevOps &#x2F; SRE 的理解與定義可能都有差異。</p><p>個人經歷過大多是這樣分：</p><ul><li><code>Feature Team / DevOps</code>: 負責業務邏輯的開發團隊 (Scrum Team)，團隊裡可能有一個或多個專屬的 DevOps Engineer 負責處理所有的 CI &#x2F; CD 工作。 </li><li><code>Infra Team / SRE</code>: 負責處理 App 以外的東西，包含 Cloud &#x2F; Network &#x2F; Cost &#x2F; Provisioning &#x2F; Observability  &#x2F; Monitoring &#x2F; Architecture &#x2F; Artifact Repos &#x2F; CI&#x2F;CD 平台 &#x2F; Security …. Etc.</li></ul><p>實務上，少於 500 人的企業，這兩個角色對老闆來講，是沒差的；大於 500 人的企業，這兩個角色對老闆來講，還是沒差。。。</p><p>所以有時候工作上，不要太糾結自己的範圍，而是要思考，現在處在的環境，自己要怎麼做才會有貢獻 (亮點)。</p><p>換個角度想：</p><blockquote><p>你花了 5 萬塊，一個月請一個人，希望得到什麼？</p></blockquote><p>聽起來像是幹話，但很現實，因為勞雇就是一種買賣。</p><h2 id="Q2-SRE-工程師，需要具備的基礎技能有哪些？"><a href="#Q2-SRE-工程師，需要具備的基礎技能有哪些？" class="headerlink" title="Q2. SRE 工程師，需要具備的基礎技能有哪些？"></a>Q2. SRE 工程師，需要具備的基礎技能有哪些？</h2><p>依照 SRE 原文的定義，我認為的 SRE 本質是：</p><blockquote><p>用軟體工程，解決維運任務</p></blockquote><p>這句話我這樣拆解：</p><ul><li><code>專業職能</code>：軟體工程，包含程式設計&amp;開發&amp;測試 &#x2F; 系統工程＆架構</li><li><code>領域知識</code>：系統維運，包含異常處理, 事件管理, 自動化工程 … 很多，可以參閱我以前整理的 <a href="/2018/03/29/About/2018-Serverless-All-Star/">R&amp;R 分布圖</a></li></ul><p>專業技能：</p><ul><li><code>Programming</code>: Python&#x2F;Golang, Web, RDB, Cache, Queue.</li><li><code>Networking</code>: Protocol (TCP &#x2F; UDP &#x2F; HTTP &#x2F; DNS &#x2F; BGP  …), Network Devices (Switch &#x2F; Router &#x2F; AP … etc)</li><li><code>System</code>: Public Cloud, OS (Linux, OS), Storage</li><li>Observability &amp; Monitoring</li></ul><p>專業技能很粗略地寫，因為這些內容的技術過幾年就會翻一輪，實務上用人不會找 100% 符合的 (也找不到)，更多是找基礎好、可以栽培、個性積極的，當然要解釋成成本考量也是可以的。</p><h2 id="Q3-在建置-SRE-團隊中，過程有遇到哪些痛點？"><a href="#Q3-在建置-SRE-團隊中，過程有遇到哪些痛點？" class="headerlink" title="Q3. 在建置 SRE 團隊中，過程有遇到哪些痛點？"></a>Q3. 在建置 SRE 團隊中，過程有遇到哪些痛點？</h2><p>所謂「痛點」要看用什麼角度來看，政治問題是避免不了的。大多在業務上站上位置的角色，都是強勢的一方，也就是上位。這在任何企業都一樣，不管什麼產業都一樣，因為企業本質就是賺錢，開源單位講話大聲，成本單位大多能做的是滿足他們，這樣的供需關係，在很多企業裡都差不多，能改變關係的是少數。</p><p>所以大部分的現象 (不是問題) 都是組織結構上任務與資源不對等，更多的是 R&amp;R 不分，執行任務過程勞心、勞力、傷神又傷心，衍生的感覺就是「痛點」。(上述現象，把 SRE 換成 QA 一樣適用)</p><p>用人與人才培養也是問題，但是不能算是痛點，這方面需要耐心與信心，創造機會與耐心教導，還是可以做得好。</p><p>再來是怎麼讓 Feature Team 與 Infra &#x2F; SRE Team 能夠有效協作的「共識」，也就是制度。當遇到一件事情的時候，該怎麼區分這件事情的 ownership？官大說了算？該怎麼理性溝通？例如線上炸鍋，炸鍋解決了，因為系統資源不足，所以 Responsiblity 就是在 SRE &#x2F; Infra？大多是，實務上很多就是「政治」角力，讓這件事情正確的 R&amp;R 歪掉。</p><p>這個案例，大概是實務上的痛點，因為資源不足，更多時候是程式改善可以解決，但有時候「用錢能解決的問題不是問題」，就蓋過真正的問題了，那個問題幾年後通常會再爆出來，但已經沒人知道為什麼了 (省略一本書的故事 ….</p><p>可能的解法：建立一個可以跟 Feature Team 協作的制度，概念類似 AWS 的 Shared Responsibility。但建立這個「雙方」的智度，要有「自己」的制度，讓自己的制度動起來，站穩腳步。然後再去跟 Feature team 討論雙方的制度。大概的概念可以參閱我 S<a href="/2022/05/10/About/2022-SREConf2022/">SRE Conf 2022 分享</a> 的 P58.</p><h2 id="Q4-過去是怎麼進行內部-SRE-人才培訓？"><a href="#Q4-過去是怎麼進行內部-SRE-人才培訓？" class="headerlink" title="Q4. 過去是怎麼進行內部 SRE 人才培訓？"></a>Q4. 過去是怎麼進行內部 SRE 人才培訓？</h2><p>務實面：</p><ol><li>手把手教，以 Python &#x2F; Cloud 為主，像是 Python runs on Lambda (AWS)，Export as API。<ul><li>從簡單的日常維運開始，像是備份、檢查 DNS &#x2F; SSL 過期 &#x2F; Health Check，可以玩 Cloud + Programming，不會太難，又有成就感。</li></ul></li><li>訓練開發 API 封裝 Public Cloud &#x2F; SaaS 的功能，提供給 CI &#x2F; CD 整合時、維運時使用<ul><li>減少 Feature Team 接觸 Cloud 的面積，因為大部分的 Public Cloud 的功能只能用到 20%，很容易讓人有選擇困難，透過 API 封裝，簡化 Feature team 的使用難度，又可以讓 SRE 設計 API &#x2F; Coding，雙贏。</li><li>更多參閱 <a href="/2022/05/10/About/2022-SREConf2022/">SRE Conf 2022 分享</a> 的 P47.</li></ul></li><li>資深一點的：透過 GitOps 的方法，設計較複雜的架構，像是非同步排程任務，只要 commit 就可以發動任務.<ul><li>這是長期策略，也就是未來雙方協作都是透過 GitOps 驅動</li><li>Policy as Code 的第一步。</li><li>看到 Code 一翻兩瞪眼，雙方容易聚焦，減少爭議</li></ul></li><li>訓練處理異常：從異常中學習架構是怎麼一回事，系統是怎麼運作的<ul><li>一個 Request 第一次跟第二次 Latency 不一樣，這是怎麼一回事？</li><li>就像醫生看到症狀，就可以大概知道問題在哪。但前提是醫生是了解人體結構與運作原理的，SRE 了解架構，才有辦法隔空抓藥。</li></ul></li></ol><p>管理角度，可以參閱我寫的 <a href="https://www.facebook.com/rick.kyhwang/posts/pfbid0tWjKzm9BnagRqknGrnXfzA2DbqTCq1xCcFTdZjvRtkA2pu1rLSbpvfsYGFAe9Mtdl">人才發展策略地圖 (草稿)</a>，這份草稿不止 SRE，只要是軟體開發團隊都適用。</p><h2 id="Q5-在-SRE-人才的培育上，應該要上哪些課程？"><a href="#Q5-在-SRE-人才的培育上，應該要上哪些課程？" class="headerlink" title="Q5. 在 SRE 人才的培育上，應該要上哪些課程？"></a>Q5. 在 SRE 人才的培育上，應該要上哪些課程？</h2><p>如果我有機會規劃學程，快速摘要一些想法，不見得可行，但是要先有一版出來 (先有再求好)。</p><p>3 + 3 代表三學分，兩個學期，如果是專職課程，3 &#x3D; 6 個月</p><ul><li>API 開發 (3 + 3): Python &#x2F; Golang, Cache, Queue, OpenAPI</li><li>網路基礎 (3 + 3)</li><li>軟體交付實務 (3 + 3)</li><li>監控 實務 (3 + 3)</li><li>架構 (3 + 3 + 3): Public Cloud &#x2F; K8s</li><li>分散式系統 (3 + 3): 可以參閱最近 <a href="https://sre.google/classroom/imageserver/?fbclid=IwAR1ncyFGKq7Kv3EVLl3REJun5xMp29Wntan3ZaqPRuC2xmei2hQ_hAKmAuY">Google 出的課程</a></li></ul><p>CS 有以下:</p><ul><li>OS &#x2F; Compute Architecture</li><li>Networking</li><li>Database</li><li>Programming (3+3) &#x2F; Data structure &#x2F; Algorithm</li></ul><p>是否一定要 CS (計算機科學 &#x2F; 資工 &#x2F; 資管) 背景？我個人希望要有，最好是數學相關背景的。當然，這是我個人的偏好而已。我也用過不是這樣背景，但表現也非常優秀的人。</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="站內文章"><a href="#站內文章" class="headerlink" title="站內文章"></a>站內文章</h2><ul><li>推薦：<a href="/2018/08/03/DevOps/An-Introduction-to-SRE/">Site Reliability Engineering (SRE, 網站可靠性工程)</a></li><li>演講：<a href="/2022/05/10/About/2022-SREConf2022/">SRE Conference 2022 - 91APP 在 AWS 上的 SRE 實踐之路</a></li><li>演講：<a href="/2018/03/29/About/2018-Serverless-All-Star/">Serverless All-Star - Ops as Code using Serverless</a></li><li>演講：<a href="/2017/06/21/AWS/Stategies-System-Monitor_and_CloudWatch/">淺談系統監控與 CloudWatch 的應用</a></li><li>演講：<a href="/2018/05/26/About/201805-Monitoring-Tools-CloudWatch/">Monitoring Tools 大亂鬥 - AWS CloudWatch</a></li><li><a href="/2018/01/07/DevOps/Emergency-Response/">緊急應變 (Emergency Response)</a></li></ul><h2 id="其它參考"><a href="#其它參考" class="headerlink" title="其它參考"></a>其它參考</h2><ul><li><a href="https://sre.google/classroom/imageserver/?fbclid=IwAR1ncyFGKq7Kv3EVLl3REJun5xMp29Wntan3ZaqPRuC2xmei2hQ_hAKmAuY">SRE Classroom: Distributed ImageServer</a></li><li><a href="https://www.facebook.com/rick.kyhwang/posts/pfbid0tWjKzm9BnagRqknGrnXfzA2DbqTCq1xCcFTdZjvRtkA2pu1rLSbpvfsYGFAe9Mtdl">人才發展策略</a> (draft, 2022&#x2F;10&#x2F;26)</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;整理一段關於 SRE 問題的訪談紀錄，歡迎大家提供不一樣的經驗與想法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="DevOps" scheme="https://rickhw.github.io/categories/DevOps/"/>
+    
+    <category term="SRE" scheme="https://rickhw.github.io/categories/DevOps/SRE/"/>
+    
+    
+    <category term="Monitoring" scheme="https://rickhw.github.io/tags/Monitoring/"/>
+    
+    <category term="SRE" scheme="https://rickhw.github.io/tags/SRE/"/>
+    
+    <category term="Emergency Response" scheme="https://rickhw.github.io/tags/Emergency-Response/"/>
+    
+    <category term="Incident Management" scheme="https://rickhw.github.io/tags/Incident-Management/"/>
+    
+    <category term="Software Engineering" scheme="https://rickhw.github.io/tags/Software-Engineering/"/>
+    
+  </entry>
+  
+  <entry>
     <title>API 設計 - API 整合矩陣</title>
     <link href="https://rickhw.github.io/2023/07/02/DistributedSystems/API-Integration-Matrix/"/>
     <id>https://rickhw.github.io/2023/07/02/DistributedSystems/API-Integration-Matrix/</id>
@@ -135,7 +166,7 @@
     <link href="https://rickhw.github.io/2023/06/24/DistributedSystems/API-Communication-Protocol/"/>
     <id>https://rickhw.github.io/2023/06/24/DistributedSystems/API-Communication-Protocol/</id>
     <published>2023-06-24T05:30:00.000Z</published>
-    <updated>2023-07-02T01:20:03.670Z</updated>
+    <updated>2023-07-02T05:58:01.392Z</updated>
     
     <content type="html"><![CDATA[<p><code>API First</code> 在跨企業的系統交互越來越頻繁的今天，提供有效的擴展業務的方法。過往什麼功能都要自行開發，但卻因為內部資源不足；亦或錯估新業務規模的深度與需求層次，造成投入沒有成效、或者必須不斷的加碼投入，最後才意會到，這是個獨立領域，需要獨立的專業團隊，像是 MarTech、支付、通訊 …</p><p>API First 的概念，背後是雙方在技術上彼此溝通的通訊協議，透過這層協議，雙方可以更快速的仰賴彼此的擅長的領域，進而拓展業務。最常見的就是電商與支付系統、廣告服務、電信系統、物流業、與 ChatBot &#x2F; AI … 等整合。</p><p>開放 API 是個策略性決策，背後代表著要與合作夥伴達成策略聯盟，本質上是 B2B 的商業行為；同時開放 API 也意味著內部系統需要有高度整合，提供對外統一介面與標準，讓合作夥伴在開發過程，可以有一致性的使用介面與理解。</p><p>基於這樣的前提，只要是 API 對外開放，大概都要面對本文要提到的問題：<code>API 通訊模式與協議</code></p><span id="more"></span><h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文摘要基於 B2B 的業務模式，開放 API 時必須要規劃的對內、對外通訊模式，以及分析實務上的情境組合。</p><h2 id="通訊模式"><a href="#通訊模式" class="headerlink" title="通訊模式"></a>通訊模式</h2><p><code>通訊模式</code> 代表 API 對內、對外彼此交互的方式，整理如下圖：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/API-Comm-Mode_v20230623.png"></p><p>圖中定義的系統包含如下：</p><ol><li><code>API Platform</code>: 主要處理的是外部通訊請求，<ul><li>架構角色包含 API Gateway, API Manaement, API Operation 等部分<ul><li>API Gateway: 職責包含 AAA, Traffic Control, Protection, Rate Limit,</li><li>Management: API 的 Publisher &#x2F; Scription, Token &amp; Key Management &#x2F; Lifecycle &#x2F; Documentation … 等。背後本質是 API Governance.</li><li>API Operation: 包含 Obervability &amp; Monitoring, APM, Tracing, Logging, Cache … 等.</li></ul></li><li>整合 API Platform 對外處理合作夥伴的 API 請求, 同時轉發請求給對應的內部服務.</li></ul></li><li><code>Service X</code>: 企業內部各種 Domain Services 的泛稱，像是訂單 &#x2F; 商品 &#x2F; 庫存 … 等.<ul><li>這些服務都是內部系統，不直接對外</li><li>這些服務跟服務之間的溝通，必須遵循 <code>內部通訊協議 (Internal Commucation Protocol, ICP)</code></li></ul></li><li><code>External Services</code>: 使用 API 的合作夥伴，這裡的案例是 B2B</li><li><code>Client</code>: 提供給 End User 使用的 GUI 介面形式，包含 Mobile, Desktop, Web … 等.</li></ol><p>這四個角色之間，彼此之間的溝通用不同顏色以及標示 (C2, B3, C4, C3, D4 … )，搭配 <code>情境矩陣</code> 收斂實際的範圍。</p><h2 id="情境矩陣"><a href="#情境矩陣" class="headerlink" title="情境矩陣"></a>情境矩陣</h2><p>這四個角色之間的通訊，有 16 種排列組合，整理出以下的情境矩陣：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/API-Comm-Scenario_v20230623.png"></p><p>這十六種排列組合，彼此之間都有可能會相互通訊，情境矩陣則展開了所有的可能，經過分析後，刪除不合理、不需要、不必要的排列組合 (A1, B2, C1 …)，確立我們需要關注的組合，最核心情境有以下：</p><ol><li><code>Session Base</code>: 排列組合中的 A2</li><li><code>External API</code>: 排列組合中的 B3, C4</li><li><code>Internal Commucation</code>: 排列組合中的 C3, D3, D4</li><li><code>External Invcation</code>: 排列組合中的 C2, D2</li></ol><p>有了這樣的定義與理解之後，針對每個通訊模式，就可以定義適當的 Context ，讓彼此有一致的標準溝通，包含 (但不限於) 以下：</p><ol><li>認證授權</li><li>服務治理</li><li>展開適當的架構設計</li><li>追蹤管理</li><li>API 設計方法</li><li>API 生態系的管理與治理</li><li>API 維運</li><li>… etc.</li></ol><h2 id="小結"><a href="#小結" class="headerlink" title="小結"></a>小結</h2><p>下圖是網路上很有名的故事，個人覺得核心是「經營之道」：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/Biz.png"></p><p>故事摘要如下：</p><blockquote><p>第一個猶太人來到小鎮上開了個加油站，生意很旺。第二個猶太人來了，發現加油站生意很不錯，想到加油站的客戶需要吃飯，所以投資開了個餐館。第三個猶太人來了，想到來小鎮的人多了需要住宿，於是開了個飯店。第四個猶太人又發現住店的人需要生活用品，於是開了超市。第五個，第六個……來的人越來越多，吃飯住宿旅遊經商的人又需要加油，於是加油站、餐館、飯店、超市的生意相繼更旺了，逐步小鎮就成了一個經濟繁榮的小鎮，很多猶太人都富裕了。</p><p>第一個中國人來到小鎮上開了個加油站，生意很旺。第二個中國人來了，發現第一個人投資的加油站生意真令人羨慕，趕緊開了第二個加油站。第三個中國人又來了，看見前面2個同胞的加油站生意很好妒嫉得眼紅，火速開了第三個加油站。第四，第五個同胞過來都是一樣，開加油站還打折促銷……最後惡性競爭，然後紛紛倒閉，小鎮又回到原點……</p></blockquote><p>先不論故事中的反諷，但是猶太人的重點就在於經營的過程，透過整合的方式，而不是硬碰硬，透過共榮、相互依存的概念，集結成一個生態系。API 本身就是生態系中的一環，企業透過開放 API，與其他異業結合，相互協助、相互依存，形成一個生態系。</p><p>有了這個核心的模式與情境，接下來就可以討論實際上架構設計時的選擇與設計思路，以及市面上的解決方案。</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="站內文章"><a href="#站內文章" class="headerlink" title="站內文章"></a>站內文章</h2><ul><li><a href="/2021/05/14/DistributedSystems/Service-Governance/">聊聊分散式架構的服務治理</a></li><li><a href="/2022/07/04/DistributedSystems/Inspired-Design-From-Eclipse/">摘要 Eclipse 設計的啟發：當代 SaaS 分散式架構的關鍵設計</a></li><li><a href="/2018/01/24/DistributedSystems/Overview-API-Gateway/">Overview API Gateway</a></li></ul>]]></content>
     
@@ -157,6 +188,8 @@
     <category term="API First" scheme="https://rickhw.github.io/tags/API-First/"/>
     
     <category term="Contract First" scheme="https://rickhw.github.io/tags/Contract-First/"/>
+    
+    <category term="Communication Protocol" scheme="https://rickhw.github.io/tags/Communication-Protocol/"/>
     
   </entry>
   
@@ -602,33 +635,6 @@
     <category term="SaaS" scheme="https://rickhw.github.io/tags/SaaS/"/>
     
     <category term="Isolation Factor" scheme="https://rickhw.github.io/tags/Isolation-Factor/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SRE Conference 2022 - 91APP 在 AWS 上的 SRE 實踐之路</title>
-    <link href="https://rickhw.github.io/2022/05/10/About/2022-SREConf2022/"/>
-    <id>https://rickhw.github.io/2022/05/10/About/2022-SREConf2022/</id>
-    <published>2022-05-10T13:42:30.000Z</published>
-    <updated>2023-05-27T05:00:19.253Z</updated>
-    
-    <content type="html"><![CDATA[<p>感謝 AWS 與 <a href="https://sre.ithome.com.tw/news-page/155">主辦單位 (iTHome)</a> 的邀請，讓我在 04&#x2F;29 有機會在第一次的 SRE Conf 分享這幾年的一些心得與想法。</p><span id="more"></span><h2 id="Slide-與錄影"><a href="#Slide-與錄影" class="headerlink" title="Slide 與錄影"></a>Slide 與錄影</h2><p>沒有來現場的朋友，可以透過以下的 Slide 與錄影回看內容：</p><iframe src="//www.slideshare.net/slideshow/embed_code/key/urWYYrWa2yTXAp" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rickhwang/91app-aws-sre" title="SRE Conf 2022 - 91APP 在 AWS 上的 SRE 實踐之路" target="_blank">SRE Conf 2022 - 91APP 在 AWS 上的 SRE 實踐之路</a> </strong> from <strong><a href="//www.slideshare.net/rickhwang" target="_blank">Rick Hwang</a></strong> </div><iframe width="560" height="315" src="https://www.youtube.com/embed/f-__anVimq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h2 id="重點摘要"><a href="#重點摘要" class="headerlink" title="重點摘要"></a>重點摘要</h2><ol><li>讓 <code>規範</code> 變 <code>規格 (Spec, RFC)</code>，用 <code>軟體工程</code> 解決 <code>維運問題</code></li><li>以 EO&#x2F;AP 模型規劃 SRE 平台藍圖與架構</li></ol><p><img src="/images/About/2022-SREConf/Platform-Blueprint.png"></p><p><img src="/images/About/2022-SREConf/DevOps-Governance.png"></p><p><img src="/images/About/2022-SREConf/Principle-Practice.png"></p><p><img src="/images/About/2022-SREConf/SRE-Platform.png"></p><h2 id="照片-by-主辦單位-iTHome"><a href="#照片-by-主辦單位-iTHome" class="headerlink" title="照片 by 主辦單位 (iTHome)"></a>照片 by 主辦單位 (iTHome)</h2><p>以下是主辦單位 - iTHome 提供的照片，感謝一起參與的朋友們～</p><p><img src="/images/About/2022-SREConf/Live1.jpg"></p><p><img src="/images/About/2022-SREConf/Live2.jpg"></p><p><img src="/images/About/2022-SREConf/Live3.jpg"></p><h2 id="感謝"><a href="#感謝" class="headerlink" title="感謝"></a>感謝</h2><p>感謝來現場來聽的朋友，還有回饋給我的朋友，感謝大家的建議，很感動～</p><p><img src="/images/About/2022-SREConf/Feedback.png"></p><p>然後也遇到幾位許有沒碰面的朋友 ( 蔡宗城, Sammy Lin, Weithenn Wang )、新朋友 Google 的 Shawn Ho<br>大家在後台喇賽合影留念 XD</p><p><img src="/images/About/2022-SREConf/backstage.jpeg"></p><p>還有神 (ㄌㄚˇ) 交 (ㄙㄞˋ) 好幾年的 Scott Liao ，終於碰面 XDD</p><p>還有 AWS 的老朋友們 Kim Kao, 梁綺軒, Hung-Che Lo<br>沒碰到面的 Chris Huang, Mouse ~~</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><ul><li><a href="https://www.slideshare.net/rickhwang/2020-aws-summit-aws">2020&#x2F;07&#x2F;10: 2020 AWS 雲端高峰會 - 演講：在矩陣型組織裡，如何有效管理 AWS 的成本結構與系統架構</a></li><li><a href="https://www.slideshare.net/rickhwang/aws-using-aws-for-disaster-recovery/">2020&#x2F;01&#x2F;08: AWS reInvent reCAP 2019 - 災難演練 @ AWS 實戰分享 </a></li><li><a href="/2019/03/28/DevOps/DevOpsTaiwan-Meetup-Beginning-in-Artifacts-Management/">2019&#x2F;03&#x2F;28: DevOps Taiwan Meetup #22 - 聊聊軟體交付的濫觴 談產出物管理</a></li><li><a href="/2018/09/12/DevOps/DevOpsDaysTaipei2018-Emergency-And-Incident-Management/">2018&#x2F;09&#x2F;12: 演講：從緊急事件 談 SRE 應變能力的培養</a></li><li><a href="/2018/05/26/About/201805-Monitoring-Tools-CloudWatch/">2018&#x2F;05&#x2F;26: 演講：Monitoring Tools 大亂鬥 - AWS CloudWatch</a></li><li><a href="/2018/07/18/About/20180718-API-Gateway/">2018&#x2F;06&#x2F;28: AWS Summit Taipei - API Gateway 導入之旅, AWS</a></li><li><a href="/2018/03/29/About/2018-Serverless-All-Star/">2018&#x2F;03&#x2F;29: 演講：Serverless All-Star - Ops as Code using Serverless</a></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;感謝 AWS 與 &lt;a href=&quot;https://sre.ithome.com.tw/news-page/155&quot;&gt;主辦單位 (iTHome)&lt;/a&gt; 的邀請，讓我在 04&amp;#x2F;29 有機會在第一次的 SRE Conf 分享這幾年的一些心得與想法。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
-    
-    
-    <category term="Conference" scheme="https://rickhw.github.io/tags/Conference/"/>
-    
-    <category term="SRE" scheme="https://rickhw.github.io/tags/SRE/"/>
-    
-    <category term="Spec" scheme="https://rickhw.github.io/tags/Spec/"/>
-    
-    <category term="Design First" scheme="https://rickhw.github.io/tags/Design-First/"/>
     
   </entry>
   
