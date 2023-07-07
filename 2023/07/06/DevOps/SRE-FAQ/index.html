@@ -266,7 +266,7 @@ Feature Team / D">
 <li><code>Feature Team / DevOps</code>: 負責業務邏輯的開發團隊 (Scrum Team)，團隊裡可能有一個或多個專屬的 DevOps Engineer 負責處理所有的 CI &#x2F; CD 工作。 </li>
 <li><code>Infra Team / SRE</code>: 負責處理 App 以外的東西，包含 Cloud &#x2F; Network &#x2F; Cost &#x2F; Provisioning &#x2F; Observability  &#x2F; Monitoring &#x2F; Architecture &#x2F; Artifact Repos &#x2F; CI&#x2F;CD 平台 &#x2F; Security …. Etc.</li>
 </ul>
-<p>實務上，少於 500 人的企業，這兩個角色對老闆來講，是沒差的；大於 500 人的企業，這兩個角色對老闆來講，還是沒差。。。</p>
+<p>實務上，少於 500 人的企業，這兩個角色 (DevOps &#x2F; SRE) 對老闆來講，是沒差的；大於 500 人的企業，這兩個角色對老闆來講，還是沒差。。。</p>
 <p>所以有時候工作上，不要太糾結自己的範圍，而是要思考，現在處在的環境，自己要怎麼做才會有貢獻 (亮點)。</p>
 <p>換個角度想：</p>
 <blockquote>
@@ -298,9 +298,10 @@ Feature Team / D">
 <p>再來是怎麼讓 Feature Team 與 Infra &#x2F; SRE Team 能夠有效協作的「共識」，也就是制度。當遇到一件事情的時候，該怎麼區分這件事情的 ownership？官大說了算？該怎麼理性溝通？例如線上炸鍋，炸鍋解決了，因為系統資源不足，所以 Responsiblity 就是在 SRE &#x2F; Infra？大多是，實務上很多就是「政治」角力，讓這件事情正確的 R&amp;R 歪掉。</p>
 <p>這個案例，大概是實務上的痛點，因為資源不足，更多時候是程式改善可以解決，但有時候「用錢能解決的問題不是問題」，就蓋過真正的問題了，那個問題幾年後通常會再爆出來，但已經沒人知道為什麼了 (省略一本書的故事 ….</p>
 <p>可能的解法：建立一個可以跟 Feature Team 協作的制度，概念類似 AWS 的 Shared Responsibility。但建立這個「雙方」的智度，要有「自己」的制度，讓自己的制度動起來，站穩腳步。然後再去跟 Feature team 討論雙方的制度。大概的概念可以參閱我在 <a href="/2022/05/10/About/2022-SREConf2022/">SRE Conf 2022 分享</a> 的 P58.</p>
-<h2 id="Q4-過去是怎麼進行內部-SRE-人才培訓？"><a href="#Q4-過去是怎麼進行內部-SRE-人才培訓？" class="headerlink" title="Q4. 過去是怎麼進行內部 SRE 人才培訓？"></a>Q4. 過去是怎麼進行內部 SRE 人才培訓？</h2><p>務實面：</p>
+<h2 id="Q4-過去是怎麼進行內部-SRE-人才培訓？"><a href="#Q4-過去是怎麼進行內部-SRE-人才培訓？" class="headerlink" title="Q4. 過去是怎麼進行內部 SRE 人才培訓？"></a>Q4. 過去是怎麼進行內部 SRE 人才培訓？</h2><p>針對傳統 OP (管系統, 管設備, 不寫 Code) 的訓練，務實面的方式以及過程摘要如下：</p>
 <ol>
 <li>手把手教，以 Python &#x2F; Cloud 為主，像是 Python runs on Lambda (AWS)，Export as API。<ul>
+<li>從他們本來就熟悉的領域切入，不要弄太難或者太多觀念 (ex: OOP, Framework)，重心擺在領域問題能用簡單的 Code &amp; Cloud 解決</li>
 <li>從簡單的日常維運開始，像是備份、檢查 DNS &#x2F; SSL 過期 &#x2F; Health Check，可以玩 Cloud + Programming，不會太難，又有成就感。</li>
 </ul>
 </li>
