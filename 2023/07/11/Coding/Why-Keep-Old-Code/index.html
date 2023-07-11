@@ -5,14 +5,14 @@
   <title>為什麼有些人都不刪除用不到的程式碼？ | Complete Think</title>
 
   <meta name="author" content="Rick Hwang">
-  <meta name="description" content="靠北工程師 [鄉民提的問題][fb1]，一面倒的狀況之下，分享我自己的經驗與看法，提供不一樣的思路與前後文。
-原文是我在 [fb 寫下][fb2] 草稿。
+  <meta name="description" content="原文是我在 fb 寫下 草稿，主要針對靠北工程師 鄉民提的問題。幾乎一面倒的狀況之下，分享我自己的經驗與看法，提供不一樣的思路與前後文。
 
 
 
 個人觀點以前也會這樣做，現在還是會這樣做，背後核心的想法是：
 
-修改的當下,有沒有 &amp;#x2F; 能不能 意會 (awareness) 到">
+修改的當下,有沒有 &amp;#x2F; 能不能 意會 (awareness) 到過去曾經發生事情
+">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -256,8 +256,7 @@
 
 				<hr />
 
-				<p>靠北工程師 [鄉民提的問題][fb1]，一面倒的狀況之下，分享我自己的經驗與看法，提供不一樣的思路與前後文。</p>
-<p>原文是我在 [fb 寫下][fb2] 草稿。</p>
+				<p>原文是我在 <a target="_blank" rel="noopener" href="https://www.facebook.com/rick.kyhwang/posts/pfbid069YbbrasrKAnqcrL7bnME8ajSZiaGh5LvhxoPX5qrCbsbY4ohiq3QzLz3qWQXD9vl">fb 寫下</a> 草稿，主要針對靠北工程師 <a target="_blank" rel="noopener" href="https://www.facebook.com/init.kobeengineer/posts/pfbid0GxdVfaGnYi3YHKWo1vzhApBkSNpQext32nLy1KmhihKc3ogAp6uEWtgoEUosXn3Nl">鄉民提的問題</a>。幾乎一面倒的狀況之下，分享我自己的經驗與看法，提供不一樣的思路與前後文。</p>
 <p><img src="/images/Coding/Why-Keep-Old-Code/main.png"></p>
 <span id="more"></span>
 
@@ -265,7 +264,7 @@
 <blockquote>
 <p>修改的當下,<br>有沒有 &#x2F; 能不能 <code>意會 (awareness)</code> 到過去曾經發生事情</p>
 </blockquote>
-<p>這就像, 大家都知道發脾氣溝通不了問題, 難的是當下, 你要觀察到自己已經要發脾氣了, 認知 (awareness), 要控制自己的情緒</p>
+<p>這就像, 大家都知道發脾氣解決不了問題, 難的是當下, 你要觀察到自己已經要發脾氣了, <code>認知 (awareness)</code> 要控制自己的情緒.</p>
 <p>開始修改一段既有的邏輯, 假設是一個 function 裡的某個 block A:</p>
 <ul>
 <li>有沒有理解該 block A 原本的設計？</li>
@@ -276,18 +275,20 @@
 </li>
 <li>修改之後, 過些時間 (無論長短), 會來還記得為什麼這樣改?</li>
 </ul>
-<h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><p>我知道很多人會說,  可以看 git log, 現在 IDE 也會即時秀在上面, 工具的確可以幫助這點, 我覺得沒什麼問題.</p>
+<h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><p>我知道很多人會說, 可以看 git log, 現在 IDE 也會即時秀在上面, 工具的確可以幫助這點, 我覺得沒什麼問題.</p>
 <p>但實務上, 在改 code 的當下, 重點還是要意會到, 這次的 change 與過去的設計的差異. git log &#x2F; IDE &#x2F; 留下就的 code 背後動機都是如此. 至於哪一個比較有效, 就是選擇.</p>
 <blockquote>
 <p>這段話的邏輯，與用實體看板的動機是一樣的。類似問題在選擇 實體看板與數位看板 經常出現。</p>
 </blockquote>
-<h3 id="務實的認知-Awareness-方法"><a href="#務實的認知-Awareness-方法" class="headerlink" title="務實的認知 (Awareness) 方法"></a>務實的認知 (Awareness) 方法</h3><p>老人的老方法, 就是把舊的放在上面, 但是會有 flag 註記為什麼改, 如果是 change 就一定要保留舊的, 像是一個 legacy code, 因為時間關係, 在一個超大的 <code>if ( ... // 五行  ) &#123;&#125; </code> 條件式, 上面已經有七八個 flag, 標示 defect number,時間關係, 只能先改, 之後再來重構.</p>
+<h3 id="務實的認知-Awareness-方法"><a href="#務實的認知-Awareness-方法" class="headerlink" title="務實的認知 (Awareness) 方法"></a>務實的認知 (Awareness) 方法</h3><p>老人的老方法, 就是把舊的放在上面, 但是會有 flag 註記為什麼改, 如果是 change 就一定要保留舊的, 像是一個 legacy code, 因為時間關係, 在一個超大的 <code>if ( ... // 五行  ) &#123;&#125; </code> 條件式, 上面已經有七八個 flag, 標示 defect number, issue tracing 上會記錄問題的背景, 討論的前因後果, 可能相關的 issue.</p>
+<p>執行面, 時間關係, 只能先改, 之後再來重構.</p>
 <blockquote>
 <p>對, 我知道, 這種 Code 要重構, 要如何如何 …. (省略 3000 個字,<br>時間夠, 我可以整個都重寫 … 重點是沒時間<br>工程師都很常靠北別人寫的文件不清楚, 但靠北之前, 請問問自己花了多少時間寫文件.</p>
 </blockquote>
+<p>很多時候, 不知道前因後果, 只是為了改而改, 只會把問題越搞越撲逤迷離. 留下麵包屑, 留下 defect number, 才是有機會重構的線索.</p>
 <h3 id="想當年-真實案例"><a href="#想當年-真實案例" class="headerlink" title="想當年, 真實案例"></a>想當年, 真實案例</h3><p>我還很菜的時候, 就做過這種重構的事. 但那風險非常高, 等於過去曾發生的 defect 要一次全解.</p>
 <blockquote>
-<p>註：那年代還沒有 Unit Test 這種名稱</p>
+<p>註：那年代還沒有 Unit Test 這種名稱, 但有類似做法.</p>
 </blockquote>
 <p>那是一個類似 insert 的演算法, 簡單說就是一個文字編輯器, 當 insert 一個 character 的時候, 整文章的 linked list 結構被加入一些 node, 然後圖形介面要重新 render 的時候, 發生邏輯的誤判, 造成畫面大亂.</p>
 <p>那時候我就重新分析這個演算法, 但是發現整個已經非常混亂了, 我改下去不是變成英雄, 不然就是背鍋俠. 最後 … 畫了一張很大的流程圖, 讓老闆知道, 不是我不改 … 而是我太菜, 不敢改 …. (算是權衡之計)</p>
