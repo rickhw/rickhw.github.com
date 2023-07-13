@@ -253,7 +253,7 @@ AP">
 				<p><code>API First</code> 在跨企業的系統交互越來越頻繁的今天，提供有效的擴展業務的方法。過往什麼功能都要自行開發，但卻因為內部資源不足；亦或錯估新業務規模的深度與需求層次，造成投入沒有成效、或者必須不斷的加碼投入，最後才意會到，這是個獨立領域，需要獨立的專業團隊，像是 MarTech、支付、通訊 …</p>
 <p>API First 的概念，背後是雙方在技術上彼此溝通的通訊協議，透過這層協議，雙方可以更快速的仰賴彼此的擅長的領域，進而拓展業務。最常見的就是電商與支付系統、廣告服務、電信系統、物流業、與 ChatBot &#x2F; AI … 等整合。</p>
 <p>開放 API 是個策略性決策，背後代表著要與合作夥伴達成策略聯盟，本質上是 B2B 的商業行為；同時開放 API 也意味著內部系統需要有高度整合，提供對外統一介面與標準，讓合作夥伴在開發過程，可以有一致性的使用介面與理解。</p>
-<p>基於這樣的前提，只要是 API 對外開放，大概都要面對本文要提到的問題：<code>API 通訊模式與協議</code></p>
+<p>基於這樣的前提，只要是 API 對外開放、或者是內部整合，都要面對本文要提到的問題：<code>API 通訊模式與協議</code></p>
 <span id="more"></span>
 
 <h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文摘要基於 B2B 的業務模式，開放 API 時必須要規劃的對內、對外通訊模式，以及分析實務上的情境組合。</p>
@@ -263,16 +263,18 @@ AP">
 <ol>
 <li><code>API Platform</code>: 主要處理的是外部通訊請求，<ul>
 <li>架構角色包含 API Gateway, API Manaement, API Operation 等部分<ul>
-<li>API Gateway: 職責包含 AAA, Traffic Control, Protection, Rate Limit,</li>
-<li>Management: API 的 Publisher &#x2F; Scription, Token &amp; Key Management &#x2F; Lifecycle &#x2F; Documentation … 等。背後本質是 API Governance.</li>
-<li>API Operation: 包含 Obervability &amp; Monitoring, APM, Tracing, Logging, Cache … 等.</li>
+<li><code>API Gateway</code>: 職責包含 AAA, Traffic Control, Protection, Rate Limit,</li>
+<li><code>API Management</code>: API 的 Publisher &#x2F; Subscriber, Token &amp; Key Management &#x2F; Lifecycle &#x2F; Documentation … 等，背後本質與核心議題是 <code>API Governance</code></li>
+<li><code>API Operation</code>: 包含 Obervability &amp; Monitoring, APM, Tracing, Logging, Cache … 等架構性問題.</li>
 </ul>
 </li>
 <li>整合 API Platform 對外處理合作夥伴的 API 請求, 同時轉發請求給對應的內部服務.</li>
+<li>API Platform 本身必須滿足以下架構需求: Security, Reliablity, Performance, Operational</li>
 </ul>
 </li>
 <li><code>Service X</code>: 企業內部各種 Domain Services 的泛稱，像是訂單 &#x2F; 商品 &#x2F; 庫存 … 等.<ul>
 <li>這些服務都是內部系統，不直接對外</li>
+<li>這些服務對於 API Platform 兒言，都屬於 Publisher，或稱 Provider (供應商)</li>
 <li>這些服務跟服務之間的溝通，必須遵循 <code>內部通訊協議 (Internal Commucation Protocol, ICP)</code></li>
 </ul>
 </li>
@@ -311,9 +313,12 @@ AP">
 <p>有了這個核心的模式與情境，接下來就可以討論實際上架構設計時的選擇與設計思路，以及市面上的解決方案。</p>
 <hr>
 <h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="站內文章"><a href="#站內文章" class="headerlink" title="站內文章"></a>站內文章</h2><ul>
+<li><a href="/2023/06/24/DistributedSystems/API-Communication-Protocol/">API 設計 - 摘要 API 通訊模式與協議</a></li>
+<li><a href="/2023/07/02/DistributedSystems/API-Integration-Matrix/">API 設計 - API 整合矩陣</a></li>
+<li><a href="/2018/01/24/DistributedSystems/Overview-API-Gateway/">Overview API Gateway</a></li>
 <li><a href="/2021/05/14/DistributedSystems/Service-Governance/">聊聊分散式架構的服務治理</a></li>
 <li><a href="/2022/07/04/DistributedSystems/Inspired-Design-From-Eclipse/">摘要 Eclipse 設計的啟發：當代 SaaS 分散式架構的關鍵設計</a></li>
-<li><a href="/2018/01/24/DistributedSystems/Overview-API-Gateway/">Overview API Gateway</a></li>
+<li><a href="/2021/01/03/Linux/Shell-and-Bash-Concepts/">Shell and Bash Concepts</a></li>
 </ul>
 
 
@@ -433,7 +438,7 @@ AP">
     <!--<ul id="tags" class="tag_box list-unstyled collapse in">-->
     <div>
 	  	
-  <span class="label label-success"><a href="/tags/Distributed-Communication/" style="color: white">Distributed Communication <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-Platform/" style="color: white">API Platform <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-First/" style="color: white">API First <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/Contract-First/" style="color: white">Contract First <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/Communication-Protocol/" style="color: white">Communication Protocol <span class="badge">1</span></a></span>
+  <span class="label label-success"><a href="/tags/API-Gateway/" style="color: white">API Gateway <span class="badge">17</span></a></span> <span class="label label-success"><a href="/tags/Distributed-Systems/" style="color: white">Distributed Systems <span class="badge">15</span></a></span> <span class="label label-success"><a href="/tags/Distributed-Communication/" style="color: white">Distributed Communication <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-Platform/" style="color: white">API Platform <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-First/" style="color: white">API First <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/Contract-First/" style="color: white">Contract First <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-Governance/" style="color: white">API Governance <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/Communication-Protocol/" style="color: white">Communication Protocol <span class="badge">1</span></a></span>
 	  </div>
     <!--</ul>-->
 	</div>

@@ -277,9 +277,9 @@
 </ul>
 <h2 id="API-Integration-Matrix"><a href="#API-Integration-Matrix" class="headerlink" title="API Integration Matrix"></a>API Integration Matrix</h2><p>常見的 API 整合方式，以 <code>提供者與使用者</code> 的角度，API 形式則用 <code>系統與程式</code> 區分，定義這兩者如下：</p>
 <ul>
-<li>Pub&#x2F;Sub：API 有提供者 (Publisher) 也有使用者 (Subscriber)</li>
-<li>系統：只作業系統、或者 Web Services</li>
-<li>程式：應用程式，像是 Desktop、開一個 Port 走 TCP &#x2F; UDP 的應用<ul>
+<li><code>Pub/Sub</code>：API 有 <code>提供者 (Publisher)</code> 也有 <code>使用者 (Subscriber)</code>，負責整合兩者稱為 API Platform，是個管理角色。</li>
+<li><code>系統</code>：只作業系統、或者 Web Services</li>
+<li><code>程式</code>：應用程式，像是 Desktop、開一個 Port 走 TCP &#x2F; UDP 的應用<ul>
 <li>應用程式之間大多透過 <code>Inter-Process Communication (IPC)</code> 交互通訊，更多參閱 <a href="/2021/01/03/Linux/Shell-and-Bash-Concepts/">Shell and Bash Concepts</a></li>
 </ul>
 </li>
@@ -293,7 +293,7 @@
 </ul>
 </li>
 <li>B: 程式跟程式之間相互調用使用，例如：<ul>
-<li>使用 Springboot 開發 Web 應用。</li>
+<li>使用 Springboot 開發 Web 應用，Springboot 是一個框架，開發者寫出自己的邏輯，背後調用框架的 API.</li>
 <li>這裡指的程式是同一種語言，如果是不同語言，那屬於 D 象限。</li>
 </ul>
 </li>
@@ -311,12 +311,13 @@
 <p>因為分散式系統的大爆炸，所以 D 象限大爆炸，特別是基於 Web &#x2F; HTTP 的 API，所以現在口語上說 API 的時候，很多時候都是泛指 Web API，特別是 RESTful API，當然也會包含其他像是 gRPC &#x2F; GraphQL 等不同的實踐技術。</p>
 <p>實際上 D 範圍包含 A &#x2F; C &#x2F; B 三大塊，也就是為了達到 D 的目的，開發工作會橫跨另外三個。</p>
 <hr>
-<h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="站內文章"><a href="#站內文章" class="headerlink" title="站內文章"></a>站內文章</h2><ul>
+<h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="站內相關文章"><a href="#站內相關文章" class="headerlink" title="站內相關文章"></a>站內相關文章</h2><ul>
+<li><a href="/2023/06/24/DistributedSystems/API-Communication-Protocol/">API 設計 - 摘要 API 通訊模式與協議</a></li>
+<li><a href="/2023/07/02/DistributedSystems/API-Integration-Matrix/">API 設計 - API 整合矩陣</a></li>
+<li><a href="/2018/01/24/DistributedSystems/Overview-API-Gateway/">Overview API Gateway</a></li>
 <li><a href="/2021/05/14/DistributedSystems/Service-Governance/">聊聊分散式架構的服務治理</a></li>
 <li><a href="/2022/07/04/DistributedSystems/Inspired-Design-From-Eclipse/">摘要 Eclipse 設計的啟發：當代 SaaS 分散式架構的關鍵設計</a></li>
-<li><a href="/2018/01/24/DistributedSystems/Overview-API-Gateway/">Overview API Gateway</a></li>
 <li><a href="/2021/01/03/Linux/Shell-and-Bash-Concepts/">Shell and Bash Concepts</a></li>
-<li><a href="/2023/06/24/DistributedSystems/API-Communication-Protocol/">分散式系統設計 - 摘要 API 通訊模式與協議</a></li>
 </ul>
 <h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><ul>
 <li><a target="_blank" rel="noopener" href="https://dineshchandgr.medium.com/api-things-every-software-engineer-must-know-api-integration-economy-protocols-endpoint-4649ecbc7c41">API things every Software Engineer must know — API Integration, Economy, Protocols, Endpoint, Security…</a></li>
@@ -409,7 +410,7 @@
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i> Table of Content</a>
 	   <div id="toc" class="toc collapse in">
-				<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E4%BB%80%E9%BA%BC%E6%98%AF-API%EF%BC%9F"><span class="toc-article-text">什麼是 API？</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#API-Integration-Matrix"><span class="toc-article-text">API Integration Matrix</span></a></li></ol></li><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#%E5%BB%B6%E4%BC%B8%E9%96%B1%E8%AE%80"><span class="toc-article-text">延伸閱讀</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E7%AB%99%E5%85%A7%E6%96%87%E7%AB%A0"><span class="toc-article-text">站內文章</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99"><span class="toc-article-text">參考資料</span></a></li></ol>
+				<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E4%BB%80%E9%BA%BC%E6%98%AF-API%EF%BC%9F"><span class="toc-article-text">什麼是 API？</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#API-Integration-Matrix"><span class="toc-article-text">API Integration Matrix</span></a></li></ol></li><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#%E5%BB%B6%E4%BC%B8%E9%96%B1%E8%AE%80"><span class="toc-article-text">延伸閱讀</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E7%AB%99%E5%85%A7%E7%9B%B8%E9%97%9C%E6%96%87%E7%AB%A0"><span class="toc-article-text">站內相關文章</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99"><span class="toc-article-text">參考資料</span></a></li></ol>
 		</div>
 	
 	</div>
@@ -439,7 +440,7 @@
     <!--<ul id="tags" class="tag_box list-unstyled collapse in">-->
     <div>
 	  	
-  <span class="label label-success"><a href="/tags/Distributed-Communication/" style="color: white">Distributed Communication <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-Platform/" style="color: white">API Platform <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-First/" style="color: white">API First <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/Contract-First/" style="color: white">Contract First <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-Governance/" style="color: white">API Governance <span class="badge">1</span></a></span> <span class="label label-success"><a href="/tags/API-Management/" style="color: white">API Management <span class="badge">1</span></a></span> <span class="label label-success"><a href="/tags/API-Styles/" style="color: white">API Styles <span class="badge">1</span></a></span> <span class="label label-success"><a href="/tags/API-Protocol/" style="color: white">API Protocol <span class="badge">1</span></a></span>
+  <span class="label label-success"><a href="/tags/Distributed-Systems/" style="color: white">Distributed Systems <span class="badge">15</span></a></span> <span class="label label-success"><a href="/tags/Distributed-Communication/" style="color: white">Distributed Communication <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-Platform/" style="color: white">API Platform <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-First/" style="color: white">API First <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/Contract-First/" style="color: white">Contract First <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-Governance/" style="color: white">API Governance <span class="badge">2</span></a></span> <span class="label label-success"><a href="/tags/API-Management/" style="color: white">API Management <span class="badge">1</span></a></span> <span class="label label-success"><a href="/tags/API-Styles/" style="color: white">API Styles <span class="badge">1</span></a></span> <span class="label label-success"><a href="/tags/API-Protocol/" style="color: white">API Protocol <span class="badge">1</span></a></span>
 	  </div>
     <!--</ul>-->
 	</div>
