@@ -96,6 +96,30 @@
   </entry>
   
   <entry>
+    <title>個人著作《SRE實踐與開發平台指南：從團隊協作、原則、架構和趨勢掌握全局，做出精準決策》</title>
+    <link href="https://rickhw.github.io/2023/07/17/About/2023-SRE-Practical-and-IDP/"/>
+    <id>https://rickhw.github.io/2023/07/17/About/2023-SRE-Practical-and-IDP/</id>
+    <published>2023-07-17T13:42:30.000Z</published>
+    <updated>2023-07-17T10:31:50.729Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果你希望買一本書，照著裡面說的步驟走，事情就搞定了，那這本書一定不適合你。<br>如果你希望買一本書，可以隨意翻閱，然後有種「啊！就是這樣啦！」，那這本書應該適合你。</p><p><img src="/images/About/2023-SRE-Practical-and-IDP/cover.jpg"></p><span id="more"></span><h2 id="方向規劃"><a href="#方向規劃" class="headerlink" title="方向規劃"></a>方向規劃</h2><p>一開始在構思這本書，是從去年演講 <a href="/2022/05/10/About/2022-SREConf2022/">91APP 在 AWS 上的 SRE 實踐之路</a> 為主幹，搜集了很多資料，但是寫到一半發現，我開始在思考一些問題：</p><ol><li>希望讀者花 500 (假設) 得到什麼？有什麼啟發？</li><li>一本書要給讀者怎樣的內容，才值回票價？</li><li>這本書可以隨意翻閱？</li><li>讀者為啥要買我的書？</li><li>這本書十年後會變成桌墊？還是經典？</li></ol><p>後來想想，大筆一揮，砍掉很多東西，更多是重新整理最真實的經驗，分享背後的 QBQ。</p><p>問問我自己，拿起一本書的時候，希望得到什麼？</p><blockquote><p>不是希望得到答案，更多是獲得思考的機會，也就是啟發思考，不是要讀者都同意我的觀點，更多是因為我的觀點，獲得啟發與思考。</p></blockquote><p>這樣就達到我的目的了。</p><!-- ## 內容與讀者的距離：實際問題切入Google 的 SRE 本身閱讀起來，是有距離的，也就是上面提的問題，如果沒有一定規模，或者自建機房，大部分遇不到。書中九成九的內容，都是我自己親自經歷、決策、，其中有不少內容，曾經共事過的同事一定不陌生，甚至會有會心一笑的。## 減法原則：本來有規劃，但後來沒寫的，本來書內容規劃很多，後來我全砍了。。。 (下一本？本來要寫這些：- Coding, 談 OOP- 談 Design Pattern因為遇過不少傳統 OP 要轉 DevOps or SRE，但因為沒有 coding 技能，或者不想接觸 coding 為什麼沒有寫？怕定位混亂--><h2 id="寫作方式"><a href="#寫作方式" class="headerlink" title="寫作方式"></a>寫作方式</h2><ul><li><code>寫作原則</code>: 以降低 SRE 的距離感為原則，所以以口語化、容易閱讀、讀起來沒壓力、拿起來，隨意翻閱都可以讀。</li><li><code>生活經驗</code>: 書中的概念，以生活的概念為原則，不管是技術或者方法，應該都可以在生活當中找到例子，也就是讀者透握自身的生活經歷，就可以理解裡面的想法。</li><li><code>持續閱讀</code>: 身邊有在閱讀的朋友應該算多，至少上個工作，有國寶級大師 Ruddy 老師，讓大家在 <code>閱讀</code> 這件事，讓同事們都很有養分。</li><li><code>章節關聯性</code>: 章節的安排，前半段盡量減少關聯性，後半段則有關聯性。</li></ul><h2 id="感謝"><a href="#感謝" class="headerlink" title="感謝"></a>感謝</h2><ul><li>業界推坑魔人 - <code>正瑋</code> 引薦出版社，讓我嘗試跟編輯討論出版的方向。</li><li>感謝出版社 <code>Abby</code>、以及責任編輯 <code>Sammi</code> 的耐心與建議。</li><li>感謝推薦序的幾位好朋友：<code>Andrew</code>, <code>正瑋</code>, <code>Kim</code>, <code>小城</code>，在短短的時間之內看完，然後寫推薦序，真的是很感謝他們～</li></ul><h2 id="書中彩蛋"><a href="#書中彩蛋" class="headerlink" title="書中彩蛋"></a>書中彩蛋</h2><p>書中有藏一些彩蛋，跟我共事過的同事都知道，我很重視閱讀文件手冊這件事情，凡事都會要求先看過文件。這樣要求的同時，我也會要求自己把文件寫清楚，Infra Team 裡起草規格、制度、Guideline 寫最多的一定是我，而且就是白紙黑字。</p><p>我也曾經在規格文件中，埋藏彩蛋，讓同事去尋寶，</p><p><img src="/images/About/2023-SRE-Practical-and-IDP/happy-water.png"></p><p>書中也有這樣的彩蛋，不過要稍微動一點腦經。。。找到歡迎私訊我，限量兩本書送給先找到的朋友 XD</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;如果你希望買一本書，照著裡面說的步驟走，事情就搞定了，那這本書一定不適合你。&lt;br&gt;如果你希望買一本書，可以隨意翻閱，然後有種「啊！就是這樣啦！」，那這本書應該適合你。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/About/2023-SRE-Practical-and-IDP/cover.jpg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
+    
+    
+    <category term="SRE" scheme="https://rickhw.github.io/tags/SRE/"/>
+    
+    <category term="Books" scheme="https://rickhw.github.io/tags/Books/"/>
+    
+  </entry>
+  
+  <entry>
     <title>為什麼有些人都不刪除用不到的程式碼？</title>
     <link href="https://rickhw.github.io/2023/07/11/Coding/Why-Keep-Old-Code/"/>
     <id>https://rickhw.github.io/2023/07/11/Coding/Why-Keep-Old-Code/</id>
@@ -217,9 +241,9 @@
     
     <category term="Contract First" scheme="https://rickhw.github.io/tags/Contract-First/"/>
     
-    <category term="API Governance" scheme="https://rickhw.github.io/tags/API-Governance/"/>
-    
     <category term="Communication Protocol" scheme="https://rickhw.github.io/tags/Communication-Protocol/"/>
+    
+    <category term="API Governance" scheme="https://rickhw.github.io/tags/API-Governance/"/>
     
   </entry>
   
@@ -296,11 +320,11 @@
     <category term="Container" scheme="https://rickhw.github.io/categories/Container/"/>
     
     
-    <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
+    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
     
     <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
     
-    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
+    <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
     
     <category term="Macbook Pro M1" scheme="https://rickhw.github.io/tags/Macbook-Pro-M1/"/>
     
@@ -354,11 +378,11 @@
     <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
     
     
-    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
-    
     <category term="Published-SRE1" scheme="https://rickhw.github.io/tags/Published-SRE1/"/>
     
     <category term="Gitlab" scheme="https://rickhw.github.io/tags/Gitlab/"/>
+    
+    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
     
     <category term="Continuous Integration" scheme="https://rickhw.github.io/tags/Continuous-Integration/"/>
     
@@ -588,34 +612,6 @@
     <category term="SQA" scheme="https://rickhw.github.io/tags/SQA/"/>
     
     <category term="SVT" scheme="https://rickhw.github.io/tags/SVT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Happy Path and Unit Test</title>
-    <link href="https://rickhw.github.io/2022/07/30/SoftwareEngineering/HappyPath-and-UnitTest/"/>
-    <id>https://rickhw.github.io/2022/07/30/SoftwareEngineering/HappyPath-and-UnitTest/</id>
-    <published>2022-07-30T01:50:30.000Z</published>
-    <updated>2022-12-19T11:47:28.870Z</updated>
-    
-    <content type="html"><![CDATA[<p><code>測試金字塔</code> 是很多書、很多演講都會提的概念，從上到下是 E2E、Integration、Unit Test，佔比也是這個次序。</p><p><img src="/images/SQA/The_Test_Pyramid.png"></p><p>很多大神、知名的軟體教練、傳教士、訪間的訓練機構也都一再強調 Unit Test (以下簡稱 UT) 的重要，經過幾年的宣導與討論，基本上，現在很多軟體工程師都自己會先做 Unit Test，或者在跑 Scrum 時都有出現 Task 內容是要做 Unit Test。對於整個軟體產業而言，是個很好的現象。</p><p>這年代跑 Scrum 也越來越普遍，大家也有意識到一個 Scrum Team 就是在做一個產品，大概就像 <code>天龍特攻隊</code> (A Team) 、或者是阿湯哥 <code>不可能任務</code>、或者一個 <code>搖滾樂團</code> ，都是 Team Work，理論上，要交付的是一個共同的價值。</p><span id="more"></span><h2 id="Unit-Test-不重要？"><a href="#Unit-Test-不重要？" class="headerlink" title="Unit Test 不重要？"></a>Unit Test 不重要？</h2><p>最近我在工作時，反覆的跟同仁講一段事情：</p><blockquote><p>我同意 Unit Test 很重要，<br>但是如果東西交到使用者手上的 Happy Path 不能跑，<br>那做了這麼多 Unit Test 就很可惜。</p></blockquote><p>講的過程，我盡量把用詞修飾的比較不會有太大衝擊，因為普遍工程師已經接受傳教士的說法，避免誤解成：</p><blockquote><ul><li>Rick 說我的 UT 都在做白工 QQ…</li><li>是 Rick 叫我不要寫 UT 啊</li></ul></blockquote><p>而我講的重點就在於 <code>次序</code>、<code>循環</code>：</p><blockquote><ol><li>Happy Path 要 <code>先</code> 能動</li><li><code>然後</code>，把 Unit Test 補齊</li></ol></blockquote><p>如果先把 UT 做到 100% 涵蓋率，但是 Happy Path 一個都不能跑，這表示什麼？這個產品不能用，而且死線就在哪裡。</p><p>但如果一開始先讓 Happy Path 能跑，跑法可能很髒、很醜、很蠢 … 都沒關係，過程中持續補齊 UT、然後持續修補 Happy Path 的跑法。最後 UT 不管有沒補完，Happy Path 依舊可用的，次序與循環都有了。</p><h2 id="案例一：非功能性的-Happy-Path"><a href="#案例一：非功能性的-Happy-Path" class="headerlink" title="案例一：非功能性的 Happy Path"></a>案例一：非功能性的 Happy Path</h2><p>第一個案例是一個專案在即將上線的一前一週，早上站立時，同仁反映應用程式放到 K8s 跑不起來，問題可能是一些 lib 依賴衝突造成的，但是本機跑不會有這樣的問題。</p><p>經過一些討論與嘗試，幾天後問題找到暫解法。姑且不論技術問題，算是暫時把部署到 K8s 的狀況解除。說明過程，我刻意把技術問題淡化，而強調 <code>發現的難度</code> 與 <code>發現的時間點</code>。</p><p>後來我跟同仁說我對這件事情的看法：</p><ol><li>這個技術問題 (依賴 Lib) 本身問題不大，只要給你們時間，很快就能解決</li><li>這個問題如果可以早一點發現會比較好，因為不難發現</li></ol><p>我帶出一個觀念，是我自己想的一段口號：</p><blockquote><p>Deliver Hello World in First Day</p></blockquote><p>在這篇文章 “<a href="https://rickhw.github.io/2022/04/06/SoftwareEngineering/Artifact-Management-and-Version-Control/">Version Control 與 Artifact Management</a>“ 有提到這個觀念。</p><h2 id="案例二：功能性的-Happy-Path"><a href="#案例二：功能性的-Happy-Path" class="headerlink" title="案例二：功能性的 Happy Path"></a>案例二：功能性的 Happy Path</h2><p>延續案例一，好不容易推上 K8s 了，登入系統後，發現功能全部都不能動 … 又是一個同樣的案例：</p><blockquote><p>我的電腦可以跑、你的電腦不能動</p></blockquote><p>這次是 <code>功能性 (Functional)</code> 的，案例一則是 <code>非功能性 (Non-Functinal)</code> 的，然後明天就要上線了。</p><p>背後技術問題是：使用新的前端技術，無法正確讀取 config。同樣的，大家又一起討論，找了一些 Workaround，先把問題處理掉。</p><p>同樣的延續案例一，跟大家分享了我的看法：</p><ol><li>這個技術問題 (前端取得 config) 本身問題不大，只要給你們時間，很快就能解決</li><li>這個問題如果可以早一點發現會比較好，因為不難發現</li></ol><p>(copy and paste … XD)</p><h2 id="案例三：示範給大家看"><a href="#案例三：示範給大家看" class="headerlink" title="案例三：示範給大家看"></a>案例三：示範給大家看</h2><p>案例一、二發生後，我跟大家分享我對整件事情的看法，過程中其實我心裡有點掙扎的事，要不要說這些話。後來我還是覺得應該要講，而且是對全 Team (about 20)</p><p>我說完這段想法之後，不要光說不練，所以親自下去做了幾件事情，我挑了手上六條線的專案中的一項，快速確認 Happy Path 能跑、怎麼跑、有哪些東西缺乏的，不用三十分鐘，開出四、五張 defects</p><p>這些問題差不多：</p><ol><li>你的電腦可以跑，我的電腦不能跑</li><li>最基本的 Path 跑不起來</li></ol><p>(這次就不 c &amp; p 了)</p><h2 id="定義-Happy-Paths-與交付"><a href="#定義-Happy-Paths-與交付" class="headerlink" title="定義 Happy Paths 與交付"></a>定義 Happy Paths 與交付</h2><p>我個人定義的 Happy Path 有幾個 <code>必要的限制</code>，或者說 <code>條件</code>：</p><h3 id="1-一定是透過-Artifact-跑起來"><a href="#1-一定是透過-Artifact-跑起來" class="headerlink" title="1) 一定是透過 Artifact 跑起來"></a>1) 一定是透過 Artifact 跑起來</h3><ol><li>避免你的電腦可以跑、我的電腦不能跑</li><li>Build Process 是正常的</li><li>CI 這段要先做到，後面的程序才有意義。</li></ol><p>這段是我定義的 <code>交付</code> ，不是虛的那種價值交付，而是實體軟體檔案的交付。任何軟體開發、軟體工程，最後都需要把東西叫給下一棒，不管是內部的工程師、還是外部客戶、還是後面的自動化程序。Artifact 就是標準的交付介面。有了這段，才有後使用上的價值可言。</p><h3 id="2-Happy-Path-一定是-黑箱測試，先驗證應用程式的-內聚力"><a href="#2-Happy-Path-一定是-黑箱測試，先驗證應用程式的-內聚力" class="headerlink" title="2) Happy Path 一定是 黑箱測試，先驗證應用程式的 內聚力"></a>2) Happy Path 一定是 <code>黑箱測試</code>，先驗證應用程式的 <code>內聚力</code></h3><ol><li>假設 App 功能還沒好了，重點在於驗證 功能正確性，強調的是 App 的 <code>內聚力</code>。<ul><li>熟悉 UT 的人應該可以感覺到這段話的核心思想，與 UT 是一樣的。</li></ul></li><li>這個階段 <code>不處理</code> 外在環境因素 (非功能)，像是放到 K8s or Cloud &#x2F; DB HA &#x2F; 網路架構 &#x2F; Cache … etc.<ul><li>只要有個標準就好，像是透過 docker 跑起來、或者 binary 跑起來即可。</li></ul></li></ol><blockquote><p><code>測試策略</code> 的 <code>內聚力與耦合性</code> 概念，參閱 <a href="https://rickhw.github.io/2018/03/18/SQA/Gossip-System-Testing/">系統測試的三兩事</a> 介紹。</p></blockquote><h3 id="3-Happy-Path-是-UAT-的其中一環"><a href="#3-Happy-Path-是-UAT-的其中一環" class="headerlink" title="3. Happy Path 是 UAT 的其中一環"></a>3. Happy Path 是 UAT 的其中一環</h3><ol><li>UAT 的目的是出貨前要做的驗證，包含 Happy Paths 與 Regression 的項目</li><li>Happy Path 包含功能與非功能的部分，非功能的就是 Artifact、功能性的就像登入、註冊 … 這些基本功能</li></ol><h2 id="測試金字塔-該怎麼落實？"><a href="#測試金字塔-該怎麼落實？" class="headerlink" title="測試金字塔 該怎麼落實？"></a>測試金字塔 該怎麼落實？</h2><p>回到一開始的金字塔，問題要改成：</p><blockquote><p>怎麼落實、怎麼執行測試金字塔的概念</p></blockquote><p>做軟體開發的公司千百家，但是可以稱得上是 軟體公司 的，可能為數不多，大多都是專案驅動 (死線驅動 DDD)，產品驅動較少，重視軟體工程就更少了。</p><p>我自己待過很大的國際級軟體公司，走過理想的金字塔；也待過從無到有的新創公司，面對過實際的狀況， (故事放在 <a href="https://rickhw.github.io/2019/10/30/SQA/Problems-In-Software-Testing/">這篇文章</a> 的最後一段)，但是這兩種公司在軟體開發最後都有一樣要面對問題：</p><blockquote><ul><li>內部怎麼認定這東西是好了？</li><li>怎麼把東西交到客戶手上？</li><li>客戶怎麼用這個東西？</li><li>產品對客戶真的能夠提供價值？</li></ul></blockquote><p>能動了，利用 Unit Test 有效的保護各個 function &#x2F; module 的邊界，反覆修正 Happy Paths 的執行效能，有了這樣的循環，金字塔自然會成行。</p><p>而這個概念，根 UT 一開始的概念不是一樣？先不寫功能，先寫測試，然後把每次跑測試的錯誤，一一修復，最後修完，也代表功能寫好了。只是 UT 處理的是顆粒度較小的 function，而 Happy Path 處理的是整個 Application。</p><p>所以我認為落實金字塔的方法就是：</p><blockquote><p>建立 UT 與 Happy Path 的循環，<br>驅動這個循環的則是 Happy Path。</p></blockquote><p>起點是 Happy Path，過程則透過 UT 補強。對應到 金字塔，Happy Path 是 E2E 和 Integration Test。</p><p>註： <code>整合測試</code> 的概念請參閱 “<a href="https://rickhw.github.io/2017/03/18/SQA/Stages-In-Software-Testing/">淺談軟體測試的階段與策略</a>“ 的摘要</p><h2 id="測試金字塔是萬用的？"><a href="#測試金字塔是萬用的？" class="headerlink" title="測試金字塔是萬用的？"></a>測試金字塔是萬用的？</h2><p>其實實際的問題是這個：</p><blockquote><ul><li>這個金字塔式萬用的嗎？比例是這樣嗎？UT &gt; Integration &gt; E2E？？</li><li>每個 <code>產品</code> 都可以用這個概念套嗎？做 IoT、做電商、做 API Product 、做網通產品、基礎架構產品 需要的層次不一</li><li>產品在不同階段 (Prototype, Early Stage, 驗證階段, 成長期, 成熟階段) 需要的 <code>策略</code> 不一樣。</li></ul></blockquote><p>這是很弔詭的問題，這個問題大家要放在心裡，別掉進：<code>手上打著錘子，看到啥都是釘子</code> 的圈套。</p><!--## 搞定事情的條件：能力、意願、時間處理案例一、二、三的條件有三個：1. 能力:    * 能、不能    * 熟悉、不熟悉2. 意願    * 喜歡、不喜歡    * 想要、不想要3. 時間    * 有時間，才有 “左移” → “預防”    * 沒時間：壓力、加班、上靠北工程師發文 (有時間發廢文？壓力的程度：![](/images/SoftwareEngineering/HappyPath/comfortable-in-time.png)當時間充裕的時候：![](/images/SoftwareEngineering/HappyPath/incomfortable-in-time.png)當時間不足的時候：發現的難度、發現的時間--><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><ul><li><a href="https://rickhw.github.io/2019/10/30/SQA/Problems-In-Software-Testing/">關於軟體測試，一些觀察到的現象</a></li><li><a href="https://rickhw.github.io/2018/03/18/SQA/Gossip-System-Testing/">系統測試的三兩事</a></li><li><a href="https://rickhw.github.io/2017/03/18/SQA/Stages-In-Software-Testing/">淺談軟體測試的階段與策略</a></li><li><a href="https://rickhw.github.io/2022/04/06/SoftwareEngineering/Artifact-Management-and-Version-Control/">Version Control 與 Artifact Management</a></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;code&gt;測試金字塔&lt;/code&gt; 是很多書、很多演講都會提的概念，從上到下是 E2E、Integration、Unit Test，佔比也是這個次序。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/SQA/The_Test_Pyramid.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;很多大神、知名的軟體教練、傳教士、訪間的訓練機構也都一再強調 Unit Test (以下簡稱 UT) 的重要，經過幾年的宣導與討論，基本上，現在很多軟體工程師都自己會先做 Unit Test，或者在跑 Scrum 時都有出現 Task 內容是要做 Unit Test。對於整個軟體產業而言，是個很好的現象。&lt;/p&gt;
-&lt;p&gt;這年代跑 Scrum 也越來越普遍，大家也有意識到一個 Scrum Team 就是在做一個產品，大概就像 &lt;code&gt;天龍特攻隊&lt;/code&gt; (A Team) 、或者是阿湯哥 &lt;code&gt;不可能任務&lt;/code&gt;、或者一個 &lt;code&gt;搖滾樂團&lt;/code&gt; ，都是 Team Work，理論上，要交付的是一個共同的價值。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Software Engineering" scheme="https://rickhw.github.io/categories/Software-Engineering/"/>
-    
-    
-    <category term="Unit Test" scheme="https://rickhw.github.io/tags/Unit-Test/"/>
-    
-    <category term="Artifact" scheme="https://rickhw.github.io/tags/Artifact/"/>
-    
-    <category term="Happy Paths" scheme="https://rickhw.github.io/tags/Happy-Paths/"/>
     
   </entry>
   
