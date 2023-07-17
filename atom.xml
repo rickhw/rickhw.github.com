@@ -100,9 +100,9 @@
     <link href="https://rickhw.github.io/2023/07/17/About/2023-SRE-Practice-and-IDP/"/>
     <id>https://rickhw.github.io/2023/07/17/About/2023-SRE-Practice-and-IDP/</id>
     <published>2023-07-17T13:42:30.000Z</published>
-    <updated>2023-07-17T10:48:53.900Z</updated>
+    <updated>2023-07-17T13:08:03.260Z</updated>
     
-    <content type="html"><![CDATA[<p>如果你希望買一本書，照著裡面說的步驟走，事情就搞定了，那這本書一定不適合你。<br>如果你希望買一本書，可以隨意翻閱，然後有種「啊！就是這樣啦！」，那這本書應該適合你。</p><p><img src="/images/About/2023-SRE-Practical-and-IDP/cover.jpg"></p><p>預購點這裡：<a href="https://www.tenlong.com.tw/products/9786263334908?list_name=r-zh_tw">SRE 實踐與開發平台指南：從團隊協作、原則、架構和趨勢掌握全局，做出精準決策</a></p><span id="more"></span><h2 id="方向規劃"><a href="#方向規劃" class="headerlink" title="方向規劃"></a>方向規劃</h2><p>一開始在構思這本書，是從去年演講 <a href="/2022/05/10/About/2022-SREConf2022/">91APP 在 AWS 上的 SRE 實踐之路</a> 為主幹，搜集了很多資料，但是寫到一半發現，我開始在思考一些問題：</p><ol><li>希望讀者花 500 (假設) 得到什麼？有什麼啟發？</li><li>一本書要給讀者怎樣的內容，才值回票價？</li><li>這本書可以隨意翻閱？</li><li>讀者為啥要買我的書？</li><li>這本書十年後會變成桌墊？還是經典？</li></ol><p>後來想想，大筆一揮，砍掉很多東西，更多是重新整理最真實的經驗，分享背後的 QBQ。</p><p>問問我自己，拿起一本書的時候，希望得到什麼？</p><blockquote><p>不是希望得到答案，更多是獲得思考的機會，也就是啟發思考，不是要讀者都同意我的觀點，更多是因為我的觀點，獲得啟發與思考。</p></blockquote><p>這樣就達到我的目的了。</p><!-- ## 內容與讀者的距離：實際問題切入Google 的 SRE 本身閱讀起來，是有距離的，也就是上面提的問題，如果沒有一定規模，或者自建機房，大部分遇不到。書中九成九的內容，都是我自己親自經歷、決策、，其中有不少內容，曾經共事過的同事一定不陌生，甚至會有會心一笑的。## 減法原則：本來有規劃，但後來沒寫的，本來書內容規劃很多，後來我全砍了。。。 (下一本？本來要寫這些：- Coding, 談 OOP- 談 Design Pattern因為遇過不少傳統 OP 要轉 DevOps or SRE，但因為沒有 coding 技能，或者不想接觸 coding 為什麼沒有寫？怕定位混亂--><h2 id="寫作方式"><a href="#寫作方式" class="headerlink" title="寫作方式"></a>寫作方式</h2><ul><li><code>寫作原則</code>: 以降低 SRE 的距離感為原則，所以以口語化、容易閱讀、讀起來沒壓力、拿起來，隨意翻閱都可以讀。</li><li><code>生活經驗</code>: 書中的概念，以生活的概念為原則，不管是技術或者方法，應該都可以在生活當中找到例子，也就是讀者透握自身的生活經歷，就可以理解裡面的想法。</li><li><code>持續閱讀</code>: 身邊有在閱讀的朋友應該算多，至少上個工作，有國寶級大師 Ruddy 老師，讓大家在 <code>閱讀</code> 這件事，讓同事們都很有養分。</li><li><code>章節關聯性</code>: 章節的安排，前半段盡量減少關聯性，後半段則有關聯性。</li></ul><h2 id="感謝"><a href="#感謝" class="headerlink" title="感謝"></a>感謝</h2><ul><li>業界推坑魔人 - <code>正瑋</code> 引薦出版社，讓我嘗試跟編輯討論出版的方向。</li><li>感謝出版社 <code>Abby</code>、以及責任編輯 <code>Sammi</code> 的耐心與建議。</li><li>感謝推薦序的幾位好朋友：<code>Andrew</code>, <code>正瑋</code>, <code>Kim</code>, <code>小城</code>，在短短的時間之內看完，然後寫推薦序，真的是很感謝他們～</li></ul><h2 id="書中彩蛋"><a href="#書中彩蛋" class="headerlink" title="書中彩蛋"></a>書中彩蛋</h2><p>書中有藏一些彩蛋，跟我共事過的同事都知道，我很重視閱讀文件手冊這件事情，凡事都會要求先看過文件。這樣要求的同時，我也會要求自己把文件寫清楚，Infra Team 裡起草規格、制度、Guideline 寫最多的一定是我，而且就是白紙黑字。</p><p>我也曾經在規格文件中，埋藏彩蛋，讓同事去尋寶，如下圖, <a href="https://www.facebook.com/rick.kyhwang/posts/pfbid031dXbsA7VNKFDDnQJAUQv7huPWAcQKJnbnMS7EadVvqKfT8wXHGVTEhytmBjhipvNl">原始連結</a></p><p><img src="/images/About/2023-SRE-Practical-and-IDP/happy-water.png"></p><p>書中也有這樣的彩蛋，不過要稍微動一點腦經。。。找到歡迎私訊我，限量兩本書送給先找到的朋友 XD</p>]]></content>
+    <content type="html"><![CDATA[<p>如果你希望買一本書，照著裡面說的步驟走，事情就搞定了，那這本書一定不適合你。<br>如果你希望買一本書，可以隨意翻閱，然後有種「啊！就是這樣啦！」，那這本書應該適合你。</p><p><img src="/images/About/2023-SRE-Practical-and-IDP/cover.jpg"></p><p>預購點這裡：<a href="https://www.tenlong.com.tw/products/9786263334908?list_name=r-zh_tw">SRE 實踐與開發平台指南：從團隊協作、原則、架構和趨勢掌握全局，做出精準決策</a></p><span id="more"></span><h2 id="方向規劃"><a href="#方向規劃" class="headerlink" title="方向規劃"></a>方向規劃</h2><p>一開始在構思這本書，是從去年演講 <a href="/2022/05/10/About/2022-SREConf2022/">91APP 在 AWS 上的 SRE 實踐之路</a> 為主幹，搜集了很多資料，但是寫到一半發現，我開始在思考一些問題：</p><ol><li>希望讀者花 500 (假設) 得到什麼？有什麼啟發？</li><li>一本書要給讀者怎樣的內容，才值回票價？</li><li>這本書可以隨意翻閱？</li><li>讀者為啥要買我的書？</li><li>這本書十年後會變成桌墊？還是經典？</li></ol><p>後來想想，大筆一揮，砍掉很多東西，更多是重新整理最真實的經驗，分享背後的 QBQ。</p><p>問問我自己，拿起一本書的時候，希望得到什麼？</p><blockquote><p>不是希望得到答案，更多是獲得思考的機會，也就是啟發思考，不是要讀者都同意我的觀點，更多是因為我的觀點，獲得啟發與思考。</p></blockquote><p>這樣就達到我的目的了。</p><!-- ## 內容與讀者的距離：實際問題切入Google 的 SRE 本身閱讀起來，是有距離的，也就是上面提的問題，如果沒有一定規模，或者自建機房，大部分遇不到。書中九成九的內容，都是我自己親自經歷、決策、，其中有不少內容，曾經共事過的同事一定不陌生，甚至會有會心一笑的。## 減法原則：本來有規劃，但後來沒寫的，本來書內容規劃很多，後來我全砍了。。。 (下一本？本來要寫這些：- Coding, 談 OOP- 談 Design Pattern因為遇過不少傳統 OP 要轉 DevOps or SRE，但因為沒有 coding 技能，或者不想接觸 coding 為什麼沒有寫？怕定位混亂--><h2 id="寫作方式"><a href="#寫作方式" class="headerlink" title="寫作方式"></a>寫作方式</h2><ul><li><code>寫作原則</code>: 以降低 SRE 的距離感為原則，所以以口語化、容易閱讀、讀起來沒壓力、拿起來，隨意翻閱都可以讀。</li><li><code>生活經驗</code>: 書中的概念，以生活的概念為原則，不管是技術或者方法，應該都可以在生活當中找到例子，也就是讀者透握自身的生活經歷，就可以理解裡面的想法。</li><li><code>持續閱讀</code>: 身邊有在閱讀的朋友應該算多，至少上個工作，有國寶級大師 Ruddy 老師，讓大家在 <code>閱讀</code> 這件事，讓同事們都很有養分。</li><li><code>章節關聯性</code>: 章節的安排，前半段盡量減少關聯性，後半段則有關聯性。</li></ul><h2 id="感謝"><a href="#感謝" class="headerlink" title="感謝"></a>感謝</h2><ul><li>業界推坑魔人 - <code>正瑋</code> 引薦出版社，讓我嘗試跟編輯討論出版的方向。</li><li>感謝出版社 <code>Abby</code>、以及責任編輯 <code>Sammi</code> 的耐心與建議。</li><li>感謝推薦序的幾位好朋友：<code>Andrew</code>, <code>正瑋</code>, <code>Kim</code>, <code>小城</code>，在短短的時間之內看完，然後寫推薦序，真的是很感謝他們～</li></ul><h2 id="書中彩蛋"><a href="#書中彩蛋" class="headerlink" title="書中彩蛋"></a>書中彩蛋</h2><p>書中有藏一些彩蛋，跟我共事過的同事都知道，我很重視閱讀文件手冊這件事情，凡事都會要求先看過文件。這樣要求的同時，我也會要求自己把文件寫清楚，Infra Team 裡起草規格、制度、Guideline 寫最多的一定是我，而且就是白紙黑字。</p><p>我也曾經在規格文件中，埋藏彩蛋，讓同事去尋寶，如下圖, <a href="https://www.facebook.com/rick.kyhwang/posts/pfbid031dXbsA7VNKFDDnQJAUQv7huPWAcQKJnbnMS7EadVvqKfT8wXHGVTEhytmBjhipvNl">原始連結</a></p><p><img src="/images/About/2023-SRE-Practical-and-IDP/happy-water.png"></p><p>書中也有這樣的彩蛋，不過要稍微動一點腦筋。。。找到歡迎私訊我，限量兩本書送給先找到的朋友 XD</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;如果你希望買一本書，照著裡面說的步驟走，事情就搞定了，那這本書一定不適合你。&lt;br&gt;如果你希望買一本書，可以隨意翻閱，然後有種「啊！就是這樣啦！」，那這本書應該適合你。&lt;/p&gt;
@@ -271,11 +271,11 @@
     
     <category term="Meetings" scheme="https://rickhw.github.io/tags/Meetings/"/>
     
-    <category term="時間管理" scheme="https://rickhw.github.io/tags/%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86/"/>
-    
     <category term="會議原則" scheme="https://rickhw.github.io/tags/%E6%9C%83%E8%AD%B0%E5%8E%9F%E5%89%87/"/>
     
     <category term="溝通成本" scheme="https://rickhw.github.io/tags/%E6%BA%9D%E9%80%9A%E6%88%90%E6%9C%AC/"/>
+    
+    <category term="時間管理" scheme="https://rickhw.github.io/tags/%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
@@ -321,11 +321,11 @@
     <category term="Container" scheme="https://rickhw.github.io/categories/Container/"/>
     
     
+    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
+    
     <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
     
     <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
-    
-    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
     
     <category term="Macbook Pro M1" scheme="https://rickhw.github.io/tags/Macbook-Pro-M1/"/>
     
@@ -608,11 +608,11 @@
     
     <category term="Software Test" scheme="https://rickhw.github.io/tags/Software-Test/"/>
     
+    <category term="SDLC" scheme="https://rickhw.github.io/tags/SDLC/"/>
+    
     <category term="SQA" scheme="https://rickhw.github.io/tags/SQA/"/>
     
     <category term="SVT" scheme="https://rickhw.github.io/tags/SVT/"/>
-    
-    <category term="SDLC" scheme="https://rickhw.github.io/tags/SDLC/"/>
     
   </entry>
   
