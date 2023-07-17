@@ -165,9 +165,9 @@
     
     <category term="Monitoring" scheme="https://rickhw.github.io/tags/Monitoring/"/>
     
-    <category term="Incident Management" scheme="https://rickhw.github.io/tags/Incident-Management/"/>
-    
     <category term="Emergency Response" scheme="https://rickhw.github.io/tags/Emergency-Response/"/>
+    
+    <category term="Incident Management" scheme="https://rickhw.github.io/tags/Incident-Management/"/>
     
     <category term="Software Engineering" scheme="https://rickhw.github.io/tags/Software-Engineering/"/>
     
@@ -242,9 +242,9 @@
     
     <category term="Contract First" scheme="https://rickhw.github.io/tags/Contract-First/"/>
     
-    <category term="API Governance" scheme="https://rickhw.github.io/tags/API-Governance/"/>
-    
     <category term="Communication Protocol" scheme="https://rickhw.github.io/tags/Communication-Protocol/"/>
+    
+    <category term="API Governance" scheme="https://rickhw.github.io/tags/API-Governance/"/>
     
   </entry>
   
@@ -321,11 +321,11 @@
     <category term="Container" scheme="https://rickhw.github.io/categories/Container/"/>
     
     
-    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
+    <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
     
     <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
     
-    <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
+    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
     
     <category term="Macbook Pro M1" scheme="https://rickhw.github.io/tags/Macbook-Pro-M1/"/>
     
@@ -379,11 +379,11 @@
     <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
     
     
+    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
+    
     <category term="Published-SRE1" scheme="https://rickhw.github.io/tags/Published-SRE1/"/>
     
     <category term="Gitlab" scheme="https://rickhw.github.io/tags/Gitlab/"/>
-    
-    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
     
     <category term="Continuous Integration" scheme="https://rickhw.github.io/tags/Continuous-Integration/"/>
     
