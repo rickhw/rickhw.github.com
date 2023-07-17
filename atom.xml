@@ -97,8 +97,8 @@
   
   <entry>
     <title>新書上市 - 個人著作《SRE 實踐與開發平台指南》</title>
-    <link href="https://rickhw.github.io/2023/07/17/About/2023-SRE-Practical-and-IDP/"/>
-    <id>https://rickhw.github.io/2023/07/17/About/2023-SRE-Practical-and-IDP/</id>
+    <link href="https://rickhw.github.io/2023/07/17/About/2023-SRE-Practice-and-IDP/"/>
+    <id>https://rickhw.github.io/2023/07/17/About/2023-SRE-Practice-and-IDP/</id>
     <published>2023-07-17T13:42:30.000Z</published>
     <updated>2023-07-17T10:48:53.900Z</updated>
     
@@ -165,9 +165,9 @@
     
     <category term="Monitoring" scheme="https://rickhw.github.io/tags/Monitoring/"/>
     
-    <category term="Emergency Response" scheme="https://rickhw.github.io/tags/Emergency-Response/"/>
-    
     <category term="Incident Management" scheme="https://rickhw.github.io/tags/Incident-Management/"/>
+    
+    <category term="Emergency Response" scheme="https://rickhw.github.io/tags/Emergency-Response/"/>
     
     <category term="Software Engineering" scheme="https://rickhw.github.io/tags/Software-Engineering/"/>
     
@@ -323,9 +323,9 @@
     
     <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
     
-    <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
-    
     <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
+    
+    <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
     
     <category term="Macbook Pro M1" scheme="https://rickhw.github.io/tags/Macbook-Pro-M1/"/>
     
@@ -608,11 +608,11 @@
     
     <category term="Software Test" scheme="https://rickhw.github.io/tags/Software-Test/"/>
     
-    <category term="SDLC" scheme="https://rickhw.github.io/tags/SDLC/"/>
-    
     <category term="SQA" scheme="https://rickhw.github.io/tags/SQA/"/>
     
     <category term="SVT" scheme="https://rickhw.github.io/tags/SVT/"/>
+    
+    <category term="SDLC" scheme="https://rickhw.github.io/tags/SDLC/"/>
     
   </entry>
   
