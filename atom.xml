@@ -96,6 +96,35 @@
   </entry>
   
   <entry>
+    <title>凝聚團隊共識與人才養成</title>
+    <link href="https://rickhw.github.io/2023/07/29/Management/Team-Consensus-and-Talent-Development/"/>
+    <id>https://rickhw.github.io/2023/07/29/Management/Team-Consensus-and-Talent-Development/</id>
+    <published>2023-07-29T10:21:00.000Z</published>
+    <updated>2023-07-29T01:39:50.444Z</updated>
+    
+    <content type="html"><![CDATA[<p>這段 <a href="https://www.facebook.com/rick.kyhwang/posts/pfbid0gwDFvZ2RnZvTsFoo9bHgG5Hmfhs31953kjZa5MX3aj7jfrB6AsfaootqgcYM1Td7l">筆記</a> 是 2020 年聽 podcast 寫下的心得筆記、跟朋友討論的東西，這整個過程，也是我過去帶團隊、人才培養背後的實際方法。</p><span id="more"></span><h2 id="階段"><a href="#階段" class="headerlink" title="階段"></a>階段</h2><p>這是我在團隊裡用了一段時間、找共識的方法</p><ul><li>第一階段是 <code>暢所欲言</code>，誰有什麼想法都提出來寫下來；</li><li>第二階段是 <code>評估想法</code>，發現不同想法之間的聯繫，把他們用線連接起來；</li><li>第三階段是 <code>形成決議</code>：把討論中淘汰掉的想法都划掉，剩下的分出 <code>主、次</code> 和 <code>執行順序</code>，然後整理一下就可以照著做了。</li></ul><p>這三個階段，其實就是從 <code>發散思維</code>，到最後 <code>集體的集中思維</code> 的過程。先發揚民主，最後形成集中的共識。</p><h2 id="起頭：萬事起頭難"><a href="#起頭：萬事起頭難" class="headerlink" title="起頭：萬事起頭難"></a>起頭：萬事起頭難</h2><p>通常要有人起頭，做個雛形或者樣子，然後要讓大家暢所欲言的討論，把想法丟出來，這段過程很重要。</p><p>我常會是把想法丟出來的人，但是跟大家發想的過程，要準備被大家圍毆，或者被整個推翻的心理準備。這個過程要放下身份、身段，讓大家可以暢所欲言，然後透過這樣的激盪，把想法都放在白板上，過程用顏色區分問題、方向、現況 … 等。</p><p>而在討論過程，主軸很容易因為大家的背景、角色、經驗不一樣，主軸一直 <code>飄、亂、散</code> 是正常的，所以一開始發起的人就是要負責讓會議進行有主軸。</p><blockquote><p>這個過程，雖然是我先發起，但過程中也可以探索出下一個可以接棒自己的人才，越有想法的人，就讓他嘗試起頭。</p></blockquote><h2 id="探索潛力人才"><a href="#探索潛力人才" class="headerlink" title="探索潛力人才"></a>探索潛力人才</h2><p>下一步就是要指派一個負責人，開始整理白板討論的內容，通常他也是接下來整個任務的執行者。</p><p>這段非常非常重要，因為 <code>整理</code> 就是把想法具象化的過程，沒有這段整理的過程，討論過程激盪的想法與內容等於就浪費了。</p><p>接手的人要負責整理這些討論的內容，把發散的資訊，眾人的想法，收斂成一份大家的初版共識。</p><p>整理的過程，負責人必須重新深度思考這些討論，重新思考其中的 <code>邏輯結構</code>、<code>先後關係</code>、<code>必要與次要</code>，經過這段重新思考，這個人會變成對整件有最深刻的了解。</p><h2 id="可執行的規格與計畫"><a href="#可執行的規格與計畫" class="headerlink" title="可執行的規格與計畫"></a>可執行的規格與計畫</h2><p>下一步就是整理成有意義的文件，這份文件會是一份 Guideline、Spec 的草稿版了。這份文件也會是未來執行的起始點，文件內容包含：</p><ol><li>問題的描述</li><li>目標，得到的好處</li><li>解決方案有哪些？他們個別考慮是什麼？適合怎樣的場景？優缺點</li><li>具體 PoC 的範圍</li><li>常見的問題</li></ol><p>有了規格的具象化，下一步才是技術的實驗，也就是 PoC。依據目標與方向的 PoC 才有意義。否則很容易變成無上限的發散。</p><blockquote><p>這個過程有點類似：<a href="/2019/04/05/About/Working-Backwards/">Working Backwards</a> 的想法</p></blockquote><h2 id="透過技術評估，培養技術專家"><a href="#透過技術評估，培養技術專家" class="headerlink" title="透過技術評估，培養技術專家"></a>透過技術評估，培養技術專家</h2><p>紙上得來終覺淺，絕知此事要躬行。再多的討論與想法，沒有人動手去做，終究空談，特別是在技術圈。</p><p>所以前面提到的負責人，通常會是實際執行的人，他也會是未來對這個新任務、新技術最熟的人，這是培養技術專家的機會與跳板。</p><p>PoC 技術是要解決現場問題。所以根據規格的內容，開始評估需要的技術與 PoC，他要走過所有技術的實踐與考慮，過程就是對於新技術有駕馭能力，獨立研究新技術的方向、如何評估可行性。</p><p>現場問題往往比 PoC 的更複雜十倍。但是 PoC 是要了解是否都滿足現場的考量，我常會說：問題的 Consideration (考慮) 是什麼？這些考慮都是必要的？優先續是什麼？</p><p>評估過程，不管結果怎樣，只要確實執行，對於技術會有基礎掌握。掌握技術的目的是為了能夠解決關鍵問題，帶來效益。不管評估結果是否適合，都是毀很有收穫的。</p><blockquote><p>2018 年 K8s 剛開始流行的時候，因為團隊需求，期望 K8s 上跑 Windows Container，但我們都知道，這是不切實際的。但我們還是很認真的評估，花了兩個多月，找了 AWS EKS (那時候 EKS 還在 Beta) 一起評估，搞了很久，但有了實際的報告與預期結果。最後結果不難猜想，是不適合的 (不是不行)，但是大家都因為這個評估過程，很有收穫。</p></blockquote><p>除了技術評估，過程我也會訓練同仁 <code>表達</code> 能力，也就是 <code>把複雜的技術概念，變成普羅大眾能聽懂的人話</code>，就像是科普一樣。背後目的就是讓他試著把技術講易懂，怎樣找到適當的比喻，怎樣讓另一個人也懂的怎麼做？怎麼用？怎麼講？<code>表達</code> 技巧也是訓練的關鍵之一。懂技術，會用技術，但是無法讓別人知道，等於不懂。</p><blockquote><p>沒有時間學習技術的管理者，也可以在這個過程，間接學到這些新技術，至少不會完全跟不上，相關參閱 <a href="/2019/03/30/Management/How-do-Manager-Keep-Learning/">管理者如何持續學習技術？</a></p></blockquote><h2 id="下一步：執行與落地"><a href="#下一步：執行與落地" class="headerlink" title="下一步：執行與落地"></a>下一步：執行與落地</h2><p>透過評估，滿足了所有情境，下一步才是導入。導入就是真的拿去用，解決問題，產生價值。</p><p>用之前，我通常會希望有規則，也就是 <code>使用前請閱讀公開說明書的概念</code>。</p><p><code>能</code> 是一件事，<code>用</code> 另一件事。評估與 PoC 確定的是 <code>能</code> 的問題，<code>用</code> 是要用 <code>制度、規範</code> 解決。</p><p>制度規範就是規矩，沒有規矩，怎麼能方圓？系統要長大，線性增加，靠的是規矩、制度、章法。</p><blockquote><p>更多參閱： <a href="/2019/11/19/Management/Objectives-Key-Results-Executions/">有效定義目標與執行、落地</a></p></blockquote><h2 id="Q-怎麼讓來開會的人有暢所欲言？"><a href="#Q-怎麼讓來開會的人有暢所欲言？" class="headerlink" title="Q: 怎麼讓來開會的人有暢所欲言？"></a>Q: 怎麼讓來開會的人有暢所欲言？</h2><p>我也不是很清楚算不算做到，但心裡有一些平常在做的，幾點我的套路：</p><ol><li><code>以身作則</code>：我常說會議要準時，不要遲到，如果大家發現 Rick 無故遲到，請不用客氣ㄉㄧㄤ下去。<ul><li>除了會議，其他也是。看起來沒啥關係，只是想表達紀律，原則。</li></ul></li><li><code>承認自己能力有限</code>：讓大家知道，我們是一個 Team ，各有各的專長，遇到問題是可以一起分擔的。一個人能力很有限，但一個團隊可以很強大。</li><li><code>前中後的節奏</code>：<ul><li>討論前，主動丟出想法</li><li>討論中，一切都從白板開始，一開始就具象表達。</li><li>表達的時候，盡量用生活化的例子，或者用自己當例子，或者用現場的人當作故事角色，把大家串再一起。</li><li>用自己當例子是暴露自己的弱點，好惡，讓大家帶著輕鬆進入主題。</li></ul></li><li>平常營造討論的風氣，訓練大家表達的方法（我很強調這點）。<ul><li>討論的結果要可以具象化 (文件)、結構化 (還是文件)、之後可以依循 (又是文件)。</li></ul></li><li>大家對於討論有具體的內容，有一致的表達方法，下一個 run 就會有更具體的討論，加上前面 3) 建立的連線，4) 的具體內容 2) 弱化權力角色，1) 有紀律的團隊 … 也更容易暢所欲言… ?</li></ol><blockquote><p>更多參閱： <a href="/2020/08/01/Management/Expression-and-Communication/">表達與溝通的差異</a>、<a href="/2019/04/03/Management/Write-Document/">再談『為什麼寫文件？』</a></p></blockquote><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><ul><li><a href="/2019/04/05/About/Working-Backwards/">一個人的 Working Backwards</a></li><li><a href="/2019/03/30/Management/How-do-Manager-Keep-Learning/">管理者如何持續學習技術？</a></li><li><a href="/2021/12/19/Management/Protocol-to-Communication/">團隊溝通的通訊協議</a></li><li><a href="/2019/11/19/Management/Objectives-Key-Results-Executions/">有效定義目標與執行、落地</a></li><li><a href="/2020/08/01/Management/Expression-and-Communication/">表達與溝通的差異</a></li><li><a href="/2019/04/03/Management/Write-Document/">再談『為什麼寫文件？』</a></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;這段 &lt;a href=&quot;https://www.facebook.com/rick.kyhwang/posts/pfbid0gwDFvZ2RnZvTsFoo9bHgG5Hmfhs31953kjZa5MX3aj7jfrB6AsfaootqgcYM1Td7l&quot;&gt;筆記&lt;/a&gt; 是 2020 年聽 podcast 寫下的心得筆記、跟朋友討論的東西，這整個過程，也是我過去帶團隊、人才培養背後的實際方法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="經營管理" scheme="https://rickhw.github.io/categories/%E7%B6%93%E7%87%9F%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="溝通" scheme="https://rickhw.github.io/tags/%E6%BA%9D%E9%80%9A/"/>
+    
+    <category term="Awareness" scheme="https://rickhw.github.io/tags/Awareness/"/>
+    
+    <category term="Consensus" scheme="https://rickhw.github.io/tags/Consensus/"/>
+    
+    <category term="人才養成策略" scheme="https://rickhw.github.io/tags/%E4%BA%BA%E6%89%8D%E9%A4%8A%E6%88%90%E7%AD%96%E7%95%A5/"/>
+    
+    <category term="主管" scheme="https://rickhw.github.io/tags/%E4%B8%BB%E7%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
     <title>新書上市 - 個人著作《SRE 實踐與開發平台指南》</title>
     <link href="https://rickhw.github.io/2023/07/17/About/2023-SRE-Practice-and-IDP/"/>
     <id>https://rickhw.github.io/2023/07/17/About/2023-SRE-Practice-and-IDP/</id>
@@ -180,8 +209,8 @@
   
   <entry>
     <title>API 設計 - API 整合矩陣</title>
-    <link href="https://rickhw.github.io/2023/07/02/DistributedSystems/API-Integration-Matrix/"/>
-    <id>https://rickhw.github.io/2023/07/02/DistributedSystems/API-Integration-Matrix/</id>
+    <link href="https://rickhw.github.io/2023/07/02/DistributedSystems/API-First_Integration-Matrix/"/>
+    <id>https://rickhw.github.io/2023/07/02/DistributedSystems/API-First_Integration-Matrix/</id>
     <published>2023-07-02T05:30:00.000Z</published>
     <updated>2023-07-13T13:29:53.183Z</updated>
     
@@ -217,10 +246,10 @@
   
   <entry>
     <title>API 設計 - 摘要 API 通訊模式與協議</title>
-    <link href="https://rickhw.github.io/2023/06/24/DistributedSystems/API-Communication-Protocol/"/>
-    <id>https://rickhw.github.io/2023/06/24/DistributedSystems/API-Communication-Protocol/</id>
+    <link href="https://rickhw.github.io/2023/06/24/DistributedSystems/API-First_Communication-Protocol/"/>
+    <id>https://rickhw.github.io/2023/06/24/DistributedSystems/API-First_Communication-Protocol/</id>
     <published>2023-06-24T05:30:00.000Z</published>
-    <updated>2023-07-13T13:29:51.509Z</updated>
+    <updated>2023-07-28T09:21:41.321Z</updated>
     
     <content type="html"><![CDATA[<p><code>API First</code> 在跨企業的系統交互越來越頻繁的今天，提供有效的擴展業務的方法。過往什麼功能都要自行開發，但卻因為內部資源不足；亦或錯估新業務規模的深度與需求層次，造成投入沒有成效、或者必須不斷的加碼投入，最後才意會到，這是個獨立領域，需要獨立的專業團隊，像是 MarTech、支付、通訊 …</p><p>API First 的概念，背後是雙方在技術上彼此溝通的通訊協議，透過這層協議，雙方可以更快速的仰賴彼此的擅長的領域，進而拓展業務。最常見的就是電商與支付系統、廣告服務、電信系統、物流業、與 ChatBot &#x2F; AI … 等整合。</p><p>開放 API 是個策略性決策，背後代表著要與合作夥伴達成策略聯盟，本質上是 B2B 的商業行為；同時開放 API 也意味著內部系統需要有高度整合，提供對外統一介面與標準，讓合作夥伴在開發過程，可以有一致性的使用介面與理解。</p><p>基於這樣的前提，只要是 API 對外開放、或者是內部整合，都要面對本文要提到的問題：<code>API 通訊模式與協議</code></p><span id="more"></span><h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文摘要基於 B2B 的業務模式，開放 API 時必須要規劃的對內、對外通訊模式，以及分析實務上的情境組合。</p><h2 id="通訊模式"><a href="#通訊模式" class="headerlink" title="通訊模式"></a>通訊模式</h2><p><code>通訊模式</code> 代表 API 對內、對外彼此交互的方式，整理如下圖：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/API-Comm-Mode_v20230623.png"></p><p>圖中定義的系統包含如下：</p><ol><li><code>API Platform</code>: 主要處理的是外部通訊請求，<ul><li>架構角色包含 API Gateway, API Manaement, API Operation 等部分<ul><li><code>API Gateway</code>: 職責包含 AAA, Traffic Control, Protection, Rate Limit,</li><li><code>API Management</code>: API 的 Publisher &#x2F; Subscriber, Token &amp; Key Management &#x2F; Lifecycle &#x2F; Documentation … 等，背後本質與核心議題是 <code>API Governance</code></li><li><code>API Operation</code>: 包含 Obervability &amp; Monitoring, APM, Tracing, Logging, Cache … 等架構性問題.</li></ul></li><li>整合 API Platform 對外處理合作夥伴的 API 請求, 同時轉發請求給對應的內部服務.</li><li>API Platform 本身必須滿足以下架構需求: Security, Reliablity, Performance, Operational</li></ul></li><li><code>Service X</code>: 企業內部各種 Domain Services 的泛稱，像是訂單 &#x2F; 商品 &#x2F; 庫存 … 等.<ul><li>這些服務都是內部系統，不直接對外</li><li>這些服務對於 API Platform 兒言，都屬於 Publisher，或稱 Provider (供應商)</li><li>這些服務跟服務之間的溝通，必須遵循 <code>內部通訊協議 (Internal Commucation Protocol, ICP)</code></li></ul></li><li><code>External Services</code>: 使用 API 的合作夥伴，這裡的案例是 B2B</li><li><code>Client</code>: 提供給 End User 使用的 GUI 介面形式，包含 Mobile, Desktop, Web … 等.</li></ol><p>這四個角色之間，彼此之間的溝通用不同顏色以及標示 (C2, B3, C4, C3, D4 … )，搭配 <code>情境矩陣</code> 收斂實際的範圍。</p><h2 id="情境矩陣"><a href="#情境矩陣" class="headerlink" title="情境矩陣"></a>情境矩陣</h2><p>這四個角色之間的通訊，有 16 種排列組合，整理出以下的情境矩陣：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/API-Comm-Scenario_v20230623.png"></p><p>這十六種排列組合，彼此之間都有可能會相互通訊，情境矩陣則展開了所有的可能，經過分析後，刪除不合理、不需要、不必要的排列組合 (A1, B2, C1 …)，確立我們需要關注的組合，最核心情境有以下：</p><ol><li><code>Session Base</code>: 排列組合中的 A2</li><li><code>External API</code>: 排列組合中的 B3, C4</li><li><code>Internal Commucation</code>: 排列組合中的 C3, D3, D4</li><li><code>External Invcation</code>: 排列組合中的 C2, D2</li></ol><p>有了這樣的定義與理解之後，針對每個通訊模式，就可以定義適當的 Context ，讓彼此有一致的標準溝通，包含 (但不限於) 以下：</p><ol><li>認證授權</li><li>服務治理</li><li>展開適當的架構設計</li><li>追蹤管理</li><li>API 設計方法</li><li>API 生態系的管理與治理</li><li>API 維運</li><li>… etc.</li></ol><h2 id="小結"><a href="#小結" class="headerlink" title="小結"></a>小結</h2><p>下圖是網路上很有名的故事，個人覺得核心是「經營之道」：</p><p><img src="/images/DistributedSystems/API-Comm-Protocol/Biz.png"></p><p>故事摘要如下：</p><blockquote><p>第一個猶太人來到小鎮上開了個加油站，生意很旺。第二個猶太人來了，發現加油站生意很不錯，想到加油站的客戶需要吃飯，所以投資開了個餐館。第三個猶太人來了，想到來小鎮的人多了需要住宿，於是開了個飯店。第四個猶太人又發現住店的人需要生活用品，於是開了超市。第五個，第六個……來的人越來越多，吃飯住宿旅遊經商的人又需要加油，於是加油站、餐館、飯店、超市的生意相繼更旺了，逐步小鎮就成了一個經濟繁榮的小鎮，很多猶太人都富裕了。</p><p>第一個中國人來到小鎮上開了個加油站，生意很旺。第二個中國人來了，發現第一個人投資的加油站生意真令人羨慕，趕緊開了第二個加油站。第三個中國人又來了，看見前面2個同胞的加油站生意很好妒嫉得眼紅，火速開了第三個加油站。第四，第五個同胞過來都是一樣，開加油站還打折促銷……最後惡性競爭，然後紛紛倒閉，小鎮又回到原點……</p></blockquote><p>先不論故事中的反諷，但是猶太人的重點就在於經營的過程，透過整合的方式，而不是硬碰硬，透過共榮、相互依存的概念，集結成一個生態系。API 本身就是生態系中的一環，企業透過開放 API，與其他異業結合，相互協助、相互依存，形成一個生態系。</p><p>有了這個核心的模式與情境，接下來就可以討論實際上架構設計時的選擇與設計思路，以及市面上的解決方案。</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="站內文章"><a href="#站內文章" class="headerlink" title="站內文章"></a>站內文章</h2><ul><li><a href="/2023/06/24/DistributedSystems/API-Communication-Protocol/">API 設計 - 摘要 API 通訊模式與協議</a></li><li><a href="/2023/07/02/DistributedSystems/API-Integration-Matrix/">API 設計 - API 整合矩陣</a></li><li><a href="/2018/01/24/DistributedSystems/Overview-API-Gateway/">Overview API Gateway</a></li><li><a href="/2021/05/14/DistributedSystems/Service-Governance/">聊聊分散式架構的服務治理</a></li><li><a href="/2022/07/04/DistributedSystems/Inspired-Design-From-Eclipse/">摘要 Eclipse 設計的啟發：當代 SaaS 分散式架構的關鍵設計</a></li><li><a href="/2021/01/03/Linux/Shell-and-Bash-Concepts/">Shell and Bash Concepts</a></li></ul>]]></content>
     
@@ -274,9 +303,9 @@
     
     <category term="Bus Memo" scheme="https://rickhw.github.io/tags/Bus-Memo/"/>
     
-    <category term="時間管理" scheme="https://rickhw.github.io/tags/%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86/"/>
-    
     <category term="Meetings" scheme="https://rickhw.github.io/tags/Meetings/"/>
+    
+    <category term="時間管理" scheme="https://rickhw.github.io/tags/%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86/"/>
     
     <category term="會議原則" scheme="https://rickhw.github.io/tags/%E6%9C%83%E8%AD%B0%E5%8E%9F%E5%89%87/"/>
     
@@ -330,11 +359,11 @@
     <category term="Container" scheme="https://rickhw.github.io/categories/Container/"/>
     
     
-    <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
+    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
     
     <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
     
-    <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
+    <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
     
     <category term="Macbook Pro M1" scheme="https://rickhw.github.io/tags/Macbook-Pro-M1/"/>
     
@@ -388,11 +417,11 @@
     <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
     
     
-    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
-    
     <category term="Published-SRE1" scheme="https://rickhw.github.io/tags/Published-SRE1/"/>
     
     <category term="Gitlab" scheme="https://rickhw.github.io/tags/Gitlab/"/>
+    
+    <category term="Continuous Delivery" scheme="https://rickhw.github.io/tags/Continuous-Delivery/"/>
     
     <category term="Continuous Integration" scheme="https://rickhw.github.io/tags/Continuous-Integration/"/>
     
@@ -589,39 +618,6 @@
     <category term="Career" scheme="https://rickhw.github.io/tags/Career/"/>
     
     <category term="Blog" scheme="https://rickhw.github.io/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>演講：從理想、到現實的距離，開啟品味軟體測試之路</title>
-    <link href="https://rickhw.github.io/2022/08/13/SQA/Path-to-Software-Testing/"/>
-    <id>https://rickhw.github.io/2022/08/13/SQA/Path-to-Software-Testing/</id>
-    <published>2022-08-13T05:33:00.000Z</published>
-    <updated>2023-05-27T04:54:32.125Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天很高興在 <a href="https://www.seat.org.tw/event/2022testing">台灣軟體工程協會</a>，成功大學 <a href="https://www.facebook.com/shinjielee">李信杰</a> 老師的邀請之下，讓我第一次分享關於軟體測試的想法與心得。</p><p>在投入 <code>軟體測試 (Software Testing)</code> 與 <code>軟體品質 (Software Quality Assurance, SQA)</code> 之前，我主要的工作角色是 <code>軟體開發</code> 為主，程式語言以 PHP &#x2F; Java &#x2F; Python、開發大型 Jave Enterprise Application 應用程式與 Eclipse Plugins 為主。過程中因為協助測試團隊改善 Application UI &#x2F; WebUI 測試，因而踩入測試領域。</p><p>因為本身是具備開發背景，踩入軟體測試有別於一般人經歷，因此開啟不一樣的路。實際軟體測試的經歷，包含 WebUI &#x2F; Desktop UI &#x2F; Unit Test &#x2F; E2E … 等自動化測試，設計與開發大型 “<a href="/2018/05/12/SQA/Designing-Test-Architecture-and-Framework/">Test Framework and Architect for Regression Test</a>“ 實務經驗。</p><p>這段經歷讓我對軟體測試的 <code>技術與工程面</code> 有很完整的歷鍊，所以後來也挑戰 在新創事業 (IoT 領域) 從零開始 <code>建立軟體測試團隊</code>，從團隊建立、制度、流程、工程、協作，建立完整的開發流程，其中領悟出最重要的 <a href="/2017/12/02/About/Epiphany/">心法</a> 就是 <code>品質</code> 的想法，因此寫下以下領悟：</p><blockquote><p>品質不只有測試，而是整個 (開發) 過程。<br>品質從需求開始，測試只是種手段<br>用品質建立數量，由數量產生速度。</p></blockquote><span id="more"></span><h2 id="簡報與錄影"><a href="#簡報與錄影" class="headerlink" title="簡報與錄影"></a>簡報與錄影</h2><iframe src="//www.slideshare.net/slideshow/embed_code/key/8WoBPlHEiHbCk1" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rickhwang/the-path-in-software-testing" title="從理想、到現實的距離，開啟品味軟體測試之路 - 台灣軟體工程協會 (20220813)" target="_blank">從理想、到現實的距離，開啟品味軟體測試之路 - 台灣軟體工程協會 (20220813)</a> </strong> from <strong><a href="//www.slideshare.net/rickhwang" target="_blank">Rick Hwang</a></strong> </div><iframe width="560" height="315" src="https://www.youtube.com/embed/WAK-kMzi8wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h2 id="現場問答"><a href="#現場問答" class="headerlink" title="現場問答"></a>現場問答</h2><p><img src="/images/SQA/Path-in-Software-Testing/Q01.png"></p><blockquote><p>答: 從了解產品角度切入，了解產品帶給使用者有什麼價值切入。加上 DevOps &#x2F; SRE 對於系統有了解，所以可以從整合測試切入。</p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q02.png"></p><blockquote><p>答：我覺得測試工作本質上就要敏捷，也就是主動跟協作對象 (PM &#x2F; Dev &#x2F; Ops) 建立溝通的循環。</p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q03.png"></p><blockquote><p>答：<a href="https://www.books.com.tw/products/0010623556">Google軟體測試之道：進行Google級的軟體測試</a>, <a href="https://www.books.com.tw/products/CN11052516">簡中</a></p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q04.png"></p><blockquote><p>答：請參閱這篇 <a href="/2019/09/20/SQA/How-to-Measure-System-Capacity/">如何量測系統的容量？</a></p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q05.png"></p><blockquote><p>答：請參閱這篇 <a href="/2015/10/11/SQA/How-To-Be-An-SQA/">Software QA 的職能條件</a></p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q06.png"></p><blockquote><p>答：如果已經有開發經驗，可以參考我的經歷，從幫忙測試團隊開始，協助改善自動化測試的流程，從過程中取得成就感，真的有興趣再轉。如果是針對 “自動化” 這個技能相關的職能就不只是 QA，DevOps &#x2F; SRE 也都是大量需要自動化的工作。</p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q07.png"></p><blockquote><p>答：JMeter、K6、ddosify、apache ab、stress-ng，請參閱這篇 “<a href="/2019/09/20/SQA/How-to-Measure-System-Capacity/">如何量測系統的容量？</a>“</p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q08.png"></p><blockquote><p>答：</p><ul><li><ol><li>如果可以的話，在訪談過程中，讓 QA &#x2F; Dev 都參與討論，理解需求是需要時間的，所以可以建議一起參與。</li></ol></li><li><ol start="2"><li>敏捷開發 有很多框架，像是 Scrum &#x2F; 看板 &#x2F; LeSS … etc。其實 QA 要維持的原則沒有變：前期了解需求、針對需求提出想法與疑問、橫向跟 PM &#x2F; Dev 討論需求。這點其實跟用什麼開發方法沒啥關係。</li></ol></li><li><ol start="3"><li>不會寫程式比較吃虧的是對於非功能測試比較難切入，長期來看，對於培養產品靈敏度，可以延伸發展的方向則是 PM &#x2F; PO 的方向。如果會寫程式，發展方向則會更廣，像是 SDET &#x2F; SRE &#x2F; DevOps 甚至 Architect。</li></ol></li></ul></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q09.png"></p><blockquote><p>答：我在前期算是很幸運，有掌握整個開發流程的核心，前半年算順利。接下來就是團隊磨合期，像是 Dev &#x2F; QA 雙方對於問題看法的磨合，漸漸模出默契，大家都理解 Spec 很重要，從爭議 &#x2F; 爭論轉化成討論 &#x2F; 找到共識，過程大概有半年的長度。</p><p>後期 (約第三年的時候) 最大的 bottleneck 就是找到會寫 Code 的 QA，也就是 SDET，隨著產品功能越多，需要 Regression 的範圍就變大，所以有效的保護就重要了，但是實際上要追需要有適當的人到位才行，這時候人才就是關鍵了，不然只能自己跳下去賣肝 XD</p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q10.png"></p><blockquote><p>答：看公司。不過建議至少要會 shell script、python，能夠寫簡單的自動化測試，像是自動取得 API 資訊，然後篩選資料，丟給下一個 script 處理 … 等。新人我以前面試一定會考三個： <a href="/2021/01/03/Linux/Shell-and-Bash-Concepts/">shell script</a> 觀念、Linux、SQL、HTML。例如用這些東西自動安裝 Wordpress、確認 Wordpress 安裝完成。</p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q11.png"></p><blockquote><p>答：不是很確定 <code>內聚性</code> 的意思是什麼，我猜應該是指軟體設計的 <code>高內聚、低耦合</code> 的概念。這在軟體設計階段就需要分析清楚的，通常在 System Design 就會確立每個系統元件的邊界與依賴關係，用程式碼來說就是 OOP 裡，怎樣定義一個 Class，定義好之後，就可以做單元測試。Class 可以做單元測試代表具備一定的內聚力，以及低耦合。</p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q12.png"></p><blockquote><p>答：<code>大型重構</code> 我猜你的意思是背後的主要結構已經改變，像是 DB Schema 做 Breaking Change、架構做了很大的改變之類的。依照不同層次改動的比例，三者都要有對應的調整。但如果是架構改變，那問題可能就不是測試三角形可以處理的層次，通常要搞定的是 Migration 策略。因為如果是已經在線上跑的服務，需要安排分階段執行以及 Rollback 計畫。可能不是測試團隊可以單純搞定的。</p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q13.png"></p><blockquote><p>答：大家對於需求或規格認知不一樣的時候，就會討論這個 Bug or Feature？像這張圖一樣：<br><img src="/images/SQA/Path-in-Software-Testing/Q13-Dev-Tester.JPG"></p></blockquote><p><img src="/images/SQA/Path-in-Software-Testing/Q14.png"></p><blockquote><p>答：所有角色。</p></blockquote><h2 id="摘錄簡報重點"><a href="#摘錄簡報重點" class="headerlink" title="摘錄簡報重點"></a>摘錄簡報重點</h2><p><img src="/images/SQA/Path-in-Software-Testing/Strategies-for-Test-Praymid.png"><br><img src="/images/SQA/Path-in-Software-Testing/Strategies-for-Test-Praymid-And-Company-Phase.png"><br><img src="/images/SQA/Path-in-Software-Testing/Strategies-for-Functional-NonFunctional.png"><br><img src="/images/SQA/Path-in-Software-Testing/Functional-and-NonFunctional.png"><br><img src="/images/SQA/Path-in-Software-Testing/About-Quality-by-Rick.png"></p><h2 id="感謝"><a href="#感謝" class="headerlink" title="感謝"></a>感謝</h2><p>兩週前，跟李老師在討論事情，突然說想邀請我分享軟體測試的一些心得。本來想說只有兩週，應該會爆肝，但問了一下 TA 是在學同學，突然一種使命感油然而生，然後就答應了 XDD …. (肝表示 ….)</p><p>雖然 Blog 已經有很多素材可以用，不過還是花了一點時間針對在學同學設計內容。每次演講，我都希望帶給聽眾的，不是怎麼去用什麼工具、步驟是什麼，而是聽完之後，能夠有所啟發，這個啟發是過了幾年之後，都依舊受用，這些觀念也是我在 “<a href="/2017/11/26/Thinking-in-Essence/">思考本質、實踐、抽象、想像力</a>“、”<a href="/2017/09/20/About/Learning-Approaches/">學習法則</a>“ 反覆提及的。</p><p>這場分享主要 TA 是在學同學與社會新鮮人，構思的時候我就在想：</p><blockquote><p>如果我現在可以回到廿年前，那我想要告訴那時候的我，怎麼做選擇。</p></blockquote><p>所以演講的構思以 “<a href="/2019/10/30/SQA/Problems-In-Software-Testing/">關於軟體測試，一些觀察到的現象</a>“ 為主軸，測試金字塔主要藍圖、”<a href="/2018/03/18/SQA/Gossip-System-Testing/">系統測試的三兩事</a>“ 提到的 <code>功能與非功能</code> 為輔助，引導新鮮人啟發探索職涯的可能性。</p><p>這次也認識了另外一位講者：<a href="https://www.facebook.com/loverjersey">Jersey Su</a>，精湛的摘要測試左移的一些脈絡，也告訴同學如何透過探索與刻意練習提升自己，這些想法都讓我非常有感，未來有機會再繼續分享心得～</p><h2 id="20230523-更新"><a href="#20230523-更新" class="headerlink" title="20230523 更新"></a>20230523 更新</h2><p>本次演將內容，部分收錄在 <a href="/2023/05/23/About/2023-Software-Test-Practice/">共同著作《軟體測試實務》</a> 第一冊 第五章之中，歡迎大家彭場指導。</p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="站內文章"><a href="#站內文章" class="headerlink" title="站內文章"></a>站內文章</h2><ul><li>軟體測試相關：<ul><li><a href="/2018/05/12/SQA/Designing-Test-Architecture-and-Framework/">Designing Test Architecture and Framework</a></li><li><a href="/2014/05/09/SQA/Problems_In-Software-Autotest/">軟體自動化測試常見的問題</a></li><li><a href="/2017/12/03/SQA/Regression-Test-Is-Tough/">從 iOS 無限黑屏事件，談軟體測試階段 - 回歸測試 Regression Test</a></li><li><a href="/2018/03/18/SQA/How-To-Report-A-Defect-or-Bug/">如何有效的回報問題</a></li><li><a href="/2018/03/18/SQA/Gossip-System-Testing/">輕鬆聊：系統測試 (SVT) 的三兩事</a></li><li><a href="/2019/10/30/SQA/Problems-In-Software-Testing/">關於軟體測試，一些觀察到的現象</a></li><li><a href="/2019/09/20/SQA/How-to-Measure-System-Capacity/">如何量測系統的容量？（壓測）</a></li><li><a href="/2015/10/11/SQA/How-To-Be-An-SQA/">Software QA 的職能條件</a></li><li><a href="/2023/05/23/About/2023-Software-Test-Practice/">新書上市 - 共同著作《軟體測試實務 I、II》</a></li></ul></li><li>軟體開發<ul><li><a href="/2017/09/14/SoftwareEngineering/Software-Development-Lifecycle/">Software Development Lifecycle</a></li><li><a href="/2017/09/03/Management/Phases-in-Startup/">不同階段的企業</a></li></ul></li><li>成長<ul><li><a href="/2017/09/20/About/Learning-Approaches/">學習法則</a></li><li><a href="/2017/11/26/Thinking-in-Essence/">思考本質、實踐、抽象、想像力</a></li></ul></li></ul><h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><ul><li><a href="https://martinfowler.com/articles/practical-test-pyramid.html">The Practical Test Pyramid</a> - martinfowler.com</li><li><a href="https://www.gushiciku.cn/pl/2FYW/zh-tw">什麼是測試左移（Shift-Left testing）？</a></li><li><a href="https://www.businessweekly.com.tw/management/blog/26187">飛輪效應》如何花更少力氣，推動公司更高速運轉</a> - 商周</li><li><a href="https://www.hexschool.com/2022/06/23/2022-06-23-software-engineer-salary/">軟體工程師薪水</a> - 六角學院</li><li><a href="https://zh.wikipedia.org/zh-tw/PDCA">PDCA</a></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;今天很高興在 &lt;a href=&quot;https://www.seat.org.tw/event/2022testing&quot;&gt;台灣軟體工程協會&lt;/a&gt;，成功大學 &lt;a href=&quot;https://www.facebook.com/shinjielee&quot;&gt;李信杰&lt;/a&gt; 老師的邀請之下，讓我第一次分享關於軟體測試的想法與心得。&lt;/p&gt;
-&lt;p&gt;在投入 &lt;code&gt;軟體測試 (Software Testing)&lt;/code&gt; 與 &lt;code&gt;軟體品質 (Software Quality Assurance, SQA)&lt;/code&gt; 之前，我主要的工作角色是 &lt;code&gt;軟體開發&lt;/code&gt; 為主，程式語言以 PHP &amp;#x2F; Java &amp;#x2F; Python、開發大型 Jave Enterprise Application 應用程式與 Eclipse Plugins 為主。過程中因為協助測試團隊改善 Application UI &amp;#x2F; WebUI 測試，因而踩入測試領域。&lt;/p&gt;
-&lt;p&gt;因為本身是具備開發背景，踩入軟體測試有別於一般人經歷，因此開啟不一樣的路。實際軟體測試的經歷，包含 WebUI &amp;#x2F; Desktop UI &amp;#x2F; Unit Test &amp;#x2F; E2E … 等自動化測試，設計與開發大型 “&lt;a href=&quot;/2018/05/12/SQA/Designing-Test-Architecture-and-Framework/&quot;&gt;Test Framework and Architect for Regression Test&lt;/a&gt;“ 實務經驗。&lt;/p&gt;
-&lt;p&gt;這段經歷讓我對軟體測試的 &lt;code&gt;技術與工程面&lt;/code&gt; 有很完整的歷鍊，所以後來也挑戰 在新創事業 (IoT 領域) 從零開始 &lt;code&gt;建立軟體測試團隊&lt;/code&gt;，從團隊建立、制度、流程、工程、協作，建立完整的開發流程，其中領悟出最重要的 &lt;a href=&quot;/2017/12/02/About/Epiphany/&quot;&gt;心法&lt;/a&gt; 就是 &lt;code&gt;品質&lt;/code&gt; 的想法，因此寫下以下領悟：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;品質不只有測試，而是整個 (開發) 過程。&lt;br&gt;品質從需求開始，測試只是種手段&lt;br&gt;用品質建立數量，由數量產生速度。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="軟體測試" scheme="https://rickhw.github.io/categories/%E8%BB%9F%E9%AB%94%E6%B8%AC%E8%A9%A6/"/>
-    
-    
-    <category term="Software Test" scheme="https://rickhw.github.io/tags/Software-Test/"/>
-    
-    <category term="SDLC" scheme="https://rickhw.github.io/tags/SDLC/"/>
-    
-    <category term="SQA" scheme="https://rickhw.github.io/tags/SQA/"/>
-    
-    <category term="SVT" scheme="https://rickhw.github.io/tags/SVT/"/>
     
   </entry>
   
