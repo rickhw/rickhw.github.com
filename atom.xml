@@ -315,9 +315,9 @@
     
     <category term="Contract First" scheme="https://rickhw.github.io/tags/Contract-First/"/>
     
-    <category term="API Governance" scheme="https://rickhw.github.io/tags/API-Governance/"/>
-    
     <category term="Communication Protocol" scheme="https://rickhw.github.io/tags/Communication-Protocol/"/>
+    
+    <category term="API Governance" scheme="https://rickhw.github.io/tags/API-Governance/"/>
     
   </entry>
   
