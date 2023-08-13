@@ -6,7 +6,7 @@
   <link href="https://rickhw.github.io/atom.xml" rel="self"/>
   
   <link href="https://rickhw.github.io/"/>
-  <updated>2023-07-01T23:37:15.675Z</updated>
+  <updated>2023-07-01T23:37:15.674Z</updated>
   <id>https://rickhw.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>置頂 - 全站索引</title>
+    <link href="https://rickhw.github.io/2035/01/21/Index/"/>
+    <id>https://rickhw.github.io/2035/01/21/Index/</id>
+    <published>2035-01-21T02:30:00.000Z</published>
+    <updated>2023-07-01T23:37:15.674Z</updated>
+    
+    <content type="html"><![CDATA[<p>這篇是整個 Blog 的全站索引，如果您是第一次來這裡，可以先看看這篇索引，大概知道 Blog 的全貌：</p><ul><li>[理念] <a href="/2017/11/26/Thinking-in-Essence/">思考本質、實踐、抽象、想像力、教育</a></li><li>[目錄] <a href="/2017/07/01/Index-Management/">經營管理</a>: 整理管理經驗談、管理哲學、經營、領導、用人之道、學習方法、專案管理</li><li>[目錄] <a href="/2017/07/01/Index-Software-Engineering-In-Practice/">軟體工程實踐</a>: 包含軟體架構、開發、測試、維運等 … 實踐的心得。</li><li>[目錄] <a href="/categories/Distributed-Systems">分散式系統</a>，包含分散式系統理論、Cloud Native - <a href="/tags/Kubernetes/">Kubernetes</a>、<a href="/2016/10/01/AWS-Study-Roadmap/">AWS</a>。</li><li>[參考] <a href="/2017/07/01/Reference/Books/">參考書</a>、<a href="/2017/07/01/Reference/Tech-Terms/">資訊技術與工程專有名詞</a>、<a href="/2017/07/01/Reference/SC-Terms/">計算機科學專有名詞</a>、<a href="/2017/07/01/Reference/Mgmt-Terms/">經營管理專有名詞</a></li><li>[系列文] <a href="/tags/Bus-Memo/">公車隨筆</a>、<a href="/tags/Learning-Approaches/">寫作與閱讀系列文</a>、<a href="/tags/%E6%BA%9D%E9%80%9A/">溝通</a>、<a href="/tags/Meetings/">會議效率</a></li><li>[關於] <a href="/2017/12/29/About/About-This-Blog/">這個部落格</a>、<a href="/2017/12/29/About/About-Author/">關於作者</a>、<a href="/2017/09/20/About/Learning-Approaches/">學習法則</a>、<a href="/2014/12/27/Management/%E7%B6%93%E7%87%9F%E4%B9%8B%E9%81%93/">經營之道</a>、<a href="/2017/12/02/About/Epiphany/">一些領悟</a>、<a href="/2014/10/26/Management/Classified-Philosophy/">分類哲學</a></li><li>[站內記事]: <a href="/2035/01/21/Updated/">文章更新紀錄</a>, <a href="/2013/11/26/Stats/">點閱率統計</a></li></ul><blockquote><p>不管是程式、文章、資料、還是房間，我都會定期重新整理 &#x2F; 重構，核心概念來自於 <a href="/2014/10/26/Management/Classified-Philosophy/">分類的哲學</a></p></blockquote><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;這篇是整個 Blog 的全站索引，如果您是第一次來這裡，可以先看看這篇索引，大概知道 Blog 的全貌：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[理念] &lt;a href=&quot;/2017/11/26/Thinking-in-Essence/&quot;&gt;思考本質、實踐、抽象、想像力、教育&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[目錄] &lt;a href=&quot;/2017/07/01/Index-Management/&quot;&gt;經營管理&lt;/a&gt;: 整理管理經驗談、管理哲學、經營、領導、用人之道、學習方法、專案管理&lt;/li&gt;
+&lt;li&gt;[目錄] &lt;a href=&quot;/2017/07/01/Index-Software-Engineering-In-Practice/&quot;&gt;軟體工程實踐&lt;/a&gt;: 包含軟體架構、開發、測試、維運等 … 實踐的心得。&lt;/li&gt;
+&lt;li&gt;[目錄] &lt;a href=&quot;/categories/Distributed-Systems&quot;&gt;分散式系統&lt;/a&gt;，包含分散式系統理論、Cloud Native - &lt;a href=&quot;/tags/Kubernetes/&quot;&gt;Kubernetes&lt;/a&gt;、&lt;a href=&quot;/2016/10/01/AWS-Study-Roadmap/&quot;&gt;AWS&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;[參考] &lt;a href=&quot;/2017/07/01/Reference/Books/&quot;&gt;參考書&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/Tech-Terms/&quot;&gt;資訊技術與工程專有名詞&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/SC-Terms/&quot;&gt;計算機科學專有名詞&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/Mgmt-Terms/&quot;&gt;經營管理專有名詞&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[系列文] &lt;a href=&quot;/tags/Bus-Memo/&quot;&gt;公車隨筆&lt;/a&gt;、&lt;a href=&quot;/tags/Learning-Approaches/&quot;&gt;寫作與閱讀系列文&lt;/a&gt;、&lt;a href=&quot;/tags/%E6%BA%9D%E9%80%9A/&quot;&gt;溝通&lt;/a&gt;、&lt;a href=&quot;/tags/Meetings/&quot;&gt;會議效率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[關於] &lt;a href=&quot;/2017/12/29/About/About-This-Blog/&quot;&gt;這個部落格&lt;/a&gt;、&lt;a href=&quot;/2017/12/29/About/About-Author/&quot;&gt;關於作者&lt;/a&gt;、&lt;a href=&quot;/2017/09/20/About/Learning-Approaches/&quot;&gt;學習法則&lt;/a&gt;、&lt;a href=&quot;/2014/12/27/Management/%E7%B6%93%E7%87%9F%E4%B9%8B%E9%81%93/&quot;&gt;經營之道&lt;/a&gt;、&lt;a href=&quot;/2017/12/02/About/Epiphany/&quot;&gt;一些領悟&lt;/a&gt;、&lt;a href=&quot;/2014/10/26/Management/Classified-Philosophy/&quot;&gt;分類哲學&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[站內記事]: &lt;a href=&quot;/2035/01/21/Updated/&quot;&gt;文章更新紀錄&lt;/a&gt;, &lt;a href=&quot;/2013/11/26/Stats/&quot;&gt;點閱率統計&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不管是程式、文章、資料、還是房間，我都會定期重新整理 &amp;#x2F; 重構，核心概念來自於 &lt;a href=&quot;/2014/10/26/Management/Classified-Philosophy/&quot;&gt;分類的哲學&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>置頂 - 更新文章</title>
@@ -66,32 +96,35 @@
   </entry>
   
   <entry>
-    <title>置頂 - 全站索引</title>
-    <link href="https://rickhw.github.io/2035/01/21/Index/"/>
-    <id>https://rickhw.github.io/2035/01/21/Index/</id>
-    <published>2035-01-21T02:30:00.000Z</published>
-    <updated>2023-07-01T23:37:15.674Z</updated>
+    <title>凝聚團隊共識的溝通方法</title>
+    <link href="https://rickhw.github.io/2023/08/13/Management/Effective-Team-Communication/"/>
+    <id>https://rickhw.github.io/2023/08/13/Management/Effective-Team-Communication/</id>
+    <published>2023-08-13T01:33:00.000Z</published>
+    <updated>2023-08-13T11:59:04.344Z</updated>
     
-    <content type="html"><![CDATA[<p>這篇是整個 Blog 的全站索引，如果您是第一次來這裡，可以先看看這篇索引，大概知道 Blog 的全貌：</p><ul><li>[理念] <a href="/2017/11/26/Thinking-in-Essence/">思考本質、實踐、抽象、想像力、教育</a></li><li>[目錄] <a href="/2017/07/01/Index-Management/">經營管理</a>: 整理管理經驗談、管理哲學、經營、領導、用人之道、學習方法、專案管理</li><li>[目錄] <a href="/2017/07/01/Index-Software-Engineering-In-Practice/">軟體工程實踐</a>: 包含軟體架構、開發、測試、維運等 … 實踐的心得。</li><li>[目錄] <a href="/categories/Distributed-Systems">分散式系統</a>，包含分散式系統理論、Cloud Native - <a href="/tags/Kubernetes/">Kubernetes</a>、<a href="/2016/10/01/AWS-Study-Roadmap/">AWS</a>。</li><li>[參考] <a href="/2017/07/01/Reference/Books/">參考書</a>、<a href="/2017/07/01/Reference/Tech-Terms/">資訊技術與工程專有名詞</a>、<a href="/2017/07/01/Reference/SC-Terms/">計算機科學專有名詞</a>、<a href="/2017/07/01/Reference/Mgmt-Terms/">經營管理專有名詞</a></li><li>[系列文] <a href="/tags/Bus-Memo/">公車隨筆</a>、<a href="/tags/Learning-Approaches/">寫作與閱讀系列文</a>、<a href="/tags/%E6%BA%9D%E9%80%9A/">溝通</a>、<a href="/tags/Meetings/">會議效率</a></li><li>[關於] <a href="/2017/12/29/About/About-This-Blog/">這個部落格</a>、<a href="/2017/12/29/About/About-Author/">關於作者</a>、<a href="/2017/09/20/About/Learning-Approaches/">學習法則</a>、<a href="/2014/12/27/Management/%E7%B6%93%E7%87%9F%E4%B9%8B%E9%81%93/">經營之道</a>、<a href="/2017/12/02/About/Epiphany/">一些領悟</a>、<a href="/2014/10/26/Management/Classified-Philosophy/">分類哲學</a></li><li>[站內記事]: <a href="/2035/01/21/Updated/">文章更新紀錄</a>, <a href="/2013/11/26/Stats/">點閱率統計</a></li></ul><blockquote><p>不管是程式、文章、資料、還是房間，我都會定期重新整理 &#x2F; 重構，核心概念來自於 <a href="/2014/10/26/Management/Classified-Philosophy/">分類的哲學</a></p></blockquote><span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<p>這篇整理關於溝通效率的總整理，當作目錄、總整理，也調整過去文章目錄結構。</p><span id="more"></span><h1 id="總整理"><a href="#總整理" class="headerlink" title="總整理"></a>總整理</h1><iframe src="https://www.slideshare.net/slideshow/embed_code/key/DX860wz54CRPEC?startSlide=1" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;max-width: 100%;" allowfullscreen></iframe><div style="margin-bottom:5px"><strong><a href="https://www.slideshare.net/rickhwang/20230215-effective-team-communicationpdf" title="20230215 - 凝聚團隊共識的溝通方法 (Effective Team Communication)" target="_blank">20230215 - 凝聚團隊共識的溝通方法 (Effective Team Communication)</a></strong> from <strong><a href="https://www.slideshare.net/rickhwang" target="_blank">Rick Hwang</a></strong></div><p><img src="/images/Communication/Effective-Team-Communication/01-principle.png"><br><img src="/images/Communication/Effective-Team-Communication/02-request.png"><br><img src="/images/Communication/Effective-Team-Communication/03-response.png"><br><img src="/images/Communication/Effective-Team-Communication/04-many-to-many.png"><br><img src="/images/Communication/Effective-Team-Communication/05-one-to-many.png"><br><img src="/images/Communication/Effective-Team-Communication/06-one-to-one.png"><br><img src="/images/Communication/Effective-Team-Communication/07-purpose.png"><br><img src="/images/Communication/Effective-Team-Communication/08-conflict.png"><br><img src="/images/Communication/Effective-Team-Communication/09-simple-point.png"><br><img src="/images/Communication/Effective-Team-Communication/10-conflict-wo-listen.png"><br><img src="/images/Communication/Effective-Team-Communication/11-too-many-request.png"><br><img src="/images/Communication/Effective-Team-Communication/12-quality.png"><br><img src="/images/Communication/Effective-Team-Communication/13-talk-with.png"><br><img src="/images/Communication/Effective-Team-Communication/14-meeting-before.png"><br><img src="/images/Communication/Effective-Team-Communication/15-meeting-ing.png"><br><img src="/images/Communication/Effective-Team-Communication/16-meeting-after.png"><br><img src="/images/Communication/Effective-Team-Communication/17-meeting-problems.png"><br><img src="/images/Communication/Effective-Team-Communication/18-effecitve-meeting.png"></p><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><h2 id="溝通"><a href="#溝通" class="headerlink" title="溝通"></a>溝通</h2><ul><li><a href="/2020/03/24/Management/Principles-of-Communication/">溝通的原理</a></li><li><a href="/2014/12/10/Management/%E6%BA%9D%E9%80%9A-%E6%88%90%E6%9C%AC/">溝通 &#x3D; 成本</a></li><li><a href="/2020/08/01/Management/Expression-and-Communication/">表達與溝通的差異</a></li><li><a href="/2023/07/29/Management/Team-Consensus-and-Talent-Development/">凝聚團隊共識與人才養成</a></li><li><a href="/2021/12/19/Management/Protocol-to-Communication/">團隊溝通的通訊協議</a></li><li><a href="/2023/08/13/Management/Effective-Team-Communication/">凝聚團隊共識的溝通方法</a></li><li><a href="/2018/03/18/SQA/How-To-Report-A-Defect-or-Bug/">如何有效的回報問題</a></li><li><a href="/2023/08/01/Management/PERMA/">1 on 1 聊什麼 - PERMA</a></li></ul><h2 id="會議"><a href="#會議" class="headerlink" title="會議"></a>會議</h2><ul><li><a href="/2014/11/26/Management/%E9%96%8B%E6%9C%83%E5%8E%9F%E5%89%87/">開會原則</a></li><li><a href="/2020/10/11/Management/Effective-Meetings/">一場有效的會議</a></li><li><a href="/2023/06/14/Management/Failed-Meeting/">一場失敗會議</a></li><li><a href="/2019/08/25/Management/Problems-of-Meeting/">會議的普遍現象</a></li></ul>]]></content>
     
     
-    <summary type="html">&lt;p&gt;這篇是整個 Blog 的全站索引，如果您是第一次來這裡，可以先看看這篇索引，大概知道 Blog 的全貌：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[理念] &lt;a href=&quot;/2017/11/26/Thinking-in-Essence/&quot;&gt;思考本質、實踐、抽象、想像力、教育&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[目錄] &lt;a href=&quot;/2017/07/01/Index-Management/&quot;&gt;經營管理&lt;/a&gt;: 整理管理經驗談、管理哲學、經營、領導、用人之道、學習方法、專案管理&lt;/li&gt;
-&lt;li&gt;[目錄] &lt;a href=&quot;/2017/07/01/Index-Software-Engineering-In-Practice/&quot;&gt;軟體工程實踐&lt;/a&gt;: 包含軟體架構、開發、測試、維運等 … 實踐的心得。&lt;/li&gt;
-&lt;li&gt;[目錄] &lt;a href=&quot;/categories/Distributed-Systems&quot;&gt;分散式系統&lt;/a&gt;，包含分散式系統理論、Cloud Native - &lt;a href=&quot;/tags/Kubernetes/&quot;&gt;Kubernetes&lt;/a&gt;、&lt;a href=&quot;/2016/10/01/AWS-Study-Roadmap/&quot;&gt;AWS&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;[參考] &lt;a href=&quot;/2017/07/01/Reference/Books/&quot;&gt;參考書&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/Tech-Terms/&quot;&gt;資訊技術與工程專有名詞&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/SC-Terms/&quot;&gt;計算機科學專有名詞&lt;/a&gt;、&lt;a href=&quot;/2017/07/01/Reference/Mgmt-Terms/&quot;&gt;經營管理專有名詞&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[系列文] &lt;a href=&quot;/tags/Bus-Memo/&quot;&gt;公車隨筆&lt;/a&gt;、&lt;a href=&quot;/tags/Learning-Approaches/&quot;&gt;寫作與閱讀系列文&lt;/a&gt;、&lt;a href=&quot;/tags/%E6%BA%9D%E9%80%9A/&quot;&gt;溝通&lt;/a&gt;、&lt;a href=&quot;/tags/Meetings/&quot;&gt;會議效率&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[關於] &lt;a href=&quot;/2017/12/29/About/About-This-Blog/&quot;&gt;這個部落格&lt;/a&gt;、&lt;a href=&quot;/2017/12/29/About/About-Author/&quot;&gt;關於作者&lt;/a&gt;、&lt;a href=&quot;/2017/09/20/About/Learning-Approaches/&quot;&gt;學習法則&lt;/a&gt;、&lt;a href=&quot;/2014/12/27/Management/%E7%B6%93%E7%87%9F%E4%B9%8B%E9%81%93/&quot;&gt;經營之道&lt;/a&gt;、&lt;a href=&quot;/2017/12/02/About/Epiphany/&quot;&gt;一些領悟&lt;/a&gt;、&lt;a href=&quot;/2014/10/26/Management/Classified-Philosophy/&quot;&gt;分類哲學&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[站內記事]: &lt;a href=&quot;/2035/01/21/Updated/&quot;&gt;文章更新紀錄&lt;/a&gt;, &lt;a href=&quot;/2013/11/26/Stats/&quot;&gt;點閱率統計&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不管是程式、文章、資料、還是房間，我都會定期重新整理 &amp;#x2F; 重構，核心概念來自於 &lt;a href=&quot;/2014/10/26/Management/Classified-Philosophy/&quot;&gt;分類的哲學&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
+    <summary type="html">&lt;p&gt;這篇整理關於溝通效率的總整理，當作目錄、總整理，也調整過去文章目錄結構。&lt;/p&gt;</summary>
     
     
     
+    <category term="經營管理" scheme="https://rickhw.github.io/categories/%E7%B6%93%E7%87%9F%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="溝通" scheme="https://rickhw.github.io/tags/%E6%BA%9D%E9%80%9A/"/>
+    
+    <category term="Meetings" scheme="https://rickhw.github.io/tags/Meetings/"/>
+    
+    <category term="時間管理" scheme="https://rickhw.github.io/tags/%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86/"/>
+    
+    <category term="會議原則" scheme="https://rickhw.github.io/tags/%E6%9C%83%E8%AD%B0%E5%8E%9F%E5%89%87/"/>
+    
+    <category term="會議效率" scheme="https://rickhw.github.io/tags/%E6%9C%83%E8%AD%B0%E6%95%88%E7%8E%87/"/>
+    
+    <category term="溝通成本" scheme="https://rickhw.github.io/tags/%E6%BA%9D%E9%80%9A%E6%88%90%E6%9C%AC/"/>
+    
+    <category term="工作管理" scheme="https://rickhw.github.io/tags/%E5%B7%A5%E4%BD%9C%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
@@ -394,9 +427,9 @@
     
     <category term="Kubernetes" scheme="https://rickhw.github.io/tags/Kubernetes/"/>
     
-    <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
-    
     <category term="K8s" scheme="https://rickhw.github.io/tags/K8s/"/>
+    
+    <category term="Ubuntu" scheme="https://rickhw.github.io/tags/Ubuntu/"/>
     
     <category term="Macbook Pro M1" scheme="https://rickhw.github.io/tags/Macbook-Pro-M1/"/>
     
@@ -606,32 +639,6 @@
     <category term="Development Experience" scheme="https://rickhw.github.io/tags/Development-Experience/"/>
     
     <category term="DX" scheme="https://rickhw.github.io/tags/DX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>問題的難與雜</title>
-    <link href="https://rickhw.github.io/2022/09/10/About/Difficult-and-Complicate/"/>
-    <id>https://rickhw.github.io/2022/09/10/About/Difficult-and-Complicate/</id>
-    <published>2022-09-10T13:42:30.000Z</published>
-    <updated>2022-12-19T11:47:28.851Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://www.facebook.com/rick.kyhwang/posts/pfbid0he6RNijEgMFY4pUcfWcUbJqRqZMmqw9pzHfCtw6gWQoG12b9YhZhZ2smMgJKEB7Jl">之前</a> 很常跟朋友分享這段想法，底下把想法記錄下來。</p><p>我把工作上遇到的問題分兩大類：</p><ol><li>雜 (Complicate)</li><li>難 (Defficult)</li></ol><span id="more"></span><h2 id="雜-Complicate"><a href="#雜-Complicate" class="headerlink" title="雜 (Complicate)"></a>雜 (Complicate)</h2><p>大部分的事一開始都是雜，大概有八七成都沒有章法、結構、組織。</p><p>雜的特性：</p><ol><li>沒有章法</li><li>沒有輕重</li><li>沒有邊界</li><li>沒有整理的資訊</li></ol><p>如果這種事需要快速決策、執行、驗收、上線，衍伸的現象就是亂、緊急、苦力、壓力，產生問題像債、負面情緒、導亂結構、破壞章法，最後是增加 <code>熵值</code>。</p><p>認識我久一點的人，會知道我是很龜毛的人，特別是一些章法、分類、組織 … 我看到亂的東西，就會想去<a href="https://rickhw.github.io/2014/10/26/Management/Classified-Philosophy/">整理、排序、類比、分類</a>。所以我自認為還滿擅長處理這種雜、亂的事情，只要一段時間之後，就會想用規則收斂，讓事情變成穩定狀態。只要雜的事經過這樣的程序 (有點像 ETL) 之後，大部分就可以變成規範。</p><p>所以在組織裡，用規範來約束不斷發散的亂 (或稱 <code>熵值</code> )，少量範圍這樣是有效的，可以有效的約束以及管控。但隨著時間的推演，實際上是不太可能做完的，因為規範是死的，人是活的，規範怎麼訂也訂不完，也無法完全落地，人則會來來去去、組織則會變來變去、業務方向會飛來飛去。</p><p>我也不可能、也沒時間跳下去全然協助，大多能給的是引導、啟發，讓大家發酵，或者是起孝。。。。XDD</p><p>雜事的特徵：</p><ul><li>發散，不知道邊界、需要理清全貌</li><li>會越做越亂、或莫名其妙就會變亂</li><li>做起來沒成就感</li><li>要整天賣笑 (我起笑比較多 XDD</li><li>慢了點就被幹樵</li><li>沒有歸屬感</li></ul><p>解法：</p><ol><li>divide and conquer (分而治之)</li><li>有核心規範、邊界的自組織 (中央政府、地方自治)</li></ol><!--#複雜 的層次圍不清楚、邊界模糊、關係紊亂、沒章法的執行、沒有層次的架構，這種複雜稱為 #亂  ...格局大、邊界清晰、依賴明確，有章法的專案管理，我稱為有組織、結構、架構性的 複雜 層次找出 #熵源 ... 讓他有章法、有原則的進行 .. 白話文：把樓歪回來--><h2 id="難-Defficult"><a href="#難-Defficult" class="headerlink" title="難 (Defficult)"></a>難 (Defficult)</h2><p>另外一種事，叫做難。</p><p>難的事分幾種:</p><ol><li><code>極致雜亂的難</code>: 當複雜到一定的極致, 我常會說: 這是 <code>n * m * q</code> 的問題 … 表達這是 <code>雜變亂、亂變難</code> …. 最後會變成棘手的問題 …. 要花十倍、甚至百倍以上的時間與資源，甚至根本就解不了。</li><li><code>工程的難</code>: 真正的難，需要有 <code>聰明才智</code> 才能解決的，像是想複雜的演算法.<ul><li>這種問題需要專家, 需要科學方法，需要科學家與工程師，也就是 <code>STEM</code> 領域專長的人才。</li></ul></li><li><code>棘手的難</code>: 通常是 1) + 2) + 人產生的問題，簡稱<code>政治</code>，需要智慧與手段。</li></ol><!--喜歡 = 熟悉 + 意外--><h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2><p>這篇原文是我 <a href="https://rickhw.github.io/2014/10/26/Management/Classified-Philosophy/">2019&#x2F;10 交通時間</a> 敲下的想法，想表達生活中問題的普遍現象，工作上遇到大多的問題都是雜，少數是難。</p><p>而很多人覺得很難，通常有幾種：</p><ol><li>自身：能力不足、程度不夠</li><li>外在：管理問題，讓 <code>雜變亂、亂變難</code></li></ol><hr><h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><ul><li><a href="https://rickhw.github.io/2014/10/26/Management/Classified-Philosophy/">分類哲學</a></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/rick.kyhwang/posts/pfbid0he6RNijEgMFY4pUcfWcUbJqRqZMmqw9pzHfCtw6gWQoG12b9YhZhZ2smMgJKEB7Jl&quot;&gt;之前&lt;/a&gt; 很常跟朋友分享這段想法，底下把想法記錄下來。&lt;/p&gt;
-&lt;p&gt;我把工作上遇到的問題分兩大類：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;雜 (Complicate)&lt;/li&gt;
-&lt;li&gt;難 (Defficult)&lt;/li&gt;
-&lt;/ol&gt;</summary>
-    
-    
-    
-    <category term="About" scheme="https://rickhw.github.io/categories/About/"/>
-    
-    
-    <category term="Bus Memo" scheme="https://rickhw.github.io/tags/Bus-Memo/"/>
     
   </entry>
   
