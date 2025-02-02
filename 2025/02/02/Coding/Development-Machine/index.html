@@ -333,8 +333,24 @@ Programming Language以 Java 為主，主要是透過 SDK 這個 Java Version Ma
 </ul>
 <p>這些東西都以最小配置為原則，主要是開發過程 functional test 使用，跑起來約要消費掉 10GiB 的記憶體。</p>
 <p>加上 IDE 佔用的資源 (3GiB) ，基礎消費約 13GiB，加上一倍的 buffer，建議至少要有 32GiB 的記憶體。這不包含開發時會同時開 Browser 或者 Ollama (LLM) 找資源問問題所需要的記憶體。</p>
-<h2 id="分配"><a href="#分配" class="headerlink" title="分配"></a>分配</h2><p>比較好的開發資源分配，我會想把 system stack 部分都跑在其他獨立的機器，然後 macOS 只跑 IDE，這樣整體開發的平橫性會好很多。</p>
+<h2 id="資源分配"><a href="#資源分配" class="headerlink" title="資源分配"></a>資源分配</h2><p>比較好的開發資源分配，我會想把 system stack 部分都跑在其他獨立的機器，然後 macOS 只跑 IDE，這樣整體開發的平橫性會好很多。</p>
 <p>不然就要弄一台規格很好的 MacBook Pro，然後所有東西都跑在上面。</p>
+<h2 id="理想的開發資源"><a href="#理想的開發資源" class="headerlink" title="理想的開發資源"></a>理想的開發資源</h2><p>資源牽涉到成本問題，所以還是要先說一下主要用途：</p>
+<ol>
+<li>開發應用程式</li>
+<li>模擬測試、效能測試</li>
+</ol>
+<p>單純開發應用程式，其實需要的資源不多。但要跑一些模擬測試，或者效能測試，就會需要比較多的資源，像是：</p>
+<ol>
+<li>分散式資料庫的一致性驗證</li>
+<li>K8s Cluster</li>
+<li>模擬大量使用者 Client 需要的資源.</li>
+</ol>
+<p>所以摘要理想的資源需要：</p>
+<ol>
+<li>開發功能：最少 32GiB，最好 64GiB，或者分開兩台機器，兩台都 64 GiB</li>
+<li>測試：64G 三台以上，分別擔任開發 &#x2F; 測試 Client &#x2F; System Stack 部署三個部分</li>
+</ol>
 <hr>
 <h1 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h1><ul>
 <li><a href="/2019/04/07/Coding/Java-Version-Manager/">SDK - Java Version Manager</a></li>
@@ -429,7 +445,7 @@ Programming Language以 Java 為主，主要是透過 SDK 這個 Java Version Ma
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i> Table of Content</a>
 	   <div id="toc" class="toc collapse in">
-				<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Programming-Language"><span class="toc-article-text">Programming Language</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#OS-macOS-Ubuntu"><span class="toc-article-text">OS: macOS, Ubuntu</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#IDE"><span class="toc-article-text">IDE</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#%E5%AE%8C%E5%85%A8%E5%9C%A8-macOS-%E9%96%8B%E7%99%BC-%E7%9B%AE%E5%89%8D"><span class="toc-article-text">完全在 macOS 開發 (目前)</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Remote-Development-IDE-%E5%9C%A8-macOS-runtime-%E9%83%BD%E5%9C%A8-VM"><span class="toc-article-text">Remote Development: IDE 在 macOS, runtime 都在 VM</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#System-Stack-docker-compose"><span class="toc-article-text">System Stack: docker-compose</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E5%88%86%E9%85%8D"><span class="toc-article-text">分配</span></a></li></ol></li><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#%E5%BB%B6%E4%BC%B8%E9%96%B1%E8%AE%80"><span class="toc-article-text">延伸閱讀</span></a>
+				<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Programming-Language"><span class="toc-article-text">Programming Language</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#OS-macOS-Ubuntu"><span class="toc-article-text">OS: macOS, Ubuntu</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#IDE"><span class="toc-article-text">IDE</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#%E5%AE%8C%E5%85%A8%E5%9C%A8-macOS-%E9%96%8B%E7%99%BC-%E7%9B%AE%E5%89%8D"><span class="toc-article-text">完全在 macOS 開發 (目前)</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Remote-Development-IDE-%E5%9C%A8-macOS-runtime-%E9%83%BD%E5%9C%A8-VM"><span class="toc-article-text">Remote Development: IDE 在 macOS, runtime 都在 VM</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#System-Stack-docker-compose"><span class="toc-article-text">System Stack: docker-compose</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E8%B3%87%E6%BA%90%E5%88%86%E9%85%8D"><span class="toc-article-text">資源分配</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E7%90%86%E6%83%B3%E7%9A%84%E9%96%8B%E7%99%BC%E8%B3%87%E6%BA%90"><span class="toc-article-text">理想的開發資源</span></a></li></ol></li><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#%E5%BB%B6%E4%BC%B8%E9%96%B1%E8%AE%80"><span class="toc-article-text">延伸閱讀</span></a>
 		</div>
 	
 	</div>
@@ -459,7 +475,7 @@ Programming Language以 Java 為主，主要是透過 SDK 這個 Java Version Ma
     <!--<ul id="tags" class="tag_box list-unstyled collapse in">-->
     <div>
 	  	
-  <span class="label label-success"><a href="/tags/Java/" style="color: white">Java <span class="badge">4</span></a></span> <span class="label label-success"><a href="/tags/macOS/" style="color: white">macOS <span class="badge">1</span></a></span> <span class="label label-success"><a href="/tags/VSCode/" style="color: white">VSCode <span class="badge">1</span></a></span> <span class="label label-success"><a href="/tags/Docker/" style="color: white">Docker <span class="badge">6</span></a></span> <span class="label label-success"><a href="/tags/Docker-Compose/" style="color: white">Docker-Compose <span class="badge">1</span></a></span>
+  <span class="label label-success"><a href="/tags/Docker/" style="color: white">Docker <span class="badge">6</span></a></span> <span class="label label-success"><a href="/tags/Java/" style="color: white">Java <span class="badge">4</span></a></span> <span class="label label-success"><a href="/tags/macOS/" style="color: white">macOS <span class="badge">1</span></a></span> <span class="label label-success"><a href="/tags/VSCode/" style="color: white">VSCode <span class="badge">1</span></a></span> <span class="label label-success"><a href="/tags/Docker-Compose/" style="color: white">Docker-Compose <span class="badge">1</span></a></span>
 	  </div>
     <!--</ul>-->
 	</div>
