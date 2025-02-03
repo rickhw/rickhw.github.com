@@ -275,7 +275,7 @@ Programming Language以 Java 為主，主要是透過 SDK 這個 Java Version Ma
 <li>Performance: jmeter, VisualVM</li>
 </ol>
 <p>SDK 本身支援很多 Java 社群常見的開發工具，我在 Ubuntu or macOS 都會使用。</p>
-<h2 id="OS-macOS-Ubuntu"><a href="#OS-macOS-Ubuntu" class="headerlink" title="OS: macOS, Ubuntu"></a>OS: macOS, Ubuntu</h2><p>我習慣開發時應用程式的 runtime 跟 Production 一致，所以開發時會盡可能讓應用程式一開始就跑在 Linux 為主的環境，避免未來一些因為 OS 造成的問題。</p>
+<h2 id="OS-macOS-Linux-Ubuntu"><a href="#OS-macOS-Linux-Ubuntu" class="headerlink" title="OS: macOS, Linux - Ubuntu"></a>OS: macOS, Linux - Ubuntu</h2><p>我習慣開發時應用程式的 runtime 跟 Production 一致，所以開發時會盡可能讓應用程式一開始就跑在 Linux 為主的環境，避免未來一些因為 OS 造成的問題。</p>
 <p>但是人機界面，macOS 其實還是比較順手，當然現在 Ubuntu 的 GNOME 其實也很不錯。所以環境我大概都會這樣搭配：</p>
 <ol>
 <li>IDE: 放在 macOS or Windows</li>
@@ -288,6 +288,7 @@ Programming Language以 Java 為主，主要是透過 SDK 這個 Java Version Ma
 <h2 id="IDE"><a href="#IDE" class="headerlink" title="IDE"></a>IDE</h2><p>主力 IDE 的選擇以通用性高的為原則，目前主要是用 VSCode，也搭配一些像是 Copilot 之類。</p>
 <p>其他新的 Cursor &#x2F; Windsurf 目前處於嚐鮮狀態。</p>
 <p>VSCode 使用方式有兩種，完全在 macOS 上，和透過 Remote Explorer + UTM 開一台 Ubuntu.</p>
+<p>我現在比較少用 <a href="/2022/07/04/DistributedSystems/Inspired-Design-From-Eclipse/">Eclipse</a>, 或者 IntelliJ, 主要是任務大多是 PoC 目的，所以 IDE 盡可能簡單。</p>
 <h3 id="完全在-macOS-開發-目前"><a href="#完全在-macOS-開發-目前" class="headerlink" title="完全在 macOS 開發 (目前)"></a>完全在 macOS 開發 (目前)</h3><p>IDE 和 docker-compose 都在本機跑，docker 則是使用 <a target="_blank" rel="noopener" href="https://orbstack.dev/">orbstack</a>.</p>
 <ul>
 <li>優點：開發效率很好，效能也最佳</li>
@@ -356,6 +357,7 @@ Programming Language以 Java 為主，主要是透過 SDK 這個 Java Version Ma
 <li><a href="/2019/04/07/Coding/Java-Version-Manager/">SDK - Java Version Manager</a></li>
 <li><a href="/2024/10/13/Coding/Virtualization-Performance/">VMWare and UTM Performance Benchmark</a></li>
 <li><a href="/2023/01/17/Container/Install-K3s-on-MBPR-M1/">K8s 學習筆記 - 在 MacBook Pro M1 安裝 K3s</a></li>
+<li><a href="/2022/07/04/DistributedSystems/Inspired-Design-From-Eclipse/">摘要 Eclipse 設計的啟發：當代 SaaS 分散式架構的關鍵設計</a></li>
 </ul>
 
 
@@ -445,7 +447,7 @@ Programming Language以 Java 為主，主要是透過 SDK 這個 Java Version Ma
 	
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i> Table of Content</a>
 	   <div id="toc" class="toc collapse in">
-				<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Programming-Language"><span class="toc-article-text">Programming Language</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#OS-macOS-Ubuntu"><span class="toc-article-text">OS: macOS, Ubuntu</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#IDE"><span class="toc-article-text">IDE</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#%E5%AE%8C%E5%85%A8%E5%9C%A8-macOS-%E9%96%8B%E7%99%BC-%E7%9B%AE%E5%89%8D"><span class="toc-article-text">完全在 macOS 開發 (目前)</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Remote-Development-IDE-%E5%9C%A8-macOS-runtime-%E9%83%BD%E5%9C%A8-VM"><span class="toc-article-text">Remote Development: IDE 在 macOS, runtime 都在 VM</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#System-Stack-docker-compose"><span class="toc-article-text">System Stack: docker-compose</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E8%B3%87%E6%BA%90%E5%88%86%E9%85%8D"><span class="toc-article-text">資源分配</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E7%90%86%E6%83%B3%E7%9A%84%E9%96%8B%E7%99%BC%E8%B3%87%E6%BA%90"><span class="toc-article-text">理想的開發資源</span></a></li></ol></li><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#%E5%BB%B6%E4%BC%B8%E9%96%B1%E8%AE%80"><span class="toc-article-text">延伸閱讀</span></a>
+				<ol class="toc-article"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#Programming-Language"><span class="toc-article-text">Programming Language</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#OS-macOS-Linux-Ubuntu"><span class="toc-article-text">OS: macOS, Linux - Ubuntu</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#IDE"><span class="toc-article-text">IDE</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#%E5%AE%8C%E5%85%A8%E5%9C%A8-macOS-%E9%96%8B%E7%99%BC-%E7%9B%AE%E5%89%8D"><span class="toc-article-text">完全在 macOS 開發 (目前)</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#Remote-Development-IDE-%E5%9C%A8-macOS-runtime-%E9%83%BD%E5%9C%A8-VM"><span class="toc-article-text">Remote Development: IDE 在 macOS, runtime 都在 VM</span></a></li></ol></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#System-Stack-docker-compose"><span class="toc-article-text">System Stack: docker-compose</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E8%B3%87%E6%BA%90%E5%88%86%E9%85%8D"><span class="toc-article-text">資源分配</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#%E7%90%86%E6%83%B3%E7%9A%84%E9%96%8B%E7%99%BC%E8%B3%87%E6%BA%90"><span class="toc-article-text">理想的開發資源</span></a></li></ol></li><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#%E5%BB%B6%E4%BC%B8%E9%96%B1%E8%AE%80"><span class="toc-article-text">延伸閱讀</span></a>
 		</div>
 	
 	</div>
